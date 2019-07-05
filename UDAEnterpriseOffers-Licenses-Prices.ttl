@@ -32,7 +32,7 @@
 	schema:potentialAction <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2019-01%23this> .
 
 <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> schema:description "HTML Document Generated via BuyAction for REST-ful listing of Offer: 19687.11"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 19687.11"<http://www.w3.org/2001/XMLSchema#string> .
+	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 19687.11"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2019-01#this> schema:mainEntityOfPage <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
@@ -125,7 +125,7 @@
 	schema:potentialAction <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2019-01%23this> .
 
 <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> schema:description "HTML Document Generated via BuyAction for REST-ful listing of Offer: 7874.84"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 7874.84"<http://www.w3.org/2001/XMLSchema#string> .
+	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 7874.84"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2019-01#this> schema:mainEntityOfPage <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
@@ -207,7 +207,7 @@
 	schema:potentialAction <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2019-01%23this> .
 
 <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> schema:description "HTML Document Generated via BuyAction for REST-ful listing of Offer: 19687.11"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 19687.11"<http://www.w3.org/2001/XMLSchema#string> .
+	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 19687.11"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2019-01#this> schema:mainEntityOfPage <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
@@ -282,7 +282,7 @@
 	schema:potentialAction <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2019-01%23this> .
 
 <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> schema:description "HTML Document Generated via BuyAction for REST-ful listing of Offer: 7874.84"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 7874.84"<http://www.w3.org/2001/XMLSchema#string> .
+	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 7874.84"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2019-01#this> schema:mainEntityOfPage <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
@@ -360,7 +360,7 @@
 	schema:potentialAction <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2019-01%23this> .
 
 <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> schema:description "HTML Document Generated via BuyAction for REST-ful listing of Offer: 19687.11"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 19687.11"<http://www.w3.org/2001/XMLSchema#string> .
+	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 19687.11"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2019-01#this> schema:mainEntityOfPage <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
@@ -435,7 +435,7 @@
 	schema:potentialAction <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2019-01%23this> .
 
 <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> schema:description "HTML Document Generated via BuyAction for REST-ful listing of Offer: 7874.84"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 7874.84"<http://www.w3.org/2001/XMLSchema#string> .
+	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 7874.84"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2019-01#this> schema:mainEntityOfPage <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
@@ -513,7 +513,7 @@
 	schema:potentialAction <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2019-01%23this> .
 
 <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> schema:description "HTML Document Generated via BuyAction for REST-ful listing of Offer: 19687.11"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 19687.11"<http://www.w3.org/2001/XMLSchema#string> .
+	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 19687.11"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2019-01#this> schema:mainEntityOfPage <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
@@ -588,7 +588,7 @@
 	schema:potentialAction <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2019-01%23this> .
 
 <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> schema:description "HTML Document Generated via BuyAction for REST-ful listing of Offer: 7874.84"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 7874.84"<http://www.w3.org/2001/XMLSchema#string> .
+	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 7874.84"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2019-01#this> schema:mainEntityOfPage <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
@@ -662,7 +662,7 @@
 	schema:potentialAction <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2019-01%23this> .
 
 <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> schema:description "HTML Document Generated via BuyAction for REST-ful listing of Offer: 1499.97"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 1499.97"<http://www.w3.org/2001/XMLSchema#string> .
+	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 1499.97"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2019-01#this> schema:mainEntityOfPage <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
@@ -753,7 +753,7 @@
 	schema:potentialAction <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2019-01%23this> .
 
 <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> schema:description "HTML Document Generated via BuyAction for REST-ful listing of Offer: 1499.97"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 1499.97"<http://www.w3.org/2001/XMLSchema#string> .
+	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 1499.97"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2019-01#this> schema:mainEntityOfPage <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
@@ -844,7 +844,7 @@
 	schema:potentialAction <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2019-01%23this> .
 
 <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> schema:description "HTML Document Generated via BuyAction for REST-ful listing of Offer: 1499.97"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 1499.97"<http://www.w3.org/2001/XMLSchema#string> .
+	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 1499.97"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2019-01#this> schema:mainEntityOfPage <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
@@ -919,7 +919,7 @@
 	schema:potentialAction <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2019-01%23this> .
 
 <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> schema:description "HTML Document Generated via BuyAction for REST-ful listing of Offer: 1499.97"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 1499.97"<http://www.w3.org/2001/XMLSchema#string> .
+	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 1499.97"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2019-01#this> schema:mainEntityOfPage <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2019-01%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
