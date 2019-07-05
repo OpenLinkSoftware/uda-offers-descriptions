@@ -10,9 +10,9 @@
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2019-01#this> a schema:Offer , offers:UDAEnterpriseOffer , offers:UDAEnterpriseSpecialOffer ;
 	schema:url <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2019-01> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:price "7,499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+	schema:price "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2019-01-special-price#this> ;
 	schema:itemOffered <http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSSVRDBAgentLicense7-department-2019-01#this> ;
 	schema:image <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
@@ -44,7 +44,7 @@
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2019-01-special-price#this> a schema:UnitPriceSpecification , offers:SpecialUnitPriceSpecification , offers:UDAEnterpriseSpecialUnitPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Department License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System" ;
 	offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2019-01-retail-price#this> ;
 	schema:price "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -69,11 +69,11 @@
 	license:hasLicenseFileName "jdbc.lic" ;
 	oplsof:hasDatabaseFamily oplsof:JDBCBridge ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessProtocolAny ;
-	oplsof:hasDatabaseEngine oplsof:jdbc .
+	oplsof:hasDatabaseEngine "http://www.openlinksw.com/ontology/software#jdbc" .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Department Software License Retail Price Specification to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System" ;
 	schema:price "19687.11"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -90,7 +90,7 @@
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	oplsof:hasOperatingSystemType oplsof:serverWorkstationOS ;
 	oplsof:hasOperatingSystemFamily oplsof:OSFamilyAny ;
-	schema:model <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ;
+	schema:model "http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this" ;
 	license:serialNumberBroadcast "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:partOf <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2019-01#this> ;
 	license:hasMaximumUsers "unlimited" ;
@@ -107,9 +107,9 @@
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2019-01#this> a schema:Offer , offers:UDAEnterpriseOffer , offers:UDAEnterpriseSpecialOffer ;
 	schema:url <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2019-01> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:price "3,374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+	schema:price "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2019-01-special-price#this> ;
 	schema:itemOffered <http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSSVRDBAgentLicense7-workgroup-2019-01#this> ;
 	schema:image <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
@@ -137,7 +137,7 @@
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2019-01-special-price#this> a schema:UnitPriceSpecification , offers:SpecialUnitPriceSpecification , offers:UDAEnterpriseSpecialUnitPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Workgroup License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System" ;
 	offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2019-01-retail-price#this> ;
 	schema:price "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -162,11 +162,11 @@
 	license:hasLicenseFileName "jdbc.lic" ;
 	oplsof:hasDatabaseFamily oplsof:JDBCBridge ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessProtocolAny ;
-	oplsof:hasDatabaseEngine oplsof:jdbc .
+	oplsof:hasDatabaseEngine "http://www.openlinksw.com/ontology/software#jdbc" .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Workgroup Software License Retail Price Specification to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System" ;
 	schema:price "7874.84"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -185,9 +185,9 @@
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2019-01#this> a schema:Offer , offers:UDAEnterpriseOffer , offers:UDAEnterpriseSpecialOffer ;
 	schema:url <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2019-01> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:price "7,499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+	schema:price "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2019-01-special-price#this> ;
 	schema:itemOffered <http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSSVRDBAgentLicense7-department-2019-01#this> ;
 	schema:image <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
@@ -219,7 +219,7 @@
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2019-01-special-price#this> a schema:UnitPriceSpecification , offers:SpecialUnitPriceSpecification , offers:UDAEnterpriseSpecialUnitPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Department License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System" ;
 	offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2019-01-retail-price#this> ;
 	schema:price "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -244,11 +244,11 @@
 	license:hasLicenseFileName "odbc.lic" ;
 	oplsof:hasDatabaseFamily oplsof:ODBCBridge ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessProtocolAny ;
-	oplsof:hasDatabaseEngine oplsof:odbc .
+	oplsof:hasDatabaseEngine "http://www.openlinksw.com/ontology/software#odbc" .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Department Software License Retail Price Specification to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System" ;
 	schema:price "19687.11"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -257,16 +257,16 @@
 	schema:about <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2019-01#this> ;
 	schema:name "Software License Offer: Department License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2019-01#this> schema:model <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ;
+<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2019-01#this> schema:model "http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this" ;
 	license:partOf <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2019-01#this> .
 
 <http://www.openlinksw.com/dataspace/organization/openlink#this> schema:offers <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2019-01#this> .
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2019-01#this> a schema:Offer , offers:UDAEnterpriseOffer , offers:UDAEnterpriseSpecialOffer ;
 	schema:url <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2019-01> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:price "3,374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+	schema:price "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2019-01-special-price#this> ;
 	schema:itemOffered <http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSSVRDBAgentLicense7-workgroup-2019-01#this> ;
 	schema:image <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
@@ -294,7 +294,7 @@
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2019-01-special-price#this> a schema:UnitPriceSpecification , offers:SpecialUnitPriceSpecification , offers:UDAEnterpriseSpecialUnitPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Workgroup License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System" ;
 	offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2019-01-retail-price#this> ;
 	schema:price "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -319,11 +319,11 @@
 	license:hasLicenseFileName "odbc.lic" ;
 	oplsof:hasDatabaseFamily oplsof:ODBCBridge ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessProtocolAny ;
-	oplsof:hasDatabaseEngine oplsof:odbc .
+	oplsof:hasDatabaseEngine "http://www.openlinksw.com/ontology/software#odbc" .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Workgroup Software License Retail Price Specification to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System" ;
 	schema:price "7874.84"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -338,9 +338,9 @@
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2019-01#this> a schema:Offer , offers:UDAEnterpriseOffer , offers:UDAEnterpriseSpecialOffer ;
 	schema:url <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2019-01> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:price "7,499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+	schema:price "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2019-01-special-price#this> ;
 	schema:itemOffered <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense7-department-2019-01#this> ;
 	schema:image <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
@@ -372,7 +372,7 @@
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2019-01-special-price#this> a schema:UnitPriceSpecification , offers:SpecialUnitPriceSpecification , offers:UDAEnterpriseSpecialUnitPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Department License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System" ;
 	offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2019-01-retail-price#this> ;
 	schema:price "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -397,11 +397,11 @@
 	license:hasLicenseFileName "oracle12.lic" ;
 	oplsof:hasDatabaseFamily oplsof:Oracle ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessProtocolAny ;
-	oplsof:hasDatabaseEngine oplsof:Oracle12 .
+	oplsof:hasDatabaseEngine "http://www.openlinksw.com/ontology/software#Oracle12" .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Department Software License Retail Price Specification to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System" ;
 	schema:price "19687.11"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -410,16 +410,16 @@
 	schema:about <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2019-01#this> ;
 	schema:name "Software License Offer: Department License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2019-01#this> schema:model <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
+<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2019-01#this> schema:model "http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this" ;
 	license:partOf <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2019-01#this> .
 
 <http://www.openlinksw.com/dataspace/organization/openlink#this> schema:offers <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2019-01#this> .
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2019-01#this> a schema:Offer , offers:UDAEnterpriseOffer , offers:UDAEnterpriseSpecialOffer ;
 	schema:url <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2019-01> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:price "3,374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+	schema:price "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2019-01-special-price#this> ;
 	schema:itemOffered <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense7-workgroup-2019-01#this> ;
 	schema:image <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
@@ -447,7 +447,7 @@
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2019-01-special-price#this> a schema:UnitPriceSpecification , offers:SpecialUnitPriceSpecification , offers:UDAEnterpriseSpecialUnitPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Workgroup License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System" ;
 	offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2019-01-retail-price#this> ;
 	schema:price "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -472,11 +472,11 @@
 	license:hasLicenseFileName "oracle12.lic" ;
 	oplsof:hasDatabaseFamily oplsof:Oracle ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessProtocolAny ;
-	oplsof:hasDatabaseEngine oplsof:Oracle12 .
+	oplsof:hasDatabaseEngine "http://www.openlinksw.com/ontology/software#Oracle12" .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Workgroup Software License Retail Price Specification to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System" ;
 	schema:price "7874.84"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -491,9 +491,9 @@
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2019-01#this> a schema:Offer , offers:UDAEnterpriseOffer , offers:UDAEnterpriseSpecialOffer ;
 	schema:url <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2019-01> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:price "7,499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+	schema:price "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2019-01-special-price#this> ;
 	schema:itemOffered <http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSSVRDBAgentLicense7-department-2019-01#this> ;
 	schema:image <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
@@ -525,7 +525,7 @@
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2019-01-special-price#this> a schema:UnitPriceSpecification , offers:SpecialUnitPriceSpecification , offers:UDAEnterpriseSpecialUnitPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Department License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System" ;
 	offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2019-01-retail-price#this> ;
 	schema:price "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -550,11 +550,11 @@
 	license:hasLicenseFileName "sqlserver.lic" ;
 	oplsof:hasDatabaseFamily oplsof:SQLServer ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessProtocolAny ;
-	oplsof:hasDatabaseEngine oplsof:SQLServer2014 .
+	oplsof:hasDatabaseEngine "http://www.openlinksw.com/ontology/software#SQLServer2014" .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Department Software License Retail Price Specification to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System" ;
 	schema:price "19687.11"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -563,16 +563,16 @@
 	schema:about <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2019-01#this> ;
 	schema:name "Software License Offer: Department License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Microsoft SQL Server & Sybase, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2019-01#this> schema:model <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
+<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2019-01#this> schema:model "http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this" ;
 	license:partOf <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2019-01#this> .
 
 <http://www.openlinksw.com/dataspace/organization/openlink#this> schema:offers <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2019-01#this> .
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2019-01#this> a schema:Offer , offers:UDAEnterpriseOffer , offers:UDAEnterpriseSpecialOffer ;
 	schema:url <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2019-01> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:price "3,374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+	schema:price "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2019-01-special-price#this> ;
 	schema:itemOffered <http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSSVRDBAgentLicense7-workgroup-2019-01#this> ;
 	schema:image <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
@@ -600,7 +600,7 @@
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2019-01-special-price#this> a schema:UnitPriceSpecification , offers:SpecialUnitPriceSpecification , offers:UDAEnterpriseSpecialUnitPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Workgroup License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System" ;
 	offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2019-01-retail-price#this> ;
 	schema:price "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -625,11 +625,11 @@
 	license:hasLicenseFileName "sqlserver.lic" ;
 	oplsof:hasDatabaseFamily oplsof:SQLServer ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessProtocolAny ;
-	oplsof:hasDatabaseEngine oplsof:SQLServer2014 .
+	oplsof:hasDatabaseEngine "http://www.openlinksw.com/ontology/software#SQLServer2014" .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Workgroup Software License Retail Price Specification to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System" ;
 	schema:price "7874.84"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -644,9 +644,9 @@
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2019-01#this> a schema:Offer , offers:UDAEnterpriseOffer , offers:UDAEnterpriseSpecialOffer ;
 	schema:url <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2019-01> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:price "1,874.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+	schema:price "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2019-01-special-price#this> ;
 	schema:itemOffered <http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSDBAgentLicense7-personal-2019-01#this> ;
 	schema:image <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
@@ -674,10 +674,10 @@
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2019-01-special-price#this> a schema:UnitPriceSpecification , offers:SpecialUnitPriceSpecification , offers:UDAEnterpriseSpecialUnitPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Personal License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System" ;
 	offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2019-01-retail-price#this> ;
-	schema:price "1874.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+	schema:price "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSDBAgentLicense7-personal-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
@@ -699,11 +699,11 @@
 	license:hasLicenseFileName "jdbc.lic" ;
 	oplsof:hasDatabaseFamily oplsof:JDBCBridge ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessProtocolAny ;
-	oplsof:hasDatabaseEngine oplsof:jdbc .
+	oplsof:hasDatabaseEngine "http://www.openlinksw.com/ontology/software#jdbc" .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Personal Software License Retail Price Specification to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System" ;
 	schema:price "1499.97"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -718,7 +718,7 @@
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	oplsof:hasOperatingSystemType oplsof:workstationOS ;
 	oplsof:hasOperatingSystemFamily oplsof:OSFamilyAny ;
-	schema:model <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ;
+	schema:model "http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this" ;
 	license:serialNumberBroadcast "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:partOf <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2019-01#this> ;
 	license:hasMaximumUsers "unlimited" ;
@@ -735,9 +735,9 @@
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2019-01#this> a schema:Offer , offers:UDAEnterpriseOffer , offers:UDAEnterpriseSpecialOffer ;
 	schema:url <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2019-01> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:price "1,874.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+	schema:price "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-odbc-personal-2019-01-special-price#this> ;
 	schema:itemOffered <http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSDBAgentLicense7-personal-2019-01#this> ;
 	schema:image <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
@@ -765,10 +765,10 @@
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-odbc-personal-2019-01-special-price#this> a schema:UnitPriceSpecification , offers:SpecialUnitPriceSpecification , offers:UDAEnterpriseSpecialUnitPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Personal License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System" ;
 	offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-odbc-personal-2019-01-retail-price#this> ;
-	schema:price "1874.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+	schema:price "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSDBAgentLicense7-personal-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
@@ -790,11 +790,11 @@
 	license:hasLicenseFileName "odbc.lic" ;
 	oplsof:hasDatabaseFamily oplsof:ODBCBridge ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessProtocolAny ;
-	oplsof:hasDatabaseEngine oplsof:odbc .
+	oplsof:hasDatabaseEngine "http://www.openlinksw.com/ontology/software#odbc" .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-odbc-personal-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Personal Software License Retail Price Specification to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System" ;
 	schema:price "1499.97"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -809,7 +809,7 @@
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	oplsof:hasOperatingSystemType oplsof:workstationOS ;
 	oplsof:hasOperatingSystemFamily oplsof:OSFamilyAny ;
-	schema:model <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ;
+	schema:model "http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this" ;
 	license:serialNumberBroadcast "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:partOf <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2019-01#this> ;
 	license:hasMaximumUsers "unlimited" ;
@@ -826,9 +826,9 @@
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2019-01#this> a schema:Offer , offers:UDAEnterpriseOffer , offers:UDAEnterpriseSpecialOffer ;
 	schema:url <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2019-01> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:price "1,874.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+	schema:price "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2019-01-special-price#this> ;
 	schema:itemOffered <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSDBAgentLicense7-personal-2019-01#this> ;
 	schema:image <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
@@ -856,10 +856,10 @@
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2019-01-special-price#this> a schema:UnitPriceSpecification , offers:SpecialUnitPriceSpecification , offers:UDAEnterpriseSpecialUnitPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Personal License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System" ;
 	offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2019-01-retail-price#this> ;
-	schema:price "1874.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+	schema:price "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSDBAgentLicense7-personal-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
@@ -881,11 +881,11 @@
 	license:hasLicenseFileName "oracle12.lic" ;
 	oplsof:hasDatabaseFamily oplsof:Oracle ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessProtocolAny ;
-	oplsof:hasDatabaseEngine oplsof:Oracle12 .
+	oplsof:hasDatabaseEngine "http://www.openlinksw.com/ontology/software#Oracle12" .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Personal Software License Retail Price Specification to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System" ;
 	schema:price "1499.97"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -894,16 +894,16 @@
 	schema:about <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2019-01#this> ;
 	schema:name "Software License Offer: Personal License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense7-personal-2019-01#this> schema:model <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
+<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense7-personal-2019-01#this> schema:model "http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this" ;
 	license:partOf <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2019-01#this> .
 
 <http://www.openlinksw.com/dataspace/organization/openlink#this> schema:offers <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2019-01#this> .
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2019-01#this> a schema:Offer , offers:UDAEnterpriseOffer , offers:UDAEnterpriseSpecialOffer ;
 	schema:url <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2019-01> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:price "1,874.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+	schema:price "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2019-01-special-price#this> ;
 	schema:itemOffered <http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSDBAgentLicense7-personal-2019-01#this> ;
 	schema:image <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
@@ -931,10 +931,10 @@
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2019-01-special-price#this> a schema:UnitPriceSpecification , offers:SpecialUnitPriceSpecification , offers:UDAEnterpriseSpecialUnitPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Personal License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System" ;
 	offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2019-01-retail-price#this> ;
-	schema:price "1874.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+	schema:price "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSDBAgentLicense7-personal-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
@@ -956,11 +956,11 @@
 	license:hasLicenseFileName "sqlserver.lic" ;
 	oplsof:hasDatabaseFamily oplsof:SQLServer ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessProtocolAny ;
-	oplsof:hasDatabaseEngine oplsof:SQLServer2014 .
+	oplsof:hasDatabaseEngine "http://www.openlinksw.com/ontology/software#SQLServer2014" .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	schema:validThrough "2019-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	schema:name "Personal Software License Retail Price Specification to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System" ;
 	schema:price "1499.97"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -969,7 +969,7 @@
 	schema:about <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2019-01#this> ;
 	schema:name "Software License Offer: Personal License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Microsoft SQL Server & Sybase, for deployment on any supported Workstation-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense7-personal-2019-01#this> schema:model <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
+<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense7-personal-2019-01#this> schema:model "http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this" ;
 	license:partOf <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2019-01#this> .
 
 <http://www.openlinksw.com/dataspace/organization/openlink#this> schema:offers <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2019-01#this> .
