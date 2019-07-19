@@ -353,7 +353,7 @@
 	license:hasLicenseFileName "inf9_lt.lic" ;
 	oplsof:hasDatabaseFamily oplsof:Informix ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessODBC ;
-	oplsof:hasDatabaseEngine oplsof:Informix11 .
+	oplsof:hasDatabaseEngine oplsof:Informix9 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-inf9-personal-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -563,7 +563,7 @@
 	license:hasLicenseFileName "inf9_lt.lic" ;
 	oplsof:hasDatabaseFamily oplsof:Informix ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessODBC ;
-	oplsof:hasDatabaseEngine oplsof:Informix11 .
+	oplsof:hasDatabaseEngine oplsof:Informix9 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-inf9-department-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -633,7 +633,7 @@
 	license:hasLicenseFileName "inf9_lt.lic" ;
 	oplsof:hasDatabaseFamily oplsof:Informix ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessODBC ;
-	oplsof:hasDatabaseEngine oplsof:Informix11 .
+	oplsof:hasDatabaseEngine oplsof:Informix9 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-inf9-workgroup-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -1135,7 +1135,7 @@
 	license:hasLicenseFileName "mys3_lt.lic" ;
 	oplsof:hasDatabaseFamily oplsof:MySQL ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessODBC ;
-	oplsof:hasDatabaseEngine oplsof:MySQL5 .
+	oplsof:hasDatabaseEngine oplsof:MySQL3 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-mys3-personal-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -1205,7 +1205,7 @@
 	license:hasLicenseFileName "mys4_lt.lic" ;
 	oplsof:hasDatabaseFamily oplsof:MySQL ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessODBC ;
-	oplsof:hasDatabaseEngine oplsof:MySQL5 .
+	oplsof:hasDatabaseEngine oplsof:MySQL4 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-mys4-personal-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -1345,7 +1345,7 @@
 	license:hasLicenseFileName "mys3_lt.lic" ;
 	oplsof:hasDatabaseFamily oplsof:MySQL ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessODBC ;
-	oplsof:hasDatabaseEngine oplsof:MySQL5 .
+	oplsof:hasDatabaseEngine oplsof:MySQL3 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys3-department-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -1415,7 +1415,7 @@
 	license:hasLicenseFileName "mys3_lt.lic" ;
 	oplsof:hasDatabaseFamily oplsof:MySQL ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessODBC ;
-	oplsof:hasDatabaseEngine oplsof:MySQL5 .
+	oplsof:hasDatabaseEngine oplsof:MySQL3 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys3-workgroup-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -1485,7 +1485,7 @@
 	license:hasLicenseFileName "mys4_lt.lic" ;
 	oplsof:hasDatabaseFamily oplsof:MySQL ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessODBC ;
-	oplsof:hasDatabaseEngine oplsof:MySQL5 .
+	oplsof:hasDatabaseEngine oplsof:MySQL4 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys4-department-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -1555,7 +1555,7 @@
 	license:hasLicenseFileName "mys4_lt.lic" ;
 	oplsof:hasDatabaseFamily oplsof:MySQL ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessODBC ;
-	oplsof:hasDatabaseEngine oplsof:MySQL5 .
+	oplsof:hasDatabaseEngine oplsof:MySQL4 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys4-workgroup-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -2188,7 +2188,7 @@
 	license:hasLicenseFileName "ora10_lt.lic" ;
 	oplsof:hasDatabaseFamily oplsof:Oracle ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessODBC ;
-	oplsof:hasDatabaseEngine oplsof:Oracle12 .
+	oplsof:hasDatabaseEngine oplsof:Oracle10 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-ora10-personal-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -2258,7 +2258,7 @@
 	license:hasLicenseFileName "ora11_lt.lic" ;
 	oplsof:hasDatabaseFamily oplsof:Oracle ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessODBC ;
-	oplsof:hasDatabaseEngine oplsof:Oracle12 .
+	oplsof:hasDatabaseEngine oplsof:Oracle11 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-ora11-personal-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -2398,7 +2398,7 @@
 	license:hasLicenseFileName "ora10_lt.lic" ;
 	oplsof:hasDatabaseFamily oplsof:Oracle ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessODBC ;
-	oplsof:hasDatabaseEngine oplsof:Oracle12 .
+	oplsof:hasDatabaseEngine oplsof:Oracle10 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora10-department-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -2468,7 +2468,7 @@
 	license:hasLicenseFileName "ora10_lt.lic" ;
 	oplsof:hasDatabaseFamily oplsof:Oracle ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessODBC ;
-	oplsof:hasDatabaseEngine oplsof:Oracle12 .
+	oplsof:hasDatabaseEngine oplsof:Oracle10 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora10-workgroup-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -2538,7 +2538,7 @@
 	license:hasLicenseFileName "ora11_lt.lic" ;
 	oplsof:hasDatabaseFamily oplsof:Oracle ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessODBC ;
-	oplsof:hasDatabaseEngine oplsof:Oracle12 .
+	oplsof:hasDatabaseEngine oplsof:Oracle11 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora11-department-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -2608,7 +2608,7 @@
 	license:hasLicenseFileName "ora11_lt.lic" ;
 	oplsof:hasDatabaseFamily oplsof:Oracle ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessODBC ;
-	oplsof:hasDatabaseEngine oplsof:Oracle12 .
+	oplsof:hasDatabaseEngine oplsof:Oracle11 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora11-workgroup-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -3036,7 +3036,7 @@
 	license:hasLicenseFileName "pro10_lt.lic" ;
 	oplsof:hasDatabaseFamily oplsof:Progress ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessODBC ;
-	oplsof:hasDatabaseEngine oplsof:Progress11 .
+	oplsof:hasDatabaseEngine oplsof:Progress10 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-pro10-personal-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -3176,7 +3176,7 @@
 	license:hasLicenseFileName "pro9_lt.lic" ;
 	oplsof:hasDatabaseFamily oplsof:Progress ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessODBC ;
-	oplsof:hasDatabaseEngine oplsof:Progress11 .
+	oplsof:hasDatabaseEngine oplsof:Progress9 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-pro9-personal-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -3246,7 +3246,7 @@
 	license:hasLicenseFileName "pro10_lt.lic" ;
 	oplsof:hasDatabaseFamily oplsof:Progress ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessODBC ;
-	oplsof:hasDatabaseEngine oplsof:Progress11 .
+	oplsof:hasDatabaseEngine oplsof:Progress10 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-pro10-department-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -3316,7 +3316,7 @@
 	license:hasLicenseFileName "pro10_lt.lic" ;
 	oplsof:hasDatabaseFamily oplsof:Progress ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessODBC ;
-	oplsof:hasDatabaseEngine oplsof:Progress11 .
+	oplsof:hasDatabaseEngine oplsof:Progress10 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-pro10-workgroup-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -3526,7 +3526,7 @@
 	license:hasLicenseFileName "pro9_lt.lic" ;
 	oplsof:hasDatabaseFamily oplsof:Progress ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessODBC ;
-	oplsof:hasDatabaseEngine oplsof:Progress11 .
+	oplsof:hasDatabaseEngine oplsof:Progress9 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-pro9-department-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -3596,7 +3596,7 @@
 	license:hasLicenseFileName "pro9_lt.lic" ;
 	oplsof:hasDatabaseFamily oplsof:Progress ;
 	oplsof:hasDataAccessProtocolScope oplsof:DataAccessODBC ;
-	oplsof:hasDatabaseEngine oplsof:Progress11 .
+	oplsof:hasDatabaseEngine oplsof:Progress9 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-pro9-workgroup-2019-01-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
