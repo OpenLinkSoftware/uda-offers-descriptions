@@ -1947,3 +1947,83 @@
 	license:partOf <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2019-09#this> .
 
 <http://www.openlinksw.com/dataspace/organization/openlink#this> schema:offers <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2019-09#this> .
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09#this> a schema:Offer , offers:UDAEnterpriseOffer , offers:UDAEnterpriseSpecialOffer ;
+	schema:url <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09> ;
+	schema:validThrough "2019-09-30T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:price "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+	schema:priceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09-special-price#this> ;
+	schema:itemOffered <http://data.openlinksw.com/oplweb/license/AnyDataAccesspostgresAnyOSWKSDBAgentLicense8-personal-2019-09#this> ;
+	schema:image <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+	skos:prefLabel "Personal License to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System" ;
+	schema:comment "Personal License (5 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System" ;
+	schema:category "personal" ;
+	gr:businessFunction <http://schema.org/businessFunction#Sell> ;
+	schema:description "Software License Offer: Personal License (5 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, for deployment on any supported Workstation-class Operating System" ;
+	offers:offerNumber "UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	schema:name "Software License Offer: Personal License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, for deployment on any supported Workstation-class Operating System." ;
+	skos:related <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this> ;
+	license:hasBuyService <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09%23this&type=buy&mode=u> ;
+	schema:potentialAction <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09%23this> .
+
+<http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09%23this&type=buy&mode=u> schema:description "HTML Document Generated via BuyAction for REST-ful listing of Offer: 1499.97"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	schema:name "HTML Document Generated via BuyAction for  listing of Offer: 1499.97"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09#this> schema:mainEntityOfPage <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09%23this&type=buy&mode=u> .
+
+<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09%23this> schema:description "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	schema:name "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09#this> schema:mainEntityOfPage <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09%23this> ;
+	schema:itemOffered <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense8-personal-2019-09#this> .
+
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09-special-price#this> a schema:UnitPriceSpecification , offers:SpecialUnitPriceSpecification , offers:UDAEnterpriseSpecialUnitPriceSpecification ;
+	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-09-30T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:name "Personal License Special Price Specification to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System" ;
+	offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09-retail-price#this> ;
+	schema:price "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.openlinksw.com/oplweb/license/AnyDataAccesspostgresAnyOSWKSDBAgentLicense8-personal-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+	license:hasSessions "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	oplsof:hasOperatingSystemType oplsof:workstationOS ;
+	oplsof:hasOperatingSystemFamily oplsof:OSFamilyAny ;
+	schema:description "Personal License to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x. Permits installation of Database Agent on one (1) server host running any Workstation-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 5 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 5 concurrent client hosts." ;
+	schema:image <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+	license:productLicenseOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8PostgreSQL#this> ;
+	schema:name "Personal License to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System" ;
+	schema:model <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this> ;
+	license:serialNumberBroadcast "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	license:partOf <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09#this> ;
+	skos:prefLabel "Personal License to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System" ;
+	schema:comment "Personal License (5 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System" ;
+	license:hasLicenseCode "postgres" ;
+	license:hasLicenseFileName "postgres.lic" ;
+	oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
+	oplsof:hasDataAccessProtocolScope oplsof:DataAccessProtocolAny ;
+	oplsof:hasDatabaseEngine oplsof:PostgresSQL6 ,
+	        oplsof:PostgreSQL7,
+	        oplsof:PostgreSQL8 ,
+	        oplsof:PostgreSQL9 ,
+	        oplsof:PostgreSQL10 ,
+	        oplsof:PostgreSQL11 ;
+
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
+	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:validThrough "2019-09-30T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	schema:name "Personal Software License Retail Price Specification to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System" ;
+	schema:price "1499.97"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://uda.openlinksw.com/offers/> schema:offers <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09#this> ;
+	schema:about <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09#this> ;
+	schema:name "Software License Offer: Personal License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, for deployment on any supported Workstation-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense8-personal-2019-09#this> schema:model <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this> ;
+	license:partOf <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09#this> .
+
+<http://www.openlinksw.com/dataspace/organization/openlink#this> schema:offers <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09#this> .
