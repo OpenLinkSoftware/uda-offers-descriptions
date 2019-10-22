@@ -50,7 +50,7 @@
 	schema:price "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSSVRDBAgentLicense7-department-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSSVRDBAgentLicense7-department-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -84,7 +84,7 @@
 	schema:name "Software License Offer: Department License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> ;
 	schema:publisher <http://www.openlinksw.com/#this> .
 
-<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2019-01#this> a schema:Product , license:ProductLicense , license:RequestBrokerLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2019-01#this> a schema:Product , license:ProductLicense , license:RequestBrokerLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -148,7 +148,7 @@
 	schema:price "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSSVRDBAgentLicense7-workgroup-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSSVRDBAgentLicense7-workgroup-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -230,7 +230,7 @@
 	schema:price "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSSVRDBAgentLicense7-department-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSSVRDBAgentLicense7-department-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -305,7 +305,7 @@
 	schema:price "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSSVRDBAgentLicense7-workgroup-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSSVRDBAgentLicense7-workgroup-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -383,7 +383,7 @@
 	schema:price "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense7-department-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense7-department-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -458,7 +458,7 @@
 	schema:price "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense7-workgroup-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense7-workgroup-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -536,7 +536,7 @@
 	schema:price "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSSVRDBAgentLicense7-department-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSSVRDBAgentLicense7-department-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -611,7 +611,7 @@
 	schema:price "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSSVRDBAgentLicense7-workgroup-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSSVRDBAgentLicense7-workgroup-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -685,7 +685,7 @@
 	schema:price "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSDBAgentLicense7-personal-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSDBAgentLicense7-personal-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -717,7 +717,7 @@
 	schema:about <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2019-01#this> ;
 	schema:name "Software License Offer: Personal License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for JDBC Data Sources, for deployment on any supported Workstation-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense7-personal-2019-01#this> a schema:Product , license:ProductLicense , license:RequestBrokerLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense7-personal-2019-01#this> a schema:Product , license:ProductLicense , license:RequestBrokerLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -781,7 +781,7 @@
 	schema:price "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSDBAgentLicense7-personal-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSDBAgentLicense7-personal-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -813,7 +813,7 @@
 	schema:about <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2019-01#this> ;
 	schema:name "Software License Offer: Personal License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for ODBC Data Sources, for deployment on any supported Workstation-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense7-personal-2019-01#this> a schema:Product , license:ProductLicense , license:RequestBrokerLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense7-personal-2019-01#this> a schema:Product , license:ProductLicense , license:RequestBrokerLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -872,7 +872,7 @@
 	schema:price "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSDBAgentLicense7-personal-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSDBAgentLicense7-personal-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -947,7 +947,7 @@
 	schema:price "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSDBAgentLicense7-personal-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSDBAgentLicense7-personal-2019-01#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1026,7 +1026,7 @@
 	schema:price "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSSVRDBAgentLicense8-department-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSSVRDBAgentLicense8-department-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1060,7 +1060,7 @@
 	schema:name "Software License Offer: Department License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> ;
 	schema:publisher <http://www.openlinksw.com/#this> .
 
-<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense8-workgroup-2019-09#this> a schema:Product , license:ProductLicense , license:RequestBrokerLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense8-workgroup-2019-09#this> a schema:Product , license:ProductLicense , license:RequestBrokerLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1124,7 +1124,7 @@
 	schema:price "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSSVRDBAgentLicense8-workgroup-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSSVRDBAgentLicense8-workgroup-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1202,7 +1202,7 @@
 	schema:price "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSSVRDBAgentLicense8-department-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSSVRDBAgentLicense8-department-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1277,7 +1277,7 @@
 	schema:price "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSSVRDBAgentLicense8-workgroup-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSSVRDBAgentLicense8-workgroup-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1351,7 +1351,7 @@
 	schema:price "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense8-department-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense8-department-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1426,7 +1426,7 @@
 	schema:price "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense8-workgroup-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense8-workgroup-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1500,7 +1500,7 @@
 	schema:price "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSSVRDBAgentLicense8-department-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSSVRDBAgentLicense8-department-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1575,7 +1575,7 @@
 	schema:price "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSSVRDBAgentLicense8-workgroup-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSSVRDBAgentLicense8-workgroup-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1649,7 +1649,7 @@
 	schema:price "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSDBAgentLicense8-personal-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSDBAgentLicense8-personal-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1681,7 +1681,7 @@
 	schema:about <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2019-09#this> ;
 	schema:name "Software License Offer: Personal License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for JDBC Data Sources, for deployment on any supported Workstation-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense8-personal-2019-09#this> a schema:Product , license:ProductLicense , license:RequestBrokerLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense8-personal-2019-09#this> a schema:Product , license:ProductLicense , license:RequestBrokerLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1745,7 +1745,7 @@
 	schema:price "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSDBAgentLicense8-personal-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSDBAgentLicense8-personal-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1777,7 +1777,7 @@
 	schema:about <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2019-09#this> ;
 	schema:name "Software License Offer: Personal License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for ODBC Data Sources, for deployment on any supported Workstation-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense8-personal-2019-09#this> a schema:Product , license:ProductLicense , license:RequestBrokerLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense8-personal-2019-09#this> a schema:Product , license:ProductLicense , license:RequestBrokerLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1836,7 +1836,7 @@
 	schema:price "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSDBAgentLicense8-personal-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSDBAgentLicense8-personal-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1911,7 +1911,7 @@
 	schema:price "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSDBAgentLicense8-personal-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSDBAgentLicense8-personal-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1986,7 +1986,7 @@
 	schema:price "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
 	schema:priceCurrency "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/AnyDataAccesspostgresAnyOSWKSDBAgentLicense8-personal-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:UDAMTLicense ;
+<http://data.openlinksw.com/oplweb/license/AnyDataAccesspostgresAnyOSWKSDBAgentLicense8-personal-2019-09#this> a schema:Product , license:ProductLicense , license:NonExpiringLicense , license:DatabaseAgentLicense, license:UDAMTLicense ;
 	license:hasSessions "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:hasMaximumProcessorCores "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	license:maxNetworkInstance "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -2010,7 +2010,7 @@
 	        oplsof:PostgreSQL8 ,
 	        oplsof:PostgreSQL9 ,
 	        oplsof:PostgreSQL10 ,
-	        oplsof:PostgreSQL11 ;
+	        oplsof:PostgreSQL11 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-postgres-personal-2019-09-retail-price#this> a schema:UnitPriceSpecificiation , offers:RetailPriceSpecification ;
 	schema:validFrom "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
