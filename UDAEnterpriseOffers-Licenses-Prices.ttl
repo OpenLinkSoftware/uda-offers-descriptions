@@ -8,15 +8,15 @@
 @prefix oplsof: <http://www.openlinksw.com/ontology/software#> .
 
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04#this>
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department#this>
     a                                  schema:Offer ,
                                        offers:UDAEnterpriseOffer ,
                                        offers:UDAEnterpriseSpecialOffer ;
-    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04> ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:price                       "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
-    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04-special-price#this> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSSVRDBAgentLicense7-department-2020-04#this> ;
     schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Department License to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
@@ -24,41 +24,41 @@
     schema:category                    "department"@en ;
     gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
     schema:description                 "Software License Offer: Department License (25 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System."@en ;
-    offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-jdbc-department"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "Software License Offer: Department License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System."@en .
 
 <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this>
     oplpro:hasFormat                   <http://data.openlinksw.com/oplweb/product_format/mt#this> ;
     oplpro:hasFamily                   <http://data.openlinksw.com/oplweb/product_family/uda#this> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04#this>
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department#this>
     skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ;
-    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04%23this&type=buy&mode=u> ;
-    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04%23this> .
+    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department%23this&type=buy&mode=u> ;
+    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department%23this> .
 
-<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v>
+<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department%23this&type=buy&mode=u%23this&type=buy&mode=v>
     schema:description                 "HTML Document Generated via BuyAction for REST-ful listing of Offer: 19687.11"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "HTML Document Generated via BuyAction for listing of Offer: 19687.11"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04#this>
-    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v> .
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department#this>
+    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
-<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04%23this>
-    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
-    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department%23this>
+    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04#this>
-    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04%23this> ;
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department#this>
+    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department%23this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2020-04#this> .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04-special-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-special-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDAEnterpriseSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Department License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
-    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04-retail-price#this> ;
+    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-retail-price#this> ;
     schema:price                       "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
@@ -78,7 +78,7 @@
     schema:name                        "Department License to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04#this> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department#this> ;
     skos:prefLabel                     "Department License to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     license:hasLicenseCode             "jdbc" ;
@@ -87,7 +87,7 @@
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
     oplsof:hasDatabaseEngine           oplsof:jdbc .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04-retail-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -98,8 +98,8 @@
 
 <http://uda.openlinksw.com/offers/>
     a                                  schema:WebPage ;
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04#this> ;
-    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04#this> ;
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department#this> ;
+    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department#this> ;
     schema:name                        "Software License Offer: Department License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:publisher                   <http://www.openlinksw.com/#this> .
 
@@ -116,7 +116,7 @@
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04#this> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department#this> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7JDBCBridge#this> ,
                                        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7ODBCBridge#this> ,
                                        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7SQLServer#this> ,
@@ -133,17 +133,17 @@
     oplsof:hasProtocolScope            oplsof:DataAccessProtocolAny .
 
 <http://www.openlinksw.com/dataspace/organization/openlink#this>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04#this> .
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department#this> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04#this>
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup#this>
     a                                  schema:Offer ,
                                        offers:UDAEnterpriseOffer ,
                                        offers:UDAEnterpriseSpecialOffer ;
-    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04> ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:price                       "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
-    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04-special-price#this> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSSVRDBAgentLicense7-workgroup-2020-04#this> ;
     schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Workgroup License to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
@@ -151,35 +151,35 @@
     schema:category                    "workgroup"@en ;
     gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
     schema:description                 "Software License Offer: Workgroup License (10 database sessions, 16 logical processors) for UDA 7.x Enterprise Edition Data Access (ODBC, JDBC, and ADO.NET Mechanisms) for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System."@en ;
-    offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "Software License Offer: Workgroup License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ;
-    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04%23this&type=buy&mode=u> ;
-    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04%23this> .
+    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup%23this&type=buy&mode=u> ;
+    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup%23this> .
 
-<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v>
+<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup%23this&type=buy&mode=u%23this&type=buy&mode=v>
     schema:description                 "HTML Document Generated via BuyAction for REST-ful listing of Offer: 7874.84"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "HTML Document Generated via BuyAction for listing of Offer: 7874.84"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04#this>
-    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v> .
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup#this>
+    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
-<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04%23this>
-    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
-    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup%23this>
+    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04#this>
-    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04%23this> ;
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup#this>
+    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup%23this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2020-04#this> .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04-special-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-special-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDAEnterpriseSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Workgroup License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
-    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04-retail-price#this> ;
+    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-retail-price#this> ;
     schema:price                       "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
@@ -199,7 +199,7 @@
     schema:name                        "Workgroup License to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04#this> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup#this> ;
     skos:prefLabel                     "Workgroup License to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     license:hasLicenseCode             "jdbc" ;
@@ -208,7 +208,7 @@
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
     oplsof:hasDatabaseEngine           oplsof:jdbc .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04-retail-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -218,29 +218,29 @@
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://uda.openlinksw.com/offers/>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04#this> ;
-    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04#this> ;
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup#this> ;
+    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup#this> ;
     schema:name                        "Software License Offer: Workgroup License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2020-04#this>
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04#this> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup#this> ;
     schema:name                        "Workgroup License to UDA 7.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     skos:prefLabel                     "Workgroup License to UDA 7.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:description                 "Workgroup License to UDA 7.x Enterprise Edition Request Broker. Supports installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 10 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 10 concurrent client hosts."@en .
 
 <http://www.openlinksw.com/dataspace/organization/openlink#this>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04#this> .
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup#this> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04#this>
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department#this>
     a                                  schema:Offer ,
                                        offers:UDAEnterpriseOffer ,
                                        offers:UDAEnterpriseSpecialOffer ;
-    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04> ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:price                       "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
-    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04-special-price#this> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSSVRDBAgentLicense7-department-2020-04#this> ;
     schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Department License to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
@@ -248,41 +248,41 @@
     schema:category                    "department"@en ;
     gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
     schema:description                 "Software License Offer: Department License (25 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System."@en ;
-    offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-odbc-department"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "Software License Offer: Department License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System."@en .
 
 <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this>
     oplpro:hasFormat                   <http://data.openlinksw.com/oplweb/product_format/mt#this> ;
     oplpro:hasFamily                   <http://data.openlinksw.com/oplweb/product_family/uda#this> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04#this>
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department#this>
     skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ;
-    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04%23this&type=buy&mode=u> ;
-    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04%23this> .
+    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department%23this&type=buy&mode=u> ;
+    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department%23this> .
 
-<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v>
+<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department%23this&type=buy&mode=u%23this&type=buy&mode=v>
     schema:description                 "HTML Document Generated via BuyAction for REST-ful listing of Offer: 19687.11"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "HTML Document Generated via BuyAction for listing of Offer: 19687.11"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04#this>
-    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v> .
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department#this>
+    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
-<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04%23this>
-    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
-    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department%23this>
+    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04#this>
-    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04%23this> ;
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department#this>
+    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department%23this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2020-04#this> .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04-special-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-special-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDAEnterpriseSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Department License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
-    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04-retail-price#this> ;
+    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-retail-price#this> ;
     schema:price                       "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
@@ -302,7 +302,7 @@
     schema:name                        "Department License to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04#this> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department#this> ;
     skos:prefLabel                     "Department License to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     license:hasLicenseCode             "odbc" ;
@@ -311,7 +311,7 @@
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
     oplsof:hasDatabaseEngine           oplsof:odbc .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04-retail-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -321,26 +321,26 @@
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://uda.openlinksw.com/offers/>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04#this> ;
-    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04#this> ;
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department#this> ;
+    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department#this> ;
     schema:name                        "Software License Offer: Department License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2020-04#this>
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ;
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04#this> .
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department#this> .
 
 <http://www.openlinksw.com/dataspace/organization/openlink#this>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04#this> .
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-department#this> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04#this>
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup#this>
     a                                  schema:Offer ,
                                        offers:UDAEnterpriseOffer ,
                                        offers:UDAEnterpriseSpecialOffer ;
-    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04> ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:price                       "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
-    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04-special-price#this> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSSVRDBAgentLicense7-workgroup-2020-04#this> ;
     schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Workgroup License to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
@@ -348,35 +348,35 @@
     schema:category                    "workgroup"@en ;
     gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
     schema:description                 "Software License Offer: Workgroup License (10 database sessions, 16 logical processors) for UDA 7.x Enterprise Edition Data Access (ODBC, JDBC, and ADO.NET Mechanisms) for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System."@en ;
-    offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "Software License Offer: Workgroup License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ;
-    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04%23this&type=buy&mode=u> ;
-    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04%23this> .
+    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup%23this&type=buy&mode=u> ;
+    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup%23this> .
 
-<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v>
+<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup%23this&type=buy&mode=u%23this&type=buy&mode=v>
     schema:description                 "HTML Document Generated via BuyAction for REST-ful listing of Offer: 7874.84"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "HTML Document Generated via BuyAction for listing of Offer: 7874.84"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04#this>
-    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v> .
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup#this>
+    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
-<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04%23this>
-    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
-    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup%23this>
+    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04#this>
-    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04%23this> ;
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup#this>
+    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup%23this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2020-04#this> .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04-special-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-special-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDAEnterpriseSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Workgroup License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
-    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04-retail-price#this> ;
+    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-retail-price#this> ;
     schema:price                       "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
@@ -396,7 +396,7 @@
     schema:name                        "Workgroup License to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04#this> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup#this> ;
     skos:prefLabel                     "Workgroup License to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     license:hasLicenseCode             "odbc" ;
@@ -405,7 +405,7 @@
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
     oplsof:hasDatabaseEngine           oplsof:odbc .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04-retail-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -415,25 +415,25 @@
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://uda.openlinksw.com/offers/>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04#this> ;
-    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04#this> ;
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup#this> ;
+    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup#this> ;
     schema:name                        "Software License Offer: Workgroup License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2020-04#this>
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04#this> .
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup#this> .
 
 <http://www.openlinksw.com/dataspace/organization/openlink#this>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04#this> .
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup#this> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04#this>
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department#this>
     a                                  schema:Offer ,
                                        offers:UDAEnterpriseOffer ,
                                        offers:UDAEnterpriseSpecialOffer ;
-    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04> ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:price                       "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
-    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04-special-price#this> ;
+    schema:priceSpecification          <http://data.openlinksw.com/op-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense7-department-2020-04#this> ;
     schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Department License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
@@ -448,34 +448,34 @@
     oplpro:hasFormat                   <http://data.openlinksw.com/oplweb/product_format/mt#this> ;
     oplpro:hasFamily                   <http://data.openlinksw.com/oplweb/product_family/uda#this> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04#this>
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department#this>
     skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
-    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04%23this&type=buy&mode=u> ;
-    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04%23this> .
+    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department%23this&type=buy&mode=u> ;
+    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department%23this> .
 
-<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v>
+<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department%23this&type=buy&mode=u%23this&type=buy&mode=v>
     schema:description                 "HTML Document Generated via BuyAction for REST-ful listing of Offer: 19687.11"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "HTML Document Generated via BuyAction for listing of Offer: 19687.11"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04#this>
-    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v> .
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department#this>
+    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
-<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04%23this>
-    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
-    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department%23this>
+    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04#this>
-    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04%23this> ;
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department#this>
+    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department%23this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2020-04#this> .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04-special-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-special-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDAEnterpriseSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Department License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
-    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04-retail-price#this> ;
+    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-retail-price#this> ;
     schema:price                       "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
@@ -495,7 +495,7 @@
     schema:name                        "Department License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04#this> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department#this> ;
     skos:prefLabel                     "Department License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     license:hasLicenseCode             "oracle12" ;
@@ -504,7 +504,7 @@
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
     oplsof:hasDatabaseEngine           oplsof:Oracle12 .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04-retail-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -514,26 +514,26 @@
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://uda.openlinksw.com/offers/>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04#this> ;
-    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04#this> ;
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department#this> ;
+    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department#this> ;
     schema:name                        "Software License Offer: Department License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2020-04#this>
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04#this> .
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department#this> .
 
 <http://www.openlinksw.com/dataspace/organization/openlink#this>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04#this> .
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department#this> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04#this>
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup#this>
     a                                  schema:Offer ,
                                        offers:UDAEnterpriseOffer ,
                                        offers:UDAEnterpriseSpecialOffer ;
-    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04> ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:price                       "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
-    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04-special-price#this> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense7-workgroup-2020-04#this> ;
     schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Workgroup License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
@@ -544,32 +544,32 @@
     offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "Software License Offer: Workgroup License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
-    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04%23this&type=buy&mode=u> ;
-    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04%23this> .
+    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup%23this&type=buy&mode=u> ;
+    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup%23this> .
 
-<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v>
+<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup%23this&type=buy&mode=u%23this&type=buy&mode=v>
     schema:description                 "HTML Document Generated via BuyAction for REST-ful listing of Offer: 7874.84"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "HTML Document Generated via BuyAction for listing of Offer: 7874.84"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04#this>
-    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v> .
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup#this>
+    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
-<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04%23this>
-    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
-    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup%23this>
+    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04#this>
-    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04%23this> ;
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup#this>
+    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup%23this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2020-04#this> .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04-special-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-special-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDAEnterpriseSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Workgroup License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
-    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04-retail-price#this> ;
+    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-retail-price#this> ;
     schema:price                       "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
@@ -589,7 +589,7 @@
     schema:name                        "Workgroup License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04#this> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup#this> ;
     skos:prefLabel                     "Workgroup License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     license:hasLicenseCode             "oracle12" ;
@@ -598,7 +598,7 @@
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
     oplsof:hasDatabaseEngine           oplsof:Oracle12 .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04-retail-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -608,25 +608,25 @@
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://uda.openlinksw.com/offers/>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04#this> ;
-    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04#this> ;
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup#this> ;
+    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup#this> ;
     schema:name                        "Software License Offer: Workgroup License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2020-04#this>
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04#this> .
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup#this> .
 
 <http://www.openlinksw.com/dataspace/organization/openlink#this>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04#this> .
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup#this> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04#this>
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department#this>
     a                                  schema:Offer ,
                                        offers:UDAEnterpriseOffer ,
                                        offers:UDAEnterpriseSpecialOffer ;
-    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04> ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:price                       "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
-    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04-special-price#this> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSSVRDBAgentLicense7-department-2020-04#this> ;
     schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Department License to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
@@ -641,34 +641,34 @@
     oplpro:hasFormat                   <http://data.openlinksw.com/oplweb/product_format/mt#this> ;
     oplpro:hasFamily                   <http://data.openlinksw.com/oplweb/product_family/uda#this> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04#this>
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department#this>
     skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
-    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04%23this&type=buy&mode=u> ;
-    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04%23this> .
+    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department%23this&type=buy&mode=u> ;
+    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department%23this> .
 
-<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v>
+<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department%23this&type=buy&mode=u%23this&type=buy&mode=v>
     schema:description                 "HTML Document Generated via BuyAction for REST-ful listing of Offer: 19687.11"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "HTML Document Generated via BuyAction for listing of Offer: 19687.11"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04#this>
-    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v> .
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department#this>
+    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
-<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04%23this>
-    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
-    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department%23this>
+    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04#this>
-    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04%23this> ;
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department#this>
+    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department%23this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2020-04#this> .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04-special-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-special-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDAEnterpriseSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Department License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
-    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04-retail-price#this> ;
+    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-retail-price#this> ;
     schema:price                       "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
@@ -688,7 +688,7 @@
     schema:name                        "Department License to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04#this> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department#this> ;
     skos:prefLabel                     "Department License to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     license:hasLicenseCode             "sqlserver" ;
@@ -697,7 +697,7 @@
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
     oplsof:hasDatabaseEngine           oplsof:SQLServer2014 .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04-retail-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -707,26 +707,26 @@
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://uda.openlinksw.com/offers/>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04#this> ;
-    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04#this> ;
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department#this> ;
+    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department#this> ;
     schema:name                        "Software License Offer: Department License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Microsoft SQL Server & Sybase, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2020-04#this>
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04#this> .
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department#this> .
 
 <http://www.openlinksw.com/dataspace/organization/openlink#this>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04#this> .
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department#this> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04#this>
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup#this>
     a                                  schema:Offer ,
                                        offers:UDAEnterpriseOffer ,
                                        offers:UDAEnterpriseSpecialOffer ;
-    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04> ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:price                       "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
-    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04-special-price#this> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSSVRDBAgentLicense7-workgroup-2020-04#this> ;
     schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Workgroup License to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
@@ -737,32 +737,32 @@
     offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "Software License Offer: Workgroup License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Microsoft SQL Server & Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
-    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04%23this&type=buy&mode=u> ;
-    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04%23this> .
+    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup%23this&type=buy&mode=u> ;
+    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup%23this> .
 
-<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v>
+<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup%23this&type=buy&mode=u%23this&type=buy&mode=v>
     schema:description                 "HTML Document Generated via BuyAction for REST-ful listing of Offer: 7874.84"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "HTML Document Generated via BuyAction for listing of Offer: 7874.84"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04#this>
-    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v> .
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup#this>
+    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
-<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04%23this>
-    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
-    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup%23this>
+    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04#this>
-    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04%23this> ;
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup#this>
+    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup%23this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2020-04#this> .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04-special-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-special-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDAEnterpriseSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Workgroup License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
-    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04-retail-price#this> ;
+    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-retail-price#this> ;
     schema:price                       "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
@@ -782,7 +782,7 @@
     schema:name                        "Workgroup License to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04#this> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup#this> ;
     skos:prefLabel                     "Workgroup License to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     license:hasLicenseCode             "sqlserver" ;
@@ -791,7 +791,7 @@
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
     oplsof:hasDatabaseEngine           oplsof:SQLServer2014 .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04-retail-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -801,25 +801,25 @@
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://uda.openlinksw.com/offers/>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04#this> ;
-    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04#this> ;
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup#this> ;
+    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup#this> ;
     schema:name                        "Software License Offer: Workgroup License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Microsoft SQL Server & Sybase, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2020-04#this>
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04#this> .
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup#this> .
 
 <http://www.openlinksw.com/dataspace/organization/openlink#this>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04#this> .
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup#this> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04#this>
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal#this>
     a                                  schema:Offer ,
                                        offers:UDAEnterpriseOffer ,
                                        offers:UDAEnterpriseSpecialOffer ;
-    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04> ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:price                       "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
-    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04-special-price#this> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-jdbc-personal-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSDBAgentLicense7-personal-2020-04#this> ;
     schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     skos:prefLabel                     "Personal License to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
@@ -830,32 +830,32 @@
     offers:offerNumber                 "UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "Software License Offer: Personal License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for JDBC Data Sources, for deployment on any supported Workstation-class Operating System."@en ;
     skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ;
-    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04%23this&type=buy&mode=u> ;
-    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04%23this> .
+    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-jdbc-personal%23this&type=buy&mode=u> ;
+    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-jdbc-personal%23this> .
 
-<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v>
+<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-jdbc-personal%23this&type=buy&mode=u%23this&type=buy&mode=v>
     schema:description                 "HTML Document Generated via BuyAction for REST-ful listing of Offer: 1499.97"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "HTML Document Generated via BuyAction for listing of Offer: 1499.97"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04#this>
-    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v> .
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal#this>
+    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-jdbc-personal%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
-<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04%23this>
-    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
-    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-jdbc-personal%23this>
+    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-jdbc-personal%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-jdbc-personal%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04#this>
-    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04%23this> ;
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal#this>
+    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-jdbc-personal%23this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense7-personal-2020-04#this> .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04-special-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-jdbc-personal-special-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDAEnterpriseSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Personal License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
-    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04-retail-price#this> ;
+    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-jdbc-personal-retail-price#this> ;
     schema:price                       "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
@@ -875,7 +875,7 @@
     schema:name                        "Personal License to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04#this> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal#this> ;
     skos:prefLabel                     "Personal License to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Personal License (5 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
     license:hasLicenseCode             "jdbc" ;
@@ -884,7 +884,7 @@
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
     oplsof:hasDatabaseEngine           oplsof:jdbc .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04-retail-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-jdbc-personal-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -894,8 +894,8 @@
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://uda.openlinksw.com/offers/>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04#this> ;
-    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04#this> ;
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal#this> ;
+    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal#this> ;
     schema:name                        "Software License Offer: Personal License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for JDBC Data Sources, for deployment on any supported Workstation-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense7-personal-2020-04#this>
@@ -911,7 +911,7 @@
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04#this> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal#this> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7JDBCBridge#this> ,
                                        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7ODBCBridge#this> ,
                                        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7SQLServer#this> ,
@@ -928,17 +928,17 @@
     oplsof:hasProtocolScope            oplsof:DataAccessProtocolAny .
 
 <http://www.openlinksw.com/dataspace/organization/openlink#this>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04#this> .
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-jdbc-personal#this> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04#this>
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal#this>
     a                                  schema:Offer ,
                                        offers:UDAEnterpriseOffer ,
                                        offers:UDAEnterpriseSpecialOffer ;
-    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04> ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:price                       "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
-    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04-special-price#this> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-odbc-personal-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSDBAgentLicense7-personal-2020-04#this> ;
     schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     skos:prefLabel                     "Personal License to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
@@ -949,32 +949,32 @@
     offers:offerNumber                 "UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "Software License Offer: Personal License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for ODBC Data Sources, for deployment on any supported Workstation-class Operating System."@en ;
     skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ;
-    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04%23this&type=buy&mode=u> ;
-    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04%23this> .
+    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-odbc-personal%23this&type=buy&mode=u> ;
+    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-odbc-personal%23this> .
 
-<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v>
+<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-odbc-personal%23this&type=buy&mode=u%23this&type=buy&mode=v>
     schema:description                 "HTML Document Generated via BuyAction for REST-ful listing of Offer: 1499.97"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "HTML Document Generated via BuyAction for listing of Offer: 1499.97"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04#this>
-    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v> .
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal#this>
+    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-odbc-personal%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
-<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04%23this>
-    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
-    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-odbc-personal%23this>
+    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-odbc-personal%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-odbc-personal%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04#this>
-    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04%23this> ;
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal#this>
+    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-odbc-personal%23this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense7-personal-2020-04#this> .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04-special-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-odbc-personal-special-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDAEnterpriseSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Personal License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
-    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04-retail-price#this> ;
+    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-odbc-personal-retail-price#this> ;
     schema:price                       "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
@@ -994,7 +994,7 @@
     schema:name                        "Personal License to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04#this> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal#this> ;
     skos:prefLabel                     "Personal License to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Personal License (5 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
     license:hasLicenseCode             "odbc" ;
@@ -1003,7 +1003,7 @@
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
     oplsof:hasDatabaseEngine           oplsof:odbc .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04-retail-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-odbc-personal-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -1013,8 +1013,8 @@
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://uda.openlinksw.com/offers/>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04#this> ;
-    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04#this> ;
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal#this> ;
+    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal#this> ;
     schema:name                        "Software License Offer: Personal License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for ODBC Data Sources, for deployment on any supported Workstation-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense7-personal-2020-04#this>
@@ -1030,7 +1030,7 @@
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04#this> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal#this> ;
     license:hasMaximumUsers            "unlimited"@en ;
     schema:name                        "Personal License to UDA 7.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     skos:prefLabel                     "Personal License to UDA 7.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
@@ -1042,17 +1042,17 @@
     oplsof:hasProtocolScope            oplsof:DataAccessProtocolAny .
 
 <http://www.openlinksw.com/dataspace/organization/openlink#this>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04#this> .
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-odbc-personal#this> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04#this>
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal#this>
     a                                  schema:Offer ,
                                        offers:UDAEnterpriseOffer ,
                                        offers:UDAEnterpriseSpecialOffer ;
-    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04> ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:price                       "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
-    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04-special-price#this> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-oracle12-personal-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSDBAgentLicense7-personal-2020-04#this> ;
     schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     skos:prefLabel                     "Personal License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
@@ -1063,32 +1063,32 @@
     offers:offerNumber                 "UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "Software License Offer: Personal License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation-class Operating System."@en ;
     skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
-    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04%23this&type=buy&mode=u> ;
-    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04%23this> .
+    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal%23this&type=buy&mode=u> ;
+    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal%23this> .
 
-<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v>
+<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal%23this&type=buy&mode=u%23this&type=buy&mode=v>
     schema:description                 "HTML Document Generated via BuyAction for REST-ful listing of Offer: 1499.97"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "HTML Document Generated via BuyAction for listing of Offer: 1499.97"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04#this>
-    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v> .
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal#this>
+    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
-<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04%23this>
-    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
-    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal%23this>
+    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04#this>
-    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04%23this> ;
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal#this>
+    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal%23this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense7-personal-2020-04#this> .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04-special-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-oracle12-personal-special-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDAEnterpriseSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Personal License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
-    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04-retail-price#this> ;
+    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-oracle12-personal-retail-price#this> ;
     schema:price                       "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
@@ -1108,7 +1108,7 @@
     schema:name                        "Personal License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04#this> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal#this> ;
     skos:prefLabel                     "Personal License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Personal License (5 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
     license:hasLicenseCode             "oracle12" ;
@@ -1117,7 +1117,7 @@
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
     oplsof:hasDatabaseEngine           oplsof:Oracle12 .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04-retail-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-oracle12-personal-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -1127,26 +1127,26 @@
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://uda.openlinksw.com/offers/>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04#this> ;
-    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04#this> ;
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal#this> ;
+    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal#this> ;
     schema:name                        "Software License Offer: Personal License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense7-personal-2020-04#this>
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04#this> .
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal#this> .
 
 <http://www.openlinksw.com/dataspace/organization/openlink#this>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04#this> .
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal#this> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04#this>
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal#this>
     a                                  schema:Offer ,
                                        offers:UDAEnterpriseOffer ,
                                        offers:UDAEnterpriseSpecialOffer ;
-    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04> ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:price                       "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
-    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04-special-price#this> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSDBAgentLicense7-personal-2020-04#this> ;
     schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     skos:prefLabel                     "Personal License to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
@@ -1157,32 +1157,32 @@
     offers:offerNumber                 "UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "Software License Offer: Personal License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Microsoft SQL Server & Sybase, for deployment on any supported Workstation-class Operating System."@en ;
     skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
-    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04%23this&type=buy&mode=u> ;
-    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04%23this> .
+    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal%23this&type=buy&mode=u> ;
+    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal%23this> .
 
-<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v>
+<http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal%23this&type=buy&mode=u%23this&type=buy&mode=v>
     schema:description                 "HTML Document Generated via BuyAction for REST-ful listing of Offer: 1499.97"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "HTML Document Generated via BuyAction for listing of Offer: 1499.97"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04#this>
-    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04%23this&type=buy&mode=u%23this&type=buy&mode=v> .
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal#this>
+    schema:mainEntityOfPage            <http://virtuoso.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal%23this&type=buy&mode=u%23this&type=buy&mode=v> .
 
-<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04%23this>
-    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
-    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
+<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal%23this>
+    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04#this>
-    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04%23this> ;
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal#this>
+    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-sqlserver-persona0%23this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense7-personal-2020-04#this> .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04-special-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-special-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDAEnterpriseSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Personal License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
-    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04-retail-price#this> ;
+    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-retail-price#this> ;
     schema:price                       "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
@@ -1202,7 +1202,7 @@
     schema:name                        "Personal License to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04#this> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal#this> ;
     skos:prefLabel                     "Personal License to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Personal License (5 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
     license:hasLicenseCode             "sqlserver" ;
@@ -1211,7 +1211,7 @@
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
     oplsof:hasDatabaseEngine           oplsof:SQLServer2014 .
 
-<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04-retail-price#this>
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -1221,16 +1221,16 @@
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://uda.openlinksw.com/offers/>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04#this> ;
-    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04#this> ;
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal#this> ;
+    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal#this> ;
     schema:name                        "Software License Offer: Personal License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Microsoft SQL Server & Sybase, for deployment on any supported Workstation-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense7-personal-2020-04#this>
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
-    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04#this> .
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal#this> .
 
 <http://www.openlinksw.com/dataspace/organization/openlink#this>
-    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04#this> .
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal#this> .
 
 
 ## Release 8.0 Offers, Licenses and Prices ##
@@ -1240,7 +1240,7 @@
     a                                  schema:Offer ,
                                        offers:UDAEnterpriseOffer ,
                                        offers:UDAEnterpriseSpecialOffer ;
-    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04> ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department> ;
     schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:price                       "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
