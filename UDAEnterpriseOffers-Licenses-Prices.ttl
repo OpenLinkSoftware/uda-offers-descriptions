@@ -18,7 +18,7 @@
     schema:price                       "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSSVRDBAgentLicense7-department-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Department License to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -73,7 +73,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 25 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 25 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7JDBCBridge#this> ;
     schema:name                        "Department License to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ;
@@ -127,7 +127,7 @@
     skos:prefLabel                     "Department License to UDA 7.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:description                 "Department License to UDA 7.x Enterprise Edition Request Broker. Supports installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 25 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 25 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:hasLicenseCode             "oplrqb" ;
     license:hasLicenseFileName         "oplrqb.lic" ;
     oplsof:hasProtocolScope            oplsof:DataAccessProtocolAny .
@@ -145,7 +145,7 @@
     schema:price                       "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSSVRDBAgentLicense7-workgroup-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Workgroup License to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -194,7 +194,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 10 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 10 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7JDBCBridge#this> ;
     schema:name                        "Workgroup License to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ;
@@ -242,7 +242,7 @@
     schema:price                       "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSSVRDBAgentLicense7-department-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Department License to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -297,7 +297,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 25 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 25 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7ODBCBridge#this> ;
     schema:name                        "Department License to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ;
@@ -342,7 +342,7 @@
     schema:price                       "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSSVRDBAgentLicense7-workgroup-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Workgroup License to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -391,7 +391,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 10 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 10 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7ODBCBridge#this> ;
     schema:name                        "Workgroup License to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ;
@@ -435,7 +435,7 @@
     schema:price                       "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/op-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense7-department-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Department License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -490,7 +490,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 25 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 25 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7Oracle#this> ;
     schema:name                        "Department License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
@@ -535,7 +535,7 @@
     schema:price                       "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense7-workgroup-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Workgroup License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -584,7 +584,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 10 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 10 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7Oracle#this> ;
     schema:name                        "Workgroup License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
@@ -628,7 +628,7 @@
     schema:price                       "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSSVRDBAgentLicense7-department-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Department License to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -683,7 +683,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 25 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 25 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7SQLServer#this> ;
     schema:name                        "Department License to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
@@ -728,7 +728,7 @@
     schema:price                       "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSSVRDBAgentLicense7-workgroup-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Workgroup License to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -777,7 +777,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 10 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 10 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7SQLServer#this> ;
     schema:name                        "Workgroup License to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
@@ -821,7 +821,7 @@
     schema:price                       "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-jdbc-personal-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSDBAgentLicense7-personal-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     skos:prefLabel                     "Personal License to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Personal License (5 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -870,7 +870,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources. Permits installation of Database Agent on one (1) server host running any Workstation-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 5 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 5 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7JDBCBridge#this> ;
     schema:name                        "Personal License to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ;
@@ -922,7 +922,7 @@
     skos:prefLabel                     "Personal License to UDA 7.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Personal License (5 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
     schema:description                 "Personal License to UDA 7.x Enterprise Edition Request Broker. Supports installation of Database Agent on one (1) server host running any Workstation-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 5 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 5 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     license:hasLicenseCode             "oplrqb" ;
     license:hasLicenseFileName         "oplrqb.lic" ;
     oplsof:hasProtocolScope            oplsof:DataAccessProtocolAny .
@@ -940,7 +940,7 @@
     schema:price                       "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-odbc-personal-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSDBAgentLicense7-personal-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     skos:prefLabel                     "Personal License to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Personal License (5 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -989,7 +989,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources. Permits installation of Database Agent on one (1) server host running any Workstation-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 5 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 5 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7ODBCBridge#this> ;
     schema:name                        "Personal License to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ;
@@ -1036,7 +1036,7 @@
     skos:prefLabel                     "Personal License to UDA 7.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Personal License (5 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
     schema:description                 "Personal License to UDA 7.x Enterprise Edition Request Broker. Supports installation of Database Agent on one (1) server host running any Workstation-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 5 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 5 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     license:hasLicenseCode             "oplrqb" ;
     license:hasLicenseFileName         "oplrqb.lic" ;
     oplsof:hasProtocolScope            oplsof:DataAccessProtocolAny .
@@ -1054,7 +1054,7 @@
     schema:price                       "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-oracle12-personal-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSDBAgentLicense7-personal-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     skos:prefLabel                     "Personal License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Personal License (5 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -1103,7 +1103,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x. Permits installation of Database Agent on one (1) server host running any Workstation-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 5 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 5 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7Oracle#this> ;
     schema:name                        "Personal License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
@@ -1148,7 +1148,7 @@
     schema:price                       "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSDBAgentLicense7-personal-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     skos:prefLabel                     "Personal License to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Personal License (5 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -1197,7 +1197,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase. Permits installation of Database Agent on one (1) server host running any Workstation-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 5 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 5 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7Sybase#this> ;
     schema:name                        "Personal License to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
@@ -1246,7 +1246,7 @@
     schema:price                       "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-department-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSSVRDBAgentLicense8-department-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Department License to UDA 8.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -1295,7 +1295,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License to UDA 8.x Enterprise Edition Database Agent for JDBC Data Sources. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 25 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 25 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8JDBCBridge#this> ;
     schema:name                        "Department License to UDA 8.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ;
@@ -1349,7 +1349,7 @@
     skos:prefLabel                     "Department License to UDA 8.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:description                 "Department License to UDA 8.x Enterprise Edition Request Broker. Supports installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 25 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 25 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:hasLicenseCode             "oplrqb" ;
     license:hasLicenseFileName         "oplrqb.lic" ;
     oplsof:hasProtocolScope            oplsof:DataAccessProtocolAny .
@@ -1367,7 +1367,7 @@
     schema:price                       "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-jdbc-workgroup-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSSVRDBAgentLicense8-workgroup-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Workgroup License to UDA 8.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -1416,7 +1416,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License to UDA 8.x Enterprise Edition Database Agent for JDBC Data Sources. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 10 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 10 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8JDBCBridge#this> ;
     schema:name                        "Workgroup License to UDA 8.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ;
@@ -1464,7 +1464,7 @@
     schema:price                       "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-department-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSSVRDBAgentLicense8-department-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Department License to UDA 8.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -1513,7 +1513,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License to UDA 8.x Enterprise Edition Database Agent for ODBC Data Sources. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 25 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 25 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8ODBCBridge#this> ;
     schema:name                        "Department License to UDA 8.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ;
@@ -1558,7 +1558,7 @@
     schema:price                       "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-odbc-workgroup-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSSVRDBAgentLicense8-workgroup-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Workgroup License to UDA 8.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -1607,7 +1607,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License to UDA 8.x Enterprise Edition Database Agent for ODBC Data Sources. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 10 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 10 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8ODBCBridge#this> ;
     schema:name                        "Workgroup License to UDA 8.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ;
@@ -1651,7 +1651,7 @@
     schema:price                       "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense8-department-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Department License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -1700,7 +1700,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 25 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 25 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Oracle#this> ;
     schema:name                        "Department License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
@@ -1745,7 +1745,7 @@
     schema:price                       "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense8-workgroup-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Workgroup License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -1794,7 +1794,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 10 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 10 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Oracle#this> ;
     schema:name                        "Workgroup License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
@@ -1838,7 +1838,7 @@
     schema:price                       "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-department-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSSVRDBAgentLicense8-department-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Department License to UDA 8.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -1887,7 +1887,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License to UDA 8.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 25 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 25 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8SQLServer#this> ;
     schema:name                        "Department License to UDA 8.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
@@ -1932,7 +1932,7 @@
     schema:price                       "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-workgroup-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSSVRDBAgentLicense8-workgroup-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Workgroup License to UDA 8.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -1981,7 +1981,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License to UDA 8.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 10 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 10 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8SQLServer#this> ;
     schema:name                        "Workgroup License to UDA 8.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
@@ -2025,7 +2025,7 @@
     schema:price                       "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-jdbc-personal-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSDBAgentLicense8-personal-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     skos:prefLabel                     "Personal License to UDA 8.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Personal License (5 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -2074,7 +2074,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License to UDA 8.x Enterprise Edition Database Agent for JDBC Data Sources. Permits installation of Database Agent on one (1) server host running any Workstation-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 5 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 5 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8JDBCBridge#this> ;
     schema:name                        "Personal License to UDA 8.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ;
@@ -2126,7 +2126,7 @@
     skos:prefLabel                     "Personal License to UDA 8.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Personal License (5 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
     schema:description                 "Personal License to UDA 8.x Enterprise Edition Request Broker. Supports installation of Database Agent on one (1) server host running any Workstation-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 5 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 5 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     license:hasLicenseCode             "oplrqb" ;
     license:hasLicenseFileName         "oplrqb.lic" ;
     oplsof:hasProtocolScope            oplsof:DataAccessProtocolAny .
@@ -2144,7 +2144,7 @@
     schema:price                       "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-odbc-personal-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSDBAgentLicense8-personal-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     skos:prefLabel                     "Personal License to UDA 8.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Personal License (5 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -2193,7 +2193,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License to UDA 8.x Enterprise Edition Database Agent for ODBC Data Sources. Permits installation of Database Agent on one (1) server host running any Workstation-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 5 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 5 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8ODBCBridge#this> ;
     schema:name                        "Personal License to UDA 8.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ;
@@ -2240,7 +2240,7 @@
     skos:prefLabel                     "Personal License to UDA 8.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Personal License (5 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
     schema:description                 "Personal License to UDA 8.x Enterprise Edition Request Broker. Supports installation of Database Agent on one (1) server host running any Workstation-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 5 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 5 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     license:hasLicenseCode             "oplrqb" ;
     license:hasLicenseFileName         "oplrqb.lic" ;
     oplsof:hasProtocolScope            oplsof:DataAccessProtocolAny .
@@ -2258,7 +2258,7 @@
     schema:price                       "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSDBAgentLicense8-personal-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     skos:prefLabel                     "Personal License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Personal License (5 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -2307,7 +2307,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x. Permits installation of Database Agent on one (1) server host running any Workstation-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 5 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 5 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Oracle#this> ;
     schema:name                        "Personal License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
@@ -2352,7 +2352,7 @@
     schema:price                       "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSDBAgentLicense8-personal-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     skos:prefLabel                     "Personal License to UDA 8.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Personal License (5 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -2401,7 +2401,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License to UDA 8.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase. Permits installation of Database Agent on one (1) server host running any Workstation-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 5 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 5 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Sybase#this> ;
     schema:name                        "Personal License to UDA 8.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
@@ -2446,7 +2446,7 @@
     schema:price                       "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-postgres-personal-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccesspostgresAnyOSWKSDBAgentLicense8-personal-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     skos:prefLabel                     "Personal License to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Personal License (5 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -2495,7 +2495,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x, Permits installation of Database Agent on one (1) server host running any Workstation-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 5 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 5 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8PostgreSQL#this> ;
     schema:name                        "Personal License to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this> ;
@@ -2546,7 +2546,7 @@
     schema:price                       "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-postgres-workgroup-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccesspostgresAnyOSWKSDBAgentLicense8-workgroup-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Workgroup License to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -2595,7 +2595,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x, Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 10 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 10 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8PostgreSQL#this> ;
     schema:name                        "Workgroup License to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this> ;
@@ -2646,7 +2646,7 @@
     schema:price                       "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-postgres-department-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccesspostgresAnyOSWKSDBAgentLicense8-department-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     skos:prefLabel                     "Department License to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -2695,7 +2695,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x, Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, without expiration. Enables a pool of 25 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 25 concurrent client hosts."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8PostgreSQL#this> ;
     schema:name                        "Department License to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this> ;
