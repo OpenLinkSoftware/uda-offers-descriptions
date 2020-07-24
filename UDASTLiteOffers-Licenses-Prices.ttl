@@ -16,7 +16,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-db2-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-db2-department-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for DB2 6.x, 7.x, 8.x, 9.x, 10.x, and 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 7.x) ODBC Driver for DB2 6.x, 7.x, 8.x, 9.x, 10.x, and 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -64,7 +64,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 7.x) ODBC Driver for ODBC Driver for DB2 6.x, 7.x, 8.x, 9.x, 10.x, and 11.x, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7DB2#this> ;
     schema:name                        "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for DB2 6.x, 7.x, 8.x, 9.x, 10.x, and 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-db2-st#this> ;
@@ -104,7 +104,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-db2-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-db2-workgroup-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for DB2 6.x, 7.x, 8.x, 9.x, 10.x, and 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 7.x) ODBC Driver for DB2 6.x, 7.x, 8.x, 9.x, 10.x, and 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -152,7 +152,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 7.x) ODBC Driver for DB2 6.x, 7.x, 8.x, 9.x, 10.x, and 11.x for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7DB2#this> ;
     schema:name                        "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for DB2 6.x, 7.x, 8.x, 9.x, 10.x, and 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-db2-st#this> ;
@@ -192,7 +192,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-inf11-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-inf11-personal-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 7.x) ODBC Driver for Informix 11.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -246,7 +246,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 7.x) ODBC Driver for Informix 11.x for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Informix#this> ;
     schema:name                        "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> ;
@@ -286,7 +286,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-inf9-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-inf9-personal-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for Informix 9.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 7.x) ODBC Driver for Informix 9.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -334,7 +334,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 7.x) ODBC Driver for Informix 9.x for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Informix#this> ;
     schema:name                        "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for Informix 9.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> ;
@@ -374,7 +374,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-inf11-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-inf11-department-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 7.x) ODBC Driver for Informix 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -422,7 +422,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 7.x) ODBC Driver for ODBC Driver for Informix 11.x, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Informix#this> ;
     schema:name                        "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> ;
@@ -462,7 +462,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-inf11-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-inf11-workgroup-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 7.x) ODBC Driver for Informix 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -510,7 +510,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 7.x) ODBC Driver for Informix 11.x for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Informix#this> ;
     schema:name                        "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> ;
@@ -550,7 +550,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-inf9-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-inf9-department-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for Informix 9.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 7.x) ODBC Driver for Informix 9.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -598,7 +598,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 7.x) ODBC Driver for ODBC Driver for Informix 9.x, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Informix#this> ;
     schema:name                        "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for Informix 9.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> ;
@@ -638,7 +638,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-inf9-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-inf9-workgroup-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for Informix 9.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 7.x) ODBC Driver for Informix 9.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -686,7 +686,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 7.x) ODBC Driver for Informix 9.x for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Informix#this> ;
     schema:name                        "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for Informix 9.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> ;
@@ -726,7 +726,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-ing-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-ing-personal-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for Ingres, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 7.x) ODBC Driver for Ingres, for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -780,7 +780,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 7.x) ODBC Driver for Ingres for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Ingres#this> ;
     schema:name                        "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for Ingres, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this> ;
@@ -820,7 +820,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ing-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ing-department-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for Ingres, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 7.x) ODBC Driver for Ingres, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -868,7 +868,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 7.x) ODBC Driver for ODBC Driver for Ingres, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Ingres#this> ;
     schema:name                        "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for Ingres, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this> ;
@@ -908,7 +908,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ing-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ing-workgroup-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for Ingres, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 7.x) ODBC Driver for Ingres, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -956,7 +956,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 7.x) ODBC Driver for Ingres for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Ingres#this> ;
     schema:name                        "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for Ingres, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this> ;
@@ -996,7 +996,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-jdbc-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-jdbc-personal-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 7.x) ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -1050,7 +1050,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 7.x) ODBC Driver for JDBC Data Sources for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7JDBCBridge#this> ;
     schema:name                        "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this> ;
@@ -1090,7 +1090,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-jdbc-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-jdbc-department-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 7.x) ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -1138,7 +1138,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 7.x) ODBC Driver for ODBC Driver for JDBC Data Sources, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7JDBCBridge#this> ;
     schema:name                        "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this> ;
@@ -1178,7 +1178,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-jdbc-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-jdbc-workgroup-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 7.x) ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -1226,7 +1226,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 7.x) ODBC Driver for JDBC Data Sources for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7JDBCBridge#this> ;
     schema:name                        "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this> ;
@@ -1266,7 +1266,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-mys3-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-mys3-personal-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for MySQL 3.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 7.x) ODBC Driver for MySQL 3.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -1320,7 +1320,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 7.x) ODBC Driver for MySQL 3.x for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7MySQL#this> ;
     schema:name                        "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for MySQL 3.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
@@ -1360,7 +1360,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-mys4-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-mys4-personal-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for MySQL 4.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 7.x) ODBC Driver for MySQL 4.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -1408,7 +1408,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 7.x) ODBC Driver for MySQL 4.x for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7MySQL#this> ;
     schema:name                        "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for MySQL 4.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
@@ -1448,7 +1448,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-mys5-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-mys5-personal-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 7.x) ODBC Driver for MySQL 5.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -1496,7 +1496,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 7.x) ODBC Driver for MySQL 5.x for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7MySQL#this> ;
     schema:name                        "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
@@ -1536,7 +1536,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys3-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-mys3-department-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for MySQL 3.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 7.x) ODBC Driver for MySQL 3.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -1584,7 +1584,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 7.x) ODBC Driver for ODBC Driver for MySQL 3.x, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7MySQL#this> ;
     schema:name                        "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for MySQL 3.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
@@ -1624,7 +1624,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys3-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-mys3-workgroup-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for MySQL 3.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 7.x) ODBC Driver for MySQL 3.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -1672,7 +1672,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 7.x) ODBC Driver for MySQL 3.x for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7MySQL#this> ;
     schema:name                        "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for MySQL 3.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
@@ -1712,7 +1712,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys4-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-mys4-department-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for MySQL 4.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 7.x) ODBC Driver for MySQL 4.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -1760,7 +1760,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 7.x) ODBC Driver for ODBC Driver for MySQL 4.x, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7MySQL#this> ;
     schema:name                        "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for MySQL 4.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
@@ -1800,7 +1800,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys4-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-mys4-workgroup-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for MySQL 4.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 7.x) ODBC Driver for MySQL 4.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -1848,7 +1848,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 7.x) ODBC Driver for MySQL 4.x for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7MySQL#this> ;
     schema:name                        "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for MySQL 4.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
@@ -1888,7 +1888,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys5-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-mys5-department-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 7.x) ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -1936,7 +1936,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 7.x) ODBC Driver for ODBC Driver for MySQL 5.x, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7MySQL#this> ;
     schema:name                        "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
@@ -1976,7 +1976,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys5-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-mys5-workgroup-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 7.x) ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -2024,7 +2024,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 7.x) ODBC Driver for MySQL 5.x for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7MySQL#this> ;
     schema:name                        "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
@@ -2064,7 +2064,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-jdbc-odbc-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTJDBCRelease7LicenseWKS-anyos-odbc-personal-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 7.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 7.x) JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -2118,7 +2118,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 7.x) JDBC Driver for ODBC Data Sources for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent JDBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease7ODBCBridge#this> ;
     schema:name                        "Software License: Personal License for UDA 7.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this> ;
@@ -2158,7 +2158,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-odbc-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-odbc-personal-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for ODBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 7.x) ODBC Driver for ODBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -2200,7 +2200,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 7.x) ODBC Driver for ODBC Data Sources for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7ODBCBridge#this> ;
     schema:name                        "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for ODBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-st#this> ;
@@ -2240,7 +2240,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-jdbc-odbc-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTJDBCRelease7LicenseWKSSVR-anyos-odbc-department-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 7.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 7.x) JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -2288,7 +2288,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 7.x) ODBC Driver for JDBC Driver for ODBC Data Sources, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent JDBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease7ODBCBridge#this> ;
     schema:name                        "Software License: Department License for UDA 7.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this> ;
@@ -2328,7 +2328,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTJDBCRelease7LicenseWKSSVR-anyos-odbc-workgroup-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 7.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 7.x) JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -2376,7 +2376,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 7.x) JDBC Driver for ODBC Data Sources for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent JDBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease7ODBCBridge#this> ;
     schema:name                        "Software License: Workgroup License for UDA 7.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this> ;
@@ -2416,7 +2416,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-odbc-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-odbc-department-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 7.x) ODBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -2464,7 +2464,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 7.x) ODBC Driver for ODBC Driver for ODBC Data Sources, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7ODBCBridge#this> ;
     schema:name                        "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-st#this> ;
@@ -2504,7 +2504,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-odbc-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-odbc-workgroup-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 7.x) ODBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -2552,7 +2552,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 7.x) ODBC Driver for ODBC Data Sources for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7ODBCBridge#this> ;
     schema:name                        "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-st#this> ;
@@ -2592,7 +2592,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-ora10-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-ora10-personal-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for Oracle 10.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 7.x) ODBC Driver for Oracle 10.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -2646,7 +2646,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 7.x) ODBC Driver for Oracle 10.x for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Oracle#this> ;
     schema:name                        "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for Oracle 10.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
@@ -2686,7 +2686,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-ora11-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-ora11-personal-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for Oracle 11.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 7.x) ODBC Driver for Oracle 11.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -2734,7 +2734,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 7.x) ODBC Driver for Oracle 11.x for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Oracle#this> ;
     schema:name                        "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for Oracle 11.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
@@ -2774,7 +2774,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-ora12-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-ora12-personal-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 7.x) ODBC Driver for Oracle 12.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -2822,7 +2822,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 7.x) ODBC Driver for Oracle 12.x for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Oracle#this> ;
     schema:name                        "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
@@ -2862,7 +2862,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora10-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ora10-department-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for Oracle 10.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 7.x) ODBC Driver for Oracle 10.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -2910,7 +2910,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 7.x) ODBC Driver for ODBC Driver for Oracle 10.x, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Oracle#this> ;
     schema:name                        "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for Oracle 10.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
@@ -2950,7 +2950,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora10-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ora10-workgroup-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for Oracle 10.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 7.x) ODBC Driver for Oracle 10.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -2998,7 +2998,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 7.x) ODBC Driver for Oracle 10.x for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Oracle#this> ;
     schema:name                        "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for Oracle 10.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
@@ -3038,7 +3038,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora11-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ora11-department-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for Oracle 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 7.x) ODBC Driver for Oracle 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -3086,7 +3086,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 7.x) ODBC Driver for ODBC Driver for Oracle 11.x, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Oracle#this> ;
     schema:name                        "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for Oracle 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
@@ -3126,7 +3126,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora11-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ora11-workgroup-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for Oracle 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 7.x) ODBC Driver for Oracle 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -3174,7 +3174,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 7.x) ODBC Driver for Oracle 11.x for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Oracle#this> ;
     schema:name                        "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for Oracle 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
@@ -3214,7 +3214,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora12-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ora12-department-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 7.x) ODBC Driver for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -3262,7 +3262,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 7.x) ODBC Driver for ODBC Driver for Oracle 12.x, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Oracle#this> ;
     schema:name                        "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
@@ -3302,7 +3302,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora12-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ora12-workgroup-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 7.x) ODBC Driver for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -3350,7 +3350,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 7.x) ODBC Driver for Oracle 12.x for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Oracle#this> ;
     schema:name                        "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
@@ -3390,7 +3390,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-postgres-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-postgres-personal-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 7.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -3444,7 +3444,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 7.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7PostgreSQL#this> ;
     schema:name                        "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> ;
@@ -3489,7 +3489,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-postgres-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-postgres-department-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 7.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -3537,7 +3537,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 7.x) ODBC Driver for ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7PostgreSQL#this> ;
     schema:name                        "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> ;
@@ -3582,7 +3582,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-postgres-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-postgres-workgroup-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 7.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -3630,7 +3630,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 7.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7PostgreSQL#this> ;
     schema:name                        "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> ;
@@ -3675,7 +3675,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-pro10-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-pro10-personal-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -3729,7 +3729,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 10.x for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Progress#this> ;
     schema:name                        "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this> ;
@@ -3769,7 +3769,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-pro11-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-pro11-personal-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -3817,7 +3817,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 11.x for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Progress#this> ;
     schema:name                        "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this> ;
@@ -3857,7 +3857,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-pro9-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-pro9-personal-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -3905,7 +3905,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 9.x for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Progress#this> ;
     schema:name                        "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this> ;
@@ -3945,7 +3945,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-pro10-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-pro10-department-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -3993,7 +3993,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 7.x) ODBC Driver for ODBC Driver for Progress OpenEdge 10.x, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Progress#this> ;
     schema:name                        "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this> ;
@@ -4033,7 +4033,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-pro10-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-pro10-workgroup-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -4081,7 +4081,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 10.x for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Progress#this> ;
     schema:name                        "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this> ;
@@ -4121,7 +4121,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-pro11-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-pro11-department-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -4169,7 +4169,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 7.x) ODBC Driver for ODBC Driver for Progress OpenEdge 11.x, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Progress#this> ;
     schema:name                        "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this> ;
@@ -4209,7 +4209,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-pro11-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-pro11-workgroup-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -4257,7 +4257,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 11.x for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Progress#this> ;
     schema:name                        "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this> ;
@@ -4297,7 +4297,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-pro9-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-pro9-department-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -4345,7 +4345,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 7.x) ODBC Driver for ODBC Driver for Progress OpenEdge 9.x, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Progress#this> ;
     schema:name                        "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this> ;
@@ -4385,7 +4385,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-pro9-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-pro9-workgroup-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -4433,7 +4433,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 9.x for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Progress#this> ;
     schema:name                        "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this> ;
@@ -4473,7 +4473,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-sql-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-sql-personal-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 7.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -4527,7 +4527,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 7.x) ODBC Driver for Microsoft SQL Server and Sybase for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7SQLServer#this> ;
     schema:name                        "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ;
@@ -4567,7 +4567,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-sql-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-sql-department-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 7.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -4615,7 +4615,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 7.x) ODBC Driver for ODBC Driver for Microsoft SQL Server and Sybase, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7SQLServer#this> ;
     schema:name                        "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ;
@@ -4655,7 +4655,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-sql-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-sql-workgroup-2019-01#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 7.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -4703,7 +4703,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 7.x) ODBC Driver for Microsoft SQL Server and Sybase for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7SQLServer#this> ;
     schema:name                        "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ;
@@ -4743,7 +4743,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-jdbc-personal-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKS-anyos-jdbc-personal-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 8.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 8.x) ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -4791,7 +4791,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 8.x) ODBC Driver for JDBC Data Sources for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8JDBCBridge#this> ;
     schema:name                        "Software License: Personal License for UDA 8.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this> ;
@@ -4831,7 +4831,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-jdbc-department-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-jdbc-department-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 8.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 8.x) ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -4879,7 +4879,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 8.x) ODBC Driver for ODBC Driver for JDBC Data Sources, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8JDBCBridge#this> ;
     schema:name                        "Software License: Department License for UDA 8.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this> ;
@@ -4919,7 +4919,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-jdbc-workgroup-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-jdbc-workgroup-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 8.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 8.x) ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -4967,7 +4967,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 8.x) ODBC Driver for JDBC Data Sources for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8JDBCBridge#this> ;
     schema:name                        "Software License: Workgroup License for UDA 8.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this> ;
@@ -5007,7 +5007,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-mys5-personal-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKS-anyos-mys5-personal-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 8.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 8.x) ODBC Driver for MySQL 5.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -5055,7 +5055,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 8.x) ODBC Driver for MySQL 5.x for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8MySQL#this> ;
     schema:name                        "Software License: Personal License for UDA 8.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
@@ -5095,7 +5095,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys5-department-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-mys5-department-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 8.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 8.x) ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -5143,7 +5143,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 8.x) ODBC Driver for ODBC Driver for MySQL 5.x, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8MySQL#this> ;
     schema:name                        "Software License: Department License for UDA 8.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
@@ -5183,7 +5183,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys5-workgroup-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-mys5-workgroup-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 8.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 8.x) ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -5231,7 +5231,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 8.x) ODBC Driver for MySQL 5.x for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8MySQL#this> ;
     schema:name                        "Software License: Workgroup License for UDA 8.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
@@ -5271,7 +5271,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-ora12-personal-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKS-anyos-ora12-personal-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 8.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 8.x) ODBC Driver for Oracle 12.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -5319,7 +5319,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 8.x) ODBC Driver for Oracle 12.x for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Oracle#this> ;
     schema:name                        "Software License: Personal License for UDA 8.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
@@ -5359,7 +5359,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora12-department-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-ora12-department-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 8.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 8.x) ODBC Driver for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -5407,7 +5407,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 8.x) ODBC Driver for ODBC Driver for Oracle 12.x, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Oracle#this> ;
     schema:name                        "Software License: Department License for UDA 8.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
@@ -5447,7 +5447,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora12-workgroup-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-ora12-workgroup-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 8.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 8.x) ODBC Driver for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -5495,7 +5495,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 8.x) ODBC Driver for Oracle 12.x for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Oracle#this> ;
     schema:name                        "Software License: Workgroup License for UDA 8.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
@@ -5535,7 +5535,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-postgres-personal-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKS-anyos-postgres-personal-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 8.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 8.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -5583,7 +5583,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 8.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8PostgreSQL#this> ;
     schema:name                        "Software License: Personal License for UDA 8.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> ;
@@ -5628,7 +5628,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-postgres-department-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-postgres-department-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 8.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 8.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -5676,7 +5676,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 8.x) ODBC Driver for ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8PostgreSQL#this> ;
     schema:name                        "Software License: Department License for UDA 8.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> ;
@@ -5721,7 +5721,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-postgres-workgroup-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-postgres-workgroup-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 8.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 8.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -5769,7 +5769,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 8.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8PostgreSQL#this> ;
     schema:name                        "Software License: Workgroup License for UDA 8.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> ;
@@ -5814,7 +5814,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-sql-personal-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKS-anyos-sql-personal-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 8.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation-class Operating System"@en ;
     schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 8.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
@@ -5862,7 +5862,7 @@
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 8.x) ODBC Driver for Microsoft SQL Server and Sybase for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8SQLServer#this> ;
     schema:name                        "Software License: Personal License for UDA 8.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ;
@@ -5902,7 +5902,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-sql-department-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-sql-department-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 8.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 8.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
@@ -5950,7 +5950,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 8.x) ODBC Driver for ODBC Driver for Microsoft SQL Server and Sybase, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8SQLServer#this> ;
     schema:name                        "Software License: Department License for UDA 8.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ;
@@ -5990,7 +5990,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-sql-workgroup-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-sql-workgroup-2020-04#this> ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 8.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 8.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
@@ -6038,7 +6038,7 @@
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 8.x) ODBC Driver for Microsoft SQL Server and Sybase for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
-    schema:image                       <http://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8SQLServer#this> ;
     schema:name                        "Software License: Workgroup License for UDA 8.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ;
