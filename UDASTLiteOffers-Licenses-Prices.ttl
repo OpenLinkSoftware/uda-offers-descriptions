@@ -12,7 +12,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-inf11-personal-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-inf11-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-inf11-personal-2019-01#this> ;
@@ -53,7 +53,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-inf11-personal-2019-01-retail-price#this> ;
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -88,7 +88,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -106,7 +106,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-inf9-personal-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-inf9-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-inf9-personal-2019-01#this> ;
@@ -141,7 +141,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Informix 9.x, for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-inf9-personal-2019-01-retail-price#this> ;
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -176,7 +176,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Informix 9.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -194,7 +194,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-inf11-department-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-inf11-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-inf11-department-2019-01#this> ;
@@ -229,7 +229,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-inf11-department-2019-01-retail-price#this> ;
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -264,7 +264,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -282,7 +282,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-inf11-workgroup-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-inf11-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-inf11-workgroup-2019-01#this> ;
@@ -317,7 +317,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-inf11-workgroup-2019-01-retail-price#this> ;
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -352,7 +352,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -370,7 +370,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-inf9-department-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-inf9-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-inf9-department-2019-01#this> ;
@@ -405,7 +405,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Informix 9.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-inf9-department-2019-01-retail-price#this> ;
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -440,7 +440,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Informix 9.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -458,7 +458,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-inf9-workgroup-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-inf9-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-inf9-workgroup-2019-01#this> ;
@@ -493,7 +493,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Informix 9.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-inf9-workgroup-2019-01-retail-price#this> ;
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -528,7 +528,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Informix 9.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -546,7 +546,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-ing-personal-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-ing-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-ing-personal-2019-01#this> ;
@@ -587,7 +587,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Ingres, for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-ing-personal-2019-01-retail-price#this> ;
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -622,7 +622,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Ingres, for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -640,7 +640,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-ing-department-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ing-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ing-department-2019-01#this> ;
@@ -675,7 +675,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Ingres, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ing-department-2019-01-retail-price#this> ;
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -710,7 +710,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Ingres, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -728,7 +728,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-ing-workgroup-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ing-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ing-workgroup-2019-01#this> ;
@@ -763,7 +763,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Ingres, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ing-workgroup-2019-01-retail-price#this> ;
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -798,7 +798,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Ingres, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -816,7 +816,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-jdbc-personal-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-jdbc-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-jdbc-personal-2019-01#this> ;
@@ -857,7 +857,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-jdbc-personal-2019-01-retail-price#this> ;
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -892,7 +892,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -910,7 +910,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-jdbc-department-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-jdbc-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-jdbc-department-2019-01#this> ;
@@ -945,7 +945,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-jdbc-department-2019-01-retail-price#this> ;
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -980,7 +980,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -998,7 +998,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-jdbc-workgroup-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-jdbc-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-jdbc-workgroup-2019-01#this> ;
@@ -1033,7 +1033,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-jdbc-workgroup-2019-01-retail-price#this> ;
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -1068,7 +1068,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -1086,7 +1086,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-mys3-personal-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-mys3-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-mys3-personal-2019-01#this> ;
@@ -1127,7 +1127,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for MySQL 3.x, for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-mys3-personal-2019-01-retail-price#this> ;
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -1162,7 +1162,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for MySQL 3.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -1180,7 +1180,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-mys4-personal-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-mys4-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-mys4-personal-2019-01#this> ;
@@ -1215,7 +1215,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for MySQL 4.x, for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-mys4-personal-2019-01-retail-price#this> ;
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -1250,7 +1250,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for MySQL 4.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -1268,7 +1268,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-mys5-personal-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-mys5-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-mys5-personal-2019-01#this> ;
@@ -1303,7 +1303,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-mys5-personal-2019-01-retail-price#this> ;
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -1338,7 +1338,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -1356,7 +1356,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-mys3-department-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys3-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-mys3-department-2019-01#this> ;
@@ -1391,7 +1391,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for MySQL 3.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys3-department-2019-01-retail-price#this> ;
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -1426,7 +1426,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for MySQL 3.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -1444,7 +1444,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-mys3-workgroup-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys3-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-mys3-workgroup-2019-01#this> ;
@@ -1479,7 +1479,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for MySQL 3.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys3-workgroup-2019-01-retail-price#this> ;
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -1514,7 +1514,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for MySQL 3.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -1532,7 +1532,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-mys4-department-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys4-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-mys4-department-2019-01#this> ;
@@ -1567,7 +1567,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for MySQL 4.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys4-department-2019-01-retail-price#this> ;
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -1602,7 +1602,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for MySQL 4.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -1620,7 +1620,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-mys4-workgroup-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys4-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-mys4-workgroup-2019-01#this> ;
@@ -1655,7 +1655,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for MySQL 4.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys4-workgroup-2019-01-retail-price#this> ;
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -1690,7 +1690,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for MySQL 4.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -1708,7 +1708,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-mys5-department-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys5-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-mys5-department-2019-01#this> ;
@@ -1743,7 +1743,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys5-department-2019-01-retail-price#this> ;
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -1778,7 +1778,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -1796,7 +1796,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-mys5-workgroup-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys5-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-mys5-workgroup-2019-01#this> ;
@@ -1831,7 +1831,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys5-workgroup-2019-01-retail-price#this> ;
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -1866,7 +1866,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -1884,7 +1884,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-jdbc-odbc-personal-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-jdbc-odbc-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTJDBCRelease7LicenseWKS-anyos-odbc-personal-2019-01#this> ;
@@ -1925,7 +1925,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 7.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-jdbc-odbc-personal-2019-01-retail-price#this> ;
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -1960,7 +1960,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 7.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -1978,7 +1978,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-odbc-personal-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-odbc-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-odbc-personal-2019-01#this> ;
@@ -2007,7 +2007,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for ODBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-odbc-personal-2019-01-retail-price#this> ;
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -2042,7 +2042,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for ODBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -2060,7 +2060,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-odbc-department-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-jdbc-odbc-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTJDBCRelease7LicenseWKSSVR-anyos-odbc-department-2019-01#this> ;
@@ -2095,7 +2095,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 7.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-jdbc-odbc-department-2019-01-retail-price#this> ;
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -2130,7 +2130,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 7.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -2148,7 +2148,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTJDBCRelease7LicenseWKSSVR-anyos-odbc-workgroup-2019-01#this> ;
@@ -2183,7 +2183,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 7.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2019-01-retail-price#this> ;
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -2218,7 +2218,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 7.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -2236,7 +2236,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-odbc-department-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-odbc-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-odbc-department-2019-01#this> ;
@@ -2271,7 +2271,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-odbc-department-2019-01-retail-price#this> ;
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -2306,7 +2306,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -2324,7 +2324,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-odbc-workgroup-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-odbc-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-odbc-workgroup-2019-01#this> ;
@@ -2359,7 +2359,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-odbc-workgroup-2019-01-retail-price#this> ;
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -2394,7 +2394,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -2412,7 +2412,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-ora10-personal-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-ora10-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-ora10-personal-2019-01#this> ;
@@ -2453,7 +2453,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Oracle 10.x, for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-ora10-personal-2019-01-retail-price#this> ;
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -2488,7 +2488,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Oracle 10.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -2506,7 +2506,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-ora11-personal-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-ora11-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-ora11-personal-2019-01#this> ;
@@ -2541,7 +2541,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Oracle 11.x, for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-ora11-personal-2019-01-retail-price#this> ;
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -2576,7 +2576,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Oracle 11.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -2594,7 +2594,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-ora12-personal-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-ora12-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-ora12-personal-2019-01#this> ;
@@ -2629,7 +2629,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-ora12-personal-2019-01-retail-price#this> ;
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -2664,7 +2664,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -2682,7 +2682,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-ora10-department-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora10-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ora10-department-2019-01#this> ;
@@ -2717,7 +2717,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Oracle 10.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora10-department-2019-01-retail-price#this> ;
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -2752,7 +2752,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Oracle 10.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -2770,7 +2770,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-ora10-workgroup-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora10-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ora10-workgroup-2019-01#this> ;
@@ -2805,7 +2805,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Oracle 10.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora10-workgroup-2019-01-retail-price#this> ;
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -2840,7 +2840,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Oracle 10.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -2858,7 +2858,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-ora11-department-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora11-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ora11-department-2019-01#this> ;
@@ -2893,7 +2893,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Oracle 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora11-department-2019-01-retail-price#this> ;
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -2928,7 +2928,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Oracle 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -2946,7 +2946,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-ora11-workgroup-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora11-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ora11-workgroup-2019-01#this> ;
@@ -2981,7 +2981,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Oracle 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora11-workgroup-2019-01-retail-price#this> ;
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -3016,7 +3016,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Oracle 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -3034,7 +3034,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-ora12-department-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora12-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ora12-department-2019-01#this> ;
@@ -3069,7 +3069,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora12-department-2019-01-retail-price#this> ;
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -3104,7 +3104,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -3122,7 +3122,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-ora12-workgroup-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora12-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ora12-workgroup-2019-01#this> ;
@@ -3157,7 +3157,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora12-workgroup-2019-01-retail-price#this> ;
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -3192,7 +3192,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -3210,7 +3210,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-postgres-personal-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-postgres-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-postgres-personal-2019-01#this> ;
@@ -3251,7 +3251,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-postgres-personal-2019-01-retail-price#this> ;
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -3291,7 +3291,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -3309,7 +3309,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-postgres-department-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-postgres-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-postgres-department-2019-01#this> ;
@@ -3344,7 +3344,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-postgres-department-2019-01-retail-price#this> ;
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -3384,7 +3384,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -3402,7 +3402,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-postgres-workgroup-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-postgres-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-postgres-workgroup-2019-01#this> ;
@@ -3437,7 +3437,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-postgres-workgroup-2019-01-retail-price#this> ;
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -3477,7 +3477,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -3495,7 +3495,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-pro10-personal-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-pro10-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-pro10-personal-2019-01#this> ;
@@ -3536,7 +3536,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-pro10-personal-2019-01-retail-price#this> ;
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -3571,7 +3571,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -3589,7 +3589,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-pro11-personal-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-pro11-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-pro11-personal-2019-01#this> ;
@@ -3624,7 +3624,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-pro11-personal-2019-01-retail-price#this> ;
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -3659,7 +3659,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -3677,7 +3677,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-pro9-personal-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-pro9-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-pro9-personal-2019-01#this> ;
@@ -3712,7 +3712,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-pro9-personal-2019-01-retail-price#this> ;
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -3747,7 +3747,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -3765,7 +3765,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-pro10-department-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-pro10-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-pro10-department-2019-01#this> ;
@@ -3800,7 +3800,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-pro10-department-2019-01-retail-price#this> ;
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -3835,7 +3835,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -3853,7 +3853,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-pro10-workgroup-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-pro10-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-pro10-workgroup-2019-01#this> ;
@@ -3888,7 +3888,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-pro10-workgroup-2019-01-retail-price#this> ;
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -3923,7 +3923,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -3941,7 +3941,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-pro11-department-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-pro11-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-pro11-department-2019-01#this> ;
@@ -3976,7 +3976,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-pro11-department-2019-01-retail-price#this> ;
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -4011,7 +4011,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -4029,7 +4029,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-pro11-workgroup-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-pro11-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-pro11-workgroup-2019-01#this> ;
@@ -4064,7 +4064,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-pro11-workgroup-2019-01-retail-price#this> ;
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -4099,7 +4099,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -4117,7 +4117,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-pro9-department-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-pro9-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-pro9-department-2019-01#this> ;
@@ -4152,7 +4152,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-pro9-department-2019-01-retail-price#this> ;
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -4187,7 +4187,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -4205,7 +4205,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-pro9-workgroup-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-pro9-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-pro9-workgroup-2019-01#this> ;
@@ -4240,7 +4240,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-pro9-workgroup-2019-01-retail-price#this> ;
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -4275,7 +4275,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -4293,7 +4293,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-sql-personal-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-sql-personal-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-sql-personal-2019-01#this> ;
@@ -4334,7 +4334,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-sql-personal-2019-01-retail-price#this> ;
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -4369,7 +4369,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -4387,7 +4387,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-sql-department-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-sql-department-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-sql-department-2019-01#this> ;
@@ -4422,7 +4422,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-sql-department-2019-01-retail-price#this> ;
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -4457,7 +4457,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -4475,7 +4475,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-sql-workgroup-2019-01> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-sql-workgroup-2019-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-sql-workgroup-2019-01#this> ;
@@ -4510,7 +4510,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 7.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-sql-workgroup-2019-01-retail-price#this> ;
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -4545,7 +4545,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 7.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -4563,7 +4563,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-jdbc-personal-2020-04> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-jdbc-personal-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKS-anyos-jdbc-personal-2020-04#this> ;
@@ -4598,7 +4598,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 8.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-jdbc-personal-2020-04-retail-price#this> ;
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -4633,7 +4633,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 8.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -4651,7 +4651,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-jdbc-department-2020-04> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-jdbc-department-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-jdbc-department-2020-04#this> ;
@@ -4686,7 +4686,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 8.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-jdbc-department-2020-04-retail-price#this> ;
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -4721,7 +4721,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 8.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -4739,7 +4739,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-jdbc-workgroup-2020-04> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-jdbc-workgroup-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-jdbc-workgroup-2020-04#this> ;
@@ -4774,7 +4774,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 8.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-jdbc-workgroup-2020-04-retail-price#this> ;
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -4809,7 +4809,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 8.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -4827,7 +4827,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-mys5-personal-2020-04> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-mys5-personal-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKS-anyos-mys5-personal-2020-04#this> ;
@@ -4862,7 +4862,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 8.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-mys5-personal-2020-04-retail-price#this> ;
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -4897,7 +4897,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 8.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -4915,7 +4915,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-mys5-department-2020-04> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys5-department-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-mys5-department-2020-04#this> ;
@@ -4950,7 +4950,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 8.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys5-department-2020-04-retail-price#this> ;
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -4985,7 +4985,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 8.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -5003,7 +5003,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-mys5-workgroup-2020-04> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys5-workgroup-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-mys5-workgroup-2020-04#this> ;
@@ -5038,7 +5038,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 8.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-mys5-workgroup-2020-04-retail-price#this> ;
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -5073,7 +5073,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 8.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -5091,7 +5091,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-ora12-personal-2020-04> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-ora12-personal-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKS-anyos-ora12-personal-2020-04#this> ;
@@ -5126,7 +5126,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 8.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-ora12-personal-2020-04-retail-price#this> ;
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -5161,7 +5161,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 8.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -5179,7 +5179,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-ora12-department-2020-04> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora12-department-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-ora12-department-2020-04#this> ;
@@ -5214,7 +5214,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 8.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora12-department-2020-04-retail-price#this> ;
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -5249,7 +5249,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 8.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -5267,7 +5267,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-ora12-workgroup-2020-04> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora12-workgroup-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-ora12-workgroup-2020-04#this> ;
@@ -5302,7 +5302,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 8.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-ora12-workgroup-2020-04-retail-price#this> ;
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -5337,7 +5337,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 8.x Lite Edition ODBC Driver for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -5355,7 +5355,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-postgres-personal-2020-04> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-postgres-personal-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKS-anyos-postgres-personal-2020-04#this> ;
@@ -5390,7 +5390,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 8.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-postgres-personal-2020-04-retail-price#this> ;
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -5430,7 +5430,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 8.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -5448,7 +5448,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-postgres-department-2020-04> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-postgres-department-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-postgres-department-2020-04#this> ;
@@ -5483,7 +5483,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 8.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-postgres-department-2020-04-retail-price#this> ;
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -5523,7 +5523,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 8.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System" ;
     schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -5541,7 +5541,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-postgres-workgroup-2020-04> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-postgres-workgroup-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-postgres-workgroup-2020-04#this> ;
@@ -5576,7 +5576,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 8.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-postgres-workgroup-2020-04-retail-price#this> ;
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -5616,7 +5616,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 8.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -5634,7 +5634,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-sql-personal-2020-04> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-sql-personal-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKS-anyos-sql-personal-2020-04#this> ;
@@ -5669,7 +5669,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 8.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-sql-personal-2020-04-retail-price#this> ;
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -5704,7 +5704,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 8.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -5722,7 +5722,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-sql-department-2020-04> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-sql-department-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-sql-department-2020-04#this> ;
@@ -5757,7 +5757,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 8.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-sql-department-2020-04-retail-price#this> ;
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -5792,7 +5792,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 8.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -5810,7 +5810,7 @@
                                        offers:UDALiteOffer ,
                                        offers:UDALiteSpecialOffer ;
     schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-sql-workgroup-2020-04> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-sql-workgroup-2020-04-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-sql-workgroup-2020-04#this> ;
@@ -5845,7 +5845,7 @@
                                        offers:SpecialUnitPriceSpecification ,
                                        offers:UDALiteSpecialUnitPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 8.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-sql-workgroup-2020-04-retail-price#this> ;
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
@@ -5880,7 +5880,7 @@
     a                                  schema:UnitPriceSpecification ,
                                        offers:RetailPriceSpecification ;
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    schema:validThrough                "2020-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-10-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 8.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
