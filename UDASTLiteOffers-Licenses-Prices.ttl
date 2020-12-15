@@ -5892,3 +5892,269 @@
 
 <http://www.openlinksw.com/dataspace/organization/openlink#this>
     schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-sql-workgroup-2020-04#this> .
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-jdbc-odbc-personal-2020-04#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:UDALiteSpecialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-jdbc-odbc-personal-2020-04> ;
+    schema:validThrough                "2020-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-jdbc-odbc-personal-2020-04-special-price#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTJDBCRelease8LicenseWKS-anyos-odbc-personal-2020-04#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: Personal License for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
+    schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 8.x) JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
+    schema:category                    "personal"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 8.x) JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation-class Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKS-anyos-jdbc-odbc-personal-2020-04"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: Personal License for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this> ;
+    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKS-anyos-jdbc-odbc-personal-2020-04%23this&type=buy&mode=u> ;
+    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKS-anyos-jdbc-odbc-personal-2020-04%23this> .
+
+<http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKS-anyos-jdbc-odbc-personal-2020-04%23this&type=buy&mode=u>
+    schema:description                 "HTML Document Generated via BuyAction for REST-ful listing of Offer: UDALT-WKS-anyos-jdbc-odbc-personal-2020-04"@en ;
+    schema:name                        "HTML Document Generated via BuyAction for listing of Offer: UDALT-WKS-anyos-jdbc-odbc-personal-2020-04"@en .
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-jdbc-odbc-personal-2020-04#this>
+    schema:mainEntityOfPage            <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKS-anyos-jdbc-odbc-personal-2020-04%23this&type=buy&mode=u> .
+
+<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKS-anyos-jdbc-odbc-personal-2020-04%23this>
+    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKS-anyos-jdbc-odbc-personal-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKS-anyos-jdbc-odbc-personal-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-jdbc-odbc-personal-2020-04#this>
+    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKS-anyos-jdbc-odbc-personal-2020-04%23this> .
+
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-jdbc-odbc-personal-2020-04-special-price#this>
+    a                                  schema:UnitPriceSpecification ,
+                                       offers:SpecialUnitPriceSpecification ,
+                                       offers:UDALiteSpecialUnitPriceSpecification ;
+    schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:name                        "Software License Special Price Specification: Personal License Special Price Specification for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
+    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-jdbc-odbc-personal-2020-04-retail-price#this> ;
+    schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+    schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.openlinksw.com/oplweb/license/UDALTJDBCRelease8LicenseWKS-anyos-odbc-personal-2020-04#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:NonExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    license:hasSessions                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasMaximumProcessorCores   "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    oplsof:hasOperatingSystemType      oplsof:workstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Personal License for Lite Edition (Release 8.x) JDBC Driver for ODBC Data Sources for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent JDBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease8ODBCBridge#this> ;
+    schema:name                        "Software License: Personal License for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-jdbc-odbc-personal-2020-04#this> ;
+    skos:prefLabel                     "Software License: Personal License for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
+    schema:comment                     "Software License: Personal License (non-expiring, 16 logical processors, 5 sessions) for Lite Edition (Release 8.x) JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
+    license:hasLicenseCode             "jodbc_lt" ;
+    license:hasLicenseFileName         "jodbc_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:ODBCBridge ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessJDBC ;
+    oplsof:hasDatabaseEngine           oplsof:odbc .
+
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-jdbc-odbc-personal-2020-04-retail-price#this>
+    a                                  schema:UnitPriceSpecification ,
+                                       offers:RetailPriceSpecification ;
+    schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:name                        "Software Software License Retail Price Specification: Personal Software License Retail Price Specification for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation-class Operating System"@en ;
+    schema:price                       "299.98"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+    schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://uda.openlinksw.com/offers/>
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-jdbc-odbc-personal-2020-04#this> ;
+    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-jdbc-odbc-personal-2020-04#this> ;
+    schema:name                        "Software License Offer: Personal License for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation-class Operating System"@en .
+
+<http://www.openlinksw.com/dataspace/organization/openlink#this>
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-jdbc-odbc-personal-2020-04#this> .
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:UDALiteSpecialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04> ;
+    schema:validThrough                "2020-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04-special-price#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTJDBCRelease8LicenseWKSSVR-anyos-odbc-department-2020-04#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    skos:prefLabel                     "Software License: Department License for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 8.x) JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:category                    "department"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 8.x) JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: Department License for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this> ;
+    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04%23this&type=buy&mode=u> ;
+    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04%23this> .
+
+<http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04%23this&type=buy&mode=u>
+    schema:description                 "HTML Document Generated via BuyAction for REST-ful listing of Offer: UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04"@en ;
+    schema:name                        "HTML Document Generated via BuyAction for listing of Offer: UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04"@en .
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04#this>
+    schema:mainEntityOfPage            <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04%23this&type=buy&mode=u> .
+
+<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04%23this>
+    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04#this>
+    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04%23this> .
+
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04-special-price#this>
+    a                                  schema:UnitPriceSpecification ,
+                                       offers:SpecialUnitPriceSpecification ,
+                                       offers:UDALiteSpecialUnitPriceSpecification ;
+    schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:name                        "Software License Special Price Specification: Department License Special Price Specification for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04-retail-price#this> ;
+    schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+    schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.openlinksw.com/oplweb/license/UDALTJDBCRelease8LicenseWKSSVR-anyos-odbc-department-2020-04#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:NonExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    license:hasSessions                "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasMaximumProcessorCores   "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Department License for Lite Edition (Release 8.x) ODBC Driver for JDBC Driver for ODBC Data Sources, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent JDBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease8ODBCBridge#this> ;
+    schema:name                        "Software License: Department License for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04#this> ;
+    skos:prefLabel                     "Software License: Department License for UDA 7.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:comment                     "Software License: Department License (non-expiring, 16 logical processors, 25 sessions) for Lite Edition (Release 8.x) JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    license:hasLicenseCode             "jodbc_lt" ;
+    license:hasLicenseFileName         "jodbc_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:ODBCBridge ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessJDBC ;
+    oplsof:hasDatabaseEngine           oplsof:odbc .
+
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04-retail-price#this>
+    a                                  schema:UnitPriceSpecification ,
+                                       offers:RetailPriceSpecification ;
+    schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:name                        "Software Software License Retail Price Specification: Department Software License Retail Price Specification for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:price                       "3937.24"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+    schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://uda.openlinksw.com/offers/>
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04#this> ;
+    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04#this> ;
+    schema:name                        "Software License Offer: Department License for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en .
+
+<http://www.openlinksw.com/dataspace/organization/openlink#this>
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-odbc-department-2020-04#this> .
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:UDALiteSpecialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04> ;
+    schema:validThrough                "2020-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04-special-price#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTJDBCRelease8LicenseWKSSVR-anyos-odbc-workgroup-2020-04#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    skos:prefLabel                     "Software License: Workgroup License for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 8.x) JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:category                    "workgroup"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 8.x) JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: Workgroup License for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this> ;
+    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04%23this&type=buy&mode=u> ;
+    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04%23this> .
+
+<http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04%23this&type=buy&mode=u>
+    schema:description                 "HTML Document Generated via BuyAction for REST-ful listing of Offer: UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04"@en ;
+    schema:name                        "HTML Document Generated via BuyAction for listing of Offer: UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04"@en .
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04#this>
+    schema:mainEntityOfPage            <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04%23this&type=buy&mode=u> .
+
+<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04%23this>
+    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04#this>
+    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04%23this> .
+
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04-special-price#this>
+    a                                  schema:UnitPriceSpecification ,
+                                       offers:SpecialUnitPriceSpecification ,
+                                       offers:UDALiteSpecialUnitPriceSpecification ;
+    schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:name                        "Software License Special Price Specification: Workgroup License Special Price Specification for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04-retail-price#this> ;
+    schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+    schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.openlinksw.com/oplweb/license/UDALTJDBCRelease8LicenseWKSSVR-anyos-odbc-workgroup-2020-04#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:NonExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    license:hasSessions                "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasMaximumProcessorCores   "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Workgroup License for Lite Edition (Release 8.x) JDBC Driver for ODBC Data Sources for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent JDBC sessions from licensed host, and is transferable across hosts running supported operating systems, without expiration."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease8ODBCBridge#this> ;
+    schema:name                        "Software License: Workgroup License for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04#this> ;
+    skos:prefLabel                     "Software License: Workgroup License for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:comment                     "Software License: Workgroup License (non-expiring, 16 logical processors, 10 sessions) for Lite Edition (Release 8.x) JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    license:hasLicenseCode             "jodbc_lt" ;
+    license:hasLicenseFileName         "jodbc_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:ODBCBridge ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessJDBC ;
+    oplsof:hasDatabaseEngine           oplsof:odbc .
+
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04-retail-price#this>
+    a                                  schema:UnitPriceSpecification ,
+                                       offers:RetailPriceSpecification ;
+    schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2020-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:name                        "Software Software License Retail Price Specification: Workgroup Software License Retail Price Specification for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:price                       "1574.90"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+    schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://uda.openlinksw.com/offers/>
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04#this> ;
+    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04#this> ;
+    schema:name                        "Software License Offer: Workgroup License for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System"@en .
+
+<http://www.openlinksw.com/dataspace/organization/openlink#this>
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2020-04#this> .
+
+
