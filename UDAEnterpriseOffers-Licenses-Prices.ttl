@@ -2769,6 +2769,8 @@
 <http://www.openlinksw.com/dataspace/organization/openlink#this>
     schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-postgres-department-2022-01#this> .
 
+######### Mysql ##########
+
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-mysql5-personal-2022-01#this>
     a                                  schema:Offer ,
                                        offers:UDAEnterpriseOffer ,
@@ -2805,7 +2807,6 @@
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-mysql5-personal-2022-01#this>
     schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-mysql5-personal-2022-01%23this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense8-personal-2022-01#this> .
-
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-mysql5-personal-2022-01-special-price#this>
     a                                  schema:UnitPriceSpecification ,
                                        offers:SpecialUnitPriceSpecification ,
@@ -3053,3 +3054,289 @@
 
 <http://www.openlinksw.com/dataspace/organization/openlink#this>
     schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-mysql5-department-2022-01#this> .
+
+######### Informix ##########
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-personal-2022-01#this>
+    a                                  schema:Offer ,
+                                       offers:UDAEnterpriseOffer ,
+                                       offers:UDAEnterpriseSpecialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-personal-2022-01> ;
+    schema:validThrough                "2022-06-30T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:price                       "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-inf11-personal-2022-01-special-price#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessinf11AnyOSWKSDBAgentLicense8-personal-2022-01#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    skos:prefLabel                     "Personal License to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
+    schema:comment                     "Personal License (1 year duration, 5 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
+    schema:category                    "personal"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: Personal License (1 year duration, 5 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Informix 11, for deployment on any supported Workstation-class Operating System"@en ;
+    offers:offerNumber                 "UDAMT-WKS-anyos-anydataccess-inf11-personal-2022-01"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: Personal License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Informix 11, for deployment on any supported Workstation-class Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this> ;
+    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-personal-2022-01%23this&type=buy&mode=u> ;
+    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-personal-2022-01%23this> .
+
+<http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-personal-2022-01%23this&type=buy&mode=u>
+    schema:description                 "HTML Document Generated via BuyAction for REST-ful listing of Offer: 1499.97"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "HTML Document Generated via BuyAction for listing of Offer: 1499.97"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-personal-2022-01#this>
+    schema:mainEntityOfPage            <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-personal-2022-01%23this&type=buy&mode=u> .
+
+<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-personal-2022-01%23this>
+    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-personal-2022-01%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-personal-2022-01%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-personal-2022-01#this>
+    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-personal-2022-01%23this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense8-personal-2022-01#this> .
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-inf11-personal-2022-01-special-price#this>
+    a                                  schema:UnitPriceSpecification ,
+                                       offers:SpecialUnitPriceSpecification ,
+                                       offers:UDAEnterpriseSpecialUnitPriceSpecification ;
+    schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2022-06-30T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:name                        "Personal License Special Price Specification to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
+    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-inf11-personal-2022-01-retail-price#this> ;
+    schema:price                       "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+    schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessinf11AnyOSWKSDBAgentLicense8-personal-2022-01#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:NonExpiringLicense ,
+                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+    license:hasSessions                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasMaximumProcessorCores   "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    oplsof:hasOperatingSystemType      oplsof:workstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Personal License to UDA 8.x Enterprise Edition Database Agent for Informix 11, Permits installation of Database Agent on one (1) server host running any Workstation-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, with one year duration. Enables a pool of 5 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 5 concurrent client hosts."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Informix#this> ;
+    schema:name                        "Personal License to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-personal-2022-01#this> ;
+    skos:prefLabel                     "Personal License to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
+    schema:comment                     "Personal License (1 year duration, 5 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
+    license:hasLicenseCode             "informix11" ;
+    license:hasLicenseFileName         "informix11.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:Informix ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
+    oplsof:hasDatabaseEngine           oplsof:Informix11 .
+
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-inf11-personal-2022-01-retail-price#this>
+    a                                  schema:UnitPriceSpecification ,
+                                       offers:RetailPriceSpecification ;
+    schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2022-06-30T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:name                        "Personal Software License Retail Price Specification to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
+    schema:price                       "1499.97"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+    schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://uda.openlinksw.com/offers/>
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-personal-2022-01#this> ;
+    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-personal-2022-01#this> ;
+    schema:name                        "Software License Offer: Personal License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Informix 11, for deployment on any supported Workstation-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense8-personal-2022-01#this>
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-personal-2022-01#this> .
+
+<http://www.openlinksw.com/dataspace/organization/openlink#this>
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-personal-2022-01#this> .
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-workgroup-2022-01#this>
+    a                                  schema:Offer ,
+                                       offers:UDAEnterpriseOffer ,
+                                       offers:UDAEnterpriseSpecialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-workgroup-2022-01> ;
+    schema:validThrough                "2022-06-30T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:price                       "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-inf11-workgroup-2022-01-special-price#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessinf11AnyOSWKSDBAgentLicense8-workgroup-2022-01#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    skos:prefLabel                     "Workgroup License to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:category                    "workgroup"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: Workgroup License (10 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Informix 11, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-inf11-workgroup-2022-01"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: Workgroup License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Informix 11, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this> ;
+    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-workgroup-2022-01%23this&type=buy&mode=u> ;
+    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-workgroup-2022-01%23this> .
+
+<http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-workgroup-2022-01%23this&type=buy&mode=u>
+    schema:description                 "HTML Document Generated via BuyAction for REST-ful listing of Offer: 7874.84"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "HTML Document Generated via BuyAction for listing of Offer: 7874.84"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-workgroup-2022-01#this>
+    schema:mainEntityOfPage            <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-workgroup-2022-01%23this&type=buy&mode=u> .
+
+<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-workgroup-2022-01%23this>
+    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-workgroup-2022-01%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-workgroup-2022-01%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-workgroup-2022-01#this>
+    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-workgroup-2022-01%23this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense8-workgroup-2022-01#this> .
+
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-inf11-workgroup-2022-01-special-price#this>
+    a                                  schema:UnitPriceSpecification ,
+                                       offers:SpecialUnitPriceSpecification ,
+                                       offers:UDAEnterpriseSpecialUnitPriceSpecification ;
+    schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2022-06-30T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:name                        "Workgroup License Special Price Specification to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-inf11-workgroup-2022-01-retail-price#this> ;
+    schema:price                       "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+    schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessinf11AnyOSWKSDBAgentLicense8-workgroup-2022-01#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:NonExpiringLicense ,
+                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+    license:hasSessions                "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasMaximumProcessorCores   "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Workgroup License to UDA 8.x Enterprise Edition Database Agent for Informix 11, Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, with one year duration. Enables a pool of 10 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 10 concurrent client hosts."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Informix#this> ;
+    schema:name                        "Workgroup License to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-workgroup-2022-01#this> ;
+    skos:prefLabel                     "Workgroup License to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    license:hasLicenseCode             "informix11" ;
+    license:hasLicenseFileName         "informix11.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:Informix ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
+    oplsof:hasDatabaseEngine           oplsof:Informix11 .
+
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-inf11-workgroup-2022-01-retail-price#this>
+    a                                  schema:UnitPriceSpecification ,
+                                       offers:RetailPriceSpecification ;
+    schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2022-06-30T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:name                        "Workgroup Software License Retail Price Specification to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:price                       "7874.84"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+    schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://uda.openlinksw.com/offers/>
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-workgroup-2022-01#this> ;
+    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-workgroup-2022-01#this> ;
+    schema:name                        "Software License Offer: Workgroup License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Informix 11, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense8-workgroup-2022-01#this>
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-workgroup-2022-01#this> .
+
+<http://www.openlinksw.com/dataspace/organization/openlink#this>
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-workgroup-2022-01#this> .
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-department-2022-01#this>
+    a                                  schema:Offer ,
+                                       offers:UDAEnterpriseOffer ,
+                                       offers:UDAEnterpriseSpecialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-department-2022-01> ;
+    schema:validThrough                "2022-06-30T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:price                       "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-inf11-department-2022-01-special-price#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessinf11AnyOSWKSDBAgentLicense8-department-2022-01#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    skos:prefLabel                     "Department License to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:category                    "department"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: Department License (25 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Informix 11, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-inf11-department-2022-01"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: Department License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Informix 11, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this> ;
+    license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-department-2022-01%23this&type=buy&mode=u> ;
+    schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-department-2022-01%23this> .
+
+<http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-department-2022-01%23this&type=buy&mode=u>
+    schema:description                 "HTML Document Generated via BuyAction for REST-ful listing of Offer: 19687.11"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "HTML Document Generated via BuyAction for listing of Offer: 19687.11"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-department-2022-01#this>
+    schema:mainEntityOfPage            <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-department-2022-01%23this&type=buy&mode=u> .
+
+<https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-department-2022-01%23this>
+    schema:description                 "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-department-2022-01%23this"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-department-2022-01%23this"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-department-2022-01#this>
+    schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-inf11-department-2022-01%23this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense8-workgroup-2022-01#this> .
+
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-inf11-department-2022-01-special-price#this>
+    a                                  schema:UnitPriceSpecification ,
+                                       offers:SpecialUnitPriceSpecification ,
+                                       offers:UDAEnterpriseSpecialUnitPriceSpecification ;
+    schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2022-06-30T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:name                        "Department License Special Price Specification to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-inf11-department-2022-01-retail-price#this> ;
+    schema:price                       "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+    schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessinf11AnyOSWKSDBAgentLicense8-department-2022-01#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:NonExpiringLicense ,
+                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+    license:hasSessions                "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasMaximumProcessorCores   "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Department License to UDA 8.x Enterprise Edition Database Agent for Informix 11, Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, with one year duration. Enables a pool of 25 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 25 concurrent client hosts."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Informix#this> ;
+    schema:name                        "Department License to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-department-2022-01#this> ;
+    skos:prefLabel                     "Department License to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    license:hasLicenseCode             "informix11" ;
+    license:hasLicenseFileName         "informix11.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:Informix ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
+    oplsof:hasDatabaseEngine           oplsof:Informix11 .
+
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-inf11-department-2022-01-retail-price#this>
+    a                                  schema:UnitPriceSpecification ,
+                                       offers:RetailPriceSpecification ;
+    schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:validThrough                "2022-06-30T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:name                        "Department Software License Retail Price Specification to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:price                       "19687.11"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+    schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://uda.openlinksw.com/offers/>
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-department-2022-01#this> ;
+    schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-department-2022-01#this> ;
+    schema:name                        "Software License Offer: Department License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Informix 11, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense8-workgroup-2022-01#this>
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-department-2022-01#this> .
+
+<http://www.openlinksw.com/dataspace/organization/openlink#this>
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-inf11-department-2022-01#this> .
