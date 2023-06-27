@@ -9,7 +9,7 @@
 
 ## Licenses
 ### Personal
-<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-sql-personal-2023-01#this>
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKS-anyos-sql-personal-2023-01#this>
     a                                  schema:Product ,
                                        license:ProductLicense ,
                                        license:ExpiringLicense ,
@@ -36,7 +36,7 @@
     oplsof:hasDatabaseEngine           oplsof:SQLServer2014 .
 
 ### Workgroup
-<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-sql-workgroup-2023-01#this>
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-sql-workgroup-2023-01#this>
     a                                  schema:Product ,
                                        license:ProductLicense ,
                                        license:ExpiringLicense ,
@@ -46,7 +46,7 @@
     license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
-    schema:description                 "Workgroup License for Lite Edition (Release 8.x) ODBC Driver for Microsoft SQL Server and Sybase for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, with 1 year duration."@en ;
+    schema:description                 "Workgroup License for Lite Edition (Release 9.x) ODBC Driver for Microsoft SQL Server and Sybase for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, with 1 year duration."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9SQLServer#this> ;
     schema:name                        "Software License: Workgroup License for UDA 9.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
@@ -55,7 +55,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-sql-workgroup-2023-01#this> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 9.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
-    schema:comment                     "Software License: Workgroup License (1 year duration, 16 logical processors, 10 sessions) for Lite Edition (Release 8.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    schema:comment                     "Software License: Workgroup License (1 year duration, 16 logical processors, 10 sessions) for Lite Edition (Release 9.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     license:hasLicenseCode             "sql_lt" ;
     license:hasLicenseFileName         "sql_lt.lic" ;
     oplsof:hasDatabaseFamily           oplsof:SQLServer ;
@@ -63,7 +63,7 @@
     oplsof:hasDatabaseEngine           oplsof:SQLServer2014 .
 
 ### Departmental
-<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-sql-department-2023-01#this>
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-sql-department-2023-01#this>
     a                                  schema:Product ,
                                        license:ProductLicense ,
                                        license:ExpiringLicense ,
@@ -73,7 +73,7 @@
     license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
-    schema:description                 "Department License for Lite Edition (Release 8.x) ODBC Driver for ODBC Driver for Microsoft SQL Server and Sybase, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, with 1 year duration."@en ;
+    schema:description                 "Department License for Lite Edition (Release 9.x) ODBC Driver for ODBC Driver for Microsoft SQL Server and Sybase, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, with 1 year duration."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9SQLServer#this> ;
     schema:name                        "Software License: Department License for UDA 9.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
@@ -82,7 +82,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-sql-department-2023-01#this> ;
     skos:prefLabel                     "Software License: Department License for UDA 9.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
-    schema:comment                     "Software License: Department License (1 year duration, 16 logical processors, 25 sessions) for Lite Edition (Release 8.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    schema:comment                     "Software License: Department License (1 year duration, 16 logical processors, 25 sessions) for Lite Edition (Release 9.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     license:hasLicenseCode             "sql_lt" ;
     license:hasLicenseFileName         "sql_lt.lic" ;
     oplsof:hasDatabaseFamily           oplsof:SQLServer ;
@@ -168,7 +168,7 @@
     schema:validThrough                "2023-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2023-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-sql-personal-2023-01-special-price#this> ;
-    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-sql-personal-2023-01#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKS-anyos-sql-personal-2023-01#this> ;
     schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 9.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation-class Operating System."@en ;
     schema:comment                     "Software License: Personal License (1 year duration, 16 logical processors, 5 sessions) for Lite Edition (Release 9.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation-class Operating System."@en ;
@@ -177,6 +177,7 @@
     schema:description                 "Software License Offer: Personal License (1 year duration, 16 logical processors, 5 sessions) for Lite Edition (Release 9.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation-class Operating System."@en ;
     offers:offerNumber                 "UDALT-WKS-anyos-odbc-sql-personal-2023-01"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "Software License Offer: Personal License for UDA 9.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation-class Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ;
     license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKS-anyos-odbc-sql-personal-2023-01%23this&type=buy&mode=u> ;
     schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKS-anyos-odbc-sql-personal-2023-01%23this> .
 
@@ -188,7 +189,7 @@
     schema:validThrough                "2023-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2023-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-sql-workgroup-2023-01-special-price#this> ;
-    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-sql-workgroup-2023-01#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-sql-workgroup-2023-01#this> ;
     schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 9.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     schema:comment                     "Software License: Workgroup License (1 year duration, 16 logical processors, 10 sessions) for Lite Edition (Release 9.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
@@ -210,16 +211,20 @@
     schema:validThrough                "2023-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2023-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-sql-department-2023-01-special-price#this> ;
-    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-sql-department-2023-01#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-sql-department-2023-01#this> ;
     schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 9.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
-    schema:comment                     "Software License: Department License (1 year duration, 16 logical processors, 25 sessions) for Lite Edition (Release 8.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    schema:comment                     "Software License: Department License (1 year duration, 16 logical processors, 25 sessions) for Lite Edition (Release 9.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     schema:category                    "department"@en ;
     gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
-    schema:description                 "Software License Offer: Department License (1 year duration, 16 logical processors, 25 sessions) for Lite Edition (Release 8.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    schema:description                 "Software License Offer: Department License (1 year duration, 16 logical processors, 25 sessions) for Lite Edition (Release 9.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-sql-department-2023-01"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "Software License Offer: Department License for UDA 9.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ;
     license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKSSVR-anyos-odbc-sql-department-2023-01%23this&type=buy&mode=u> ;
     schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKSSVR-anyos-odbc-sql-department-2023-01%23this> .
 
+<http://www.openlinksw.com/dataspace/organization/openlink#this>
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-sql-personal-2023-01#this>,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-sql-workgroup-2023-01#this>,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-sql-department-2023-01#this> .
