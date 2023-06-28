@@ -456,3 +456,8 @@
     skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this> ;
     license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKSSVR-anyos-odbc-jdbc-department-2023-01%23this&type=buy&mode=u> ;
     schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKSSVR-anyos-odbc-jdbc-department-2023-01%23this> .
+
+<http://www.openlinksw.com/dataspace/organization/openlink#this>
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-jdbc-personal-2023-01#this>,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-jdbc-workgroup-2023-01#this>,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-jdbc-department-2023-01#this> .
