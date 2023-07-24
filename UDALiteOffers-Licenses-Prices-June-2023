@@ -473,7 +473,7 @@
     schema:validThrough                "2023-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2023-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-inf11-personal-2023-01-special-price#this> ;
-    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-inf11-personal-2023-01#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKS-anyos-inf11-personal-2023-01#this> ;
     schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     skos:prefLabel                     "Software License: Personal License for UDA 9.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Workstation-class Operating System."@en ;
     schema:comment                     "Software License: Personal License (1 year duration, 16 logical processors, 5 sessions) for Lite Edition (Release 9.x) ODBC Driver for Informix 11.x, for deployment on any supported Workstation-class Operating System."@en ;
@@ -517,7 +517,7 @@
     schema:price                       "99.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKS-anyos-inf11-personal-2023-01#this>
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKS-anyos-inf11-personal-2023-01#this>
     a                                  schema:Product ,
                                        license:ProductLicense ,
                                        license:NonExpiringLicense ,
@@ -529,7 +529,7 @@
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 9.x) ODBC Driver for Informix 11.x for installation on one (1) host with up to 16 logical processors, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, with 1 year duration."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
-    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Informix#this> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9Informix#this> ;
     schema:name                        "Software License: Personal License for UDA 9.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Workstation-class Operating System."@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -570,7 +570,7 @@
     schema:validThrough                "2023-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2023-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-inf11-department-2023-01-special-price#this> ;
-    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-inf11-department-2023-01#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-inf11-department-2023-01#this> ;
     schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Department License for UDA 9.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     schema:comment                     "Software License: Department License (1 year duration, 16 logical processors, 25 sessions) for Lite Edition (Release 9.x) ODBC Driver for Informix 11.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
@@ -608,7 +608,7 @@
     schema:price                       "1312.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-inf11-department-2023-01#this>
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-inf11-department-2023-01#this>
     a                                  schema:Product ,
                                        license:ProductLicense ,
                                        license:NonExpiringLicense ,
@@ -620,7 +620,7 @@
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 9.x) ODBC Driver for ODBC Driver for Informix 11.x, for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, with 1 year duration."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
-    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Informix#this> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9Informix#this> ;
     schema:name                        "Software License: Department License for UDA 9.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -661,7 +661,7 @@
     schema:validThrough                "2023-08-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validFrom                   "2023-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-inf11-workgroup-2023-01-special-price#this> ;
-    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-inf11-workgroup-2023-01#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-inf11-workgroup-2023-01#this> ;
     schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 9.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     schema:comment                     "Software License: Workgroup License (1 year duration, 16 logical processors, 10 sessions) for Lite Edition (Release 9.x) ODBC Driver for Informix 11.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
@@ -699,7 +699,7 @@
     schema:price                       "524.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-inf11-workgroup-2023-01#this>
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-inf11-workgroup-2023-01#this>
     a                                  schema:Product ,
                                        license:ProductLicense ,
                                        license:NonExpiringLicense ,
@@ -711,7 +711,7 @@
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 9.x) ODBC Driver for Informix 11.x for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, with 1 year duration."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
-    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Informix#this> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCrelease9Informix#this> ;
     schema:name                        "Software License: Workgroup License for UDA 9.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
