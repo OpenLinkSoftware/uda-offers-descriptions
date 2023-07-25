@@ -711,7 +711,7 @@
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 9.x) ODBC Driver for Informix 11.x for installation on one (1) host with up to 16 logical processors, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, with 1 year duration."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
-    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCrelease9Informix#this> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9Informix#this> ;
     schema:name                        "Software License: Workgroup License for UDA 9.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
