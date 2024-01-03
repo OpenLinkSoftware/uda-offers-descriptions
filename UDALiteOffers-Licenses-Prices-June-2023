@@ -242,7 +242,7 @@
 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKS-anyos-jdbc-personal-2023-01#this>
     a                                  schema:Product ,
                                        license:ProductLicense ,
-                                       license:NonExpiringLicense ,
+                                       license:ExpiringLicense ,
                                        license:UDASTLiteLicense ;
     license:hasSessions                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -270,7 +270,7 @@
 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-jdbc-workgroup-2023-01#this>
     a                                  schema:Product ,
                                        license:ProductLicense ,
-                                       license:NonExpiringLicense ,
+                                       license:ExpiringLicense ,
                                        license:UDASTLiteLicense ;
     license:hasSessions                "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -298,7 +298,7 @@
 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-jdbc-department-2023-01#this>
     a                                  schema:Product ,
                                        license:ProductLicense ,
-                                       license:NonExpiringLicense ,
+                                       license:ExpiringLicense ,
                                        license:UDASTLiteLicense ;
     license:hasSessions                "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -524,7 +524,7 @@
 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKS-anyos-inf11-personal-2023-01#this>
     a                                  schema:Product ,
                                        license:ProductLicense ,
-                                       license:NonExpiringLicense ,
+                                       license:ExpiringLicense ,
                                        license:UDASTLiteLicense ;
     license:hasSessions                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -615,7 +615,7 @@
 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-inf11-department-2023-01#this>
     a                                  schema:Product ,
                                        license:ProductLicense ,
-                                       license:NonExpiringLicense ,
+                                       license:ExpiringLicense ,
                                        license:UDASTLiteLicense ;
     license:hasSessions                "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -706,7 +706,7 @@
 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-inf11-workgroup-2023-01#this>
     a                                  schema:Product ,
                                        license:ProductLicense ,
-                                       license:NonExpiringLicense ,
+                                       license:ExpiringLicense ,
                                        license:UDASTLiteLicense ;
     license:hasSessions                "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -797,7 +797,7 @@
 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKS-anyos-ora12-personal-2023-01#this>
     a                                  schema:Product ,
                                        license:ProductLicense ,
-                                       license:NonExpiringLicense ,
+                                       license:ExpiringLicense ,
                                        license:UDASTLiteLicense ;
     license:hasSessions                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -886,7 +886,7 @@
 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-ora12-department-2023-01#this>
     a                                  schema:Product ,
                                        license:ProductLicense ,
-                                       license:NonExpiringLicense ,
+                                       license:ExpiringLicense ,
                                        license:UDASTLiteLicense ;
     license:hasSessions                "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -975,7 +975,7 @@
 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-ora12-workgroup-2023-01#this>
     a                                  schema:Product ,
                                        license:ProductLicense ,
-                                       license:NonExpiringLicense ,
+                                       license:ExpiringLicense ,
                                        license:UDASTLiteLicense ;
     license:hasSessions                "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1066,7 +1066,7 @@
 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKS-anyos-mys5-personal-2023-01#this>
     a                                  schema:Product ,
                                        license:ProductLicense ,
-                                       license:NonExpiringLicense ,
+                                       license:ExpiringLicense ,
                                        license:UDASTLiteLicense ;
     license:hasSessions                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1155,7 +1155,7 @@
 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-mys5-department-2023-01#this>
     a                                  schema:Product ,
                                        license:ProductLicense ,
-                                       license:NonExpiringLicense ,
+                                       license:ExpiringLicense ,
                                        license:UDASTLiteLicense ;
     license:hasSessions                "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1244,7 +1244,7 @@
 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-mys5-workgroup-2023-01#this>
     a                                  schema:Product ,
                                        license:ProductLicense ,
-                                       license:NonExpiringLicense ,
+                                       license:ExpiringLicense ,
                                        license:UDASTLiteLicense ;
     license:hasSessions                "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1335,7 +1335,7 @@
 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKS-anyos-postgres-personal-2023-01#this>
     a                                  schema:Product ,
                                        license:ProductLicense ,
-                                       license:NonExpiringLicense ,
+                                       license:ExpiringLicense ,
                                        license:UDASTLiteLicense ;
     license:hasSessions                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1429,7 +1429,7 @@
 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-postgres-department-2023-01#this>
     a                                  schema:Product ,
                                        license:ProductLicense ,
-                                       license:NonExpiringLicense ,
+                                       license:ExpiringLicense ,
                                        license:UDASTLiteLicense ;
     license:hasSessions                "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1523,7 +1523,7 @@
 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-postgres-workgroup-2023-01#this>
     a                                  schema:Product ,
                                        license:ProductLicense ,
-                                       license:NonExpiringLicense ,
+                                       license:ExpiringLicense ,
                                        license:UDASTLiteLicense ;
     license:hasSessions                "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
