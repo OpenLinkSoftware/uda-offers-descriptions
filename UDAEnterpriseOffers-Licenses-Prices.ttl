@@ -454,13 +454,13 @@
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense7-department-2022-01#this> ;
     schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
-    skos:prefLabel                     "Department License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
-    schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    skos:prefLabel                     "Department License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
     gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
-    schema:description                 "Software License Offer: Department License (25 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    schema:description                 "Software License Offer: Department License (25 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2022-01"^^<http://www.w3.org/2001/XMLSchema#string> ;
-    schema:name                        "Software License Offer: Department License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System."@en .
+    schema:name                        "Software License Offer: Department License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation- or Server-class Operating System."@en .
 
 <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>
     oplpro:hasFormat                   <http://data.openlinksw.com/oplweb/product_format/mt#this> ;
@@ -493,7 +493,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2024-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 
-    schema:name                        "Department License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:name                        "Department License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-retail-price#this> ;
     schema:price                       "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -508,21 +508,23 @@
     license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
-    schema:description                 "Department License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, with one year duration. Enables a pool of 25 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 25 concurrent client hosts."@en ;
+    schema:description                 "Department License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, with one year duration. Enables a pool of 25 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 25 concurrent client hosts."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7Oracle#this> ;
-    schema:name                        "Department License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:name                        "Department License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department#this> ;
-    skos:prefLabel                     "Department License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
-    schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    skos:prefLabel                     "Department License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     license:hasLicenseCode             "oracle12" ;
     license:hasLicenseFileName         "oracle12.lic" ;
     oplsof:hasDatabaseFamily           oplsof:Oracle ;
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
-    oplsof:hasDatabaseEngine           oplsof:Oracle12 .
+    oplsof:hasDatabaseEngine           oplsof:Oracle12 ,
+                                       oplsof:Oracle19 ,
+                                       oplsof:Oracle21 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
@@ -530,14 +532,14 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2024-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 
-    schema:name                        "Department Software License Retail Price Specification to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:name                        "Department Software License Retail Price Specification to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "19687.11"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://uda.openlinksw.com/offers/>
     schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department#this> ;
     schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department#this> ;
-    schema:name                        "Software License Offer: Department License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
+    schema:name                        "Software License Offer: Department License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2022-01#this>
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
@@ -558,13 +560,13 @@
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense7-workgroup-2022-01#this> ;
     schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
-    skos:prefLabel                     "Workgroup License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
-    schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    skos:prefLabel                     "Workgroup License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
     gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
-    schema:description                 "Software License Offer: Workgroup License (10 database sessions, 16 logical processors) for UDA 7.x Enterprise Edition Data Access (ODBC, JDBC, and ADO.NET Mechanisms) for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    schema:description                 "Software License Offer: Workgroup License (10 database sessions, 16 logical processors) for UDA 7.x Enterprise Edition Data Access (ODBC, JDBC, and ADO.NET Mechanisms) for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2022-01"^^<http://www.w3.org/2001/XMLSchema#string> ;
-    schema:name                        "Software License Offer: Workgroup License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    schema:name                        "Software License Offer: Workgroup License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
     license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup%23this&type=buy&mode=u> ;
     schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup%23this> .
@@ -591,7 +593,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2024-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 
-    schema:name                        "Workgroup License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:name                        "Workgroup License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-retail-price#this> ;
     schema:price                       "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -606,21 +608,23 @@
     license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
-    schema:description                 "Workgroup License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, with one year duration. Enables a pool of 10 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 10 concurrent client hosts."@en ;
+    schema:description                 "Workgroup License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, with one year duration. Enables a pool of 10 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 10 concurrent client hosts."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7Oracle#this> ;
-    schema:name                        "Workgroup License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:name                        "Workgroup License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup#this> ;
-    skos:prefLabel                     "Workgroup License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
-    schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    skos:prefLabel                     "Workgroup License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     license:hasLicenseCode             "oracle12" ;
     license:hasLicenseFileName         "oracle12.lic" ;
     oplsof:hasDatabaseFamily           oplsof:Oracle ;
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
-    oplsof:hasDatabaseEngine           oplsof:Oracle12 .
+    oplsof:hasDatabaseEngine           oplsof:Oracle12 ,
+                                       oplsof:Oracle19 ,
+                                       oplsof:Oracle21 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
@@ -628,14 +632,14 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2024-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 
-    schema:name                        "Workgroup Software License Retail Price Specification to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:name                        "Workgroup Software License Retail Price Specification to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "7874.84"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://uda.openlinksw.com/offers/>
     schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup#this> ;
     schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup#this> ;
-    schema:name                        "Software License Offer: Workgroup License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
+    schema:name                        "Software License Offer: Workgroup License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-workgroup-2022-01#this>
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup#this> .
@@ -1099,13 +1103,13 @@
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-oracle12-personal-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSDBAgentLicense7-personal-2022-01#this> ;
     schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
-    skos:prefLabel                     "Personal License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
-    schema:comment                     "Personal License (1 year duration, 5 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
+    skos:prefLabel                     "Personal License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
+    schema:comment                     "Personal License (1 year duration, 5 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
     gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
-    schema:description                 "Software License Offer: Personal License (1 year duration, 5 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation-class Operating System"@en ;
+    schema:description                 "Software License Offer: Personal License (1 year duration, 5 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation-class Operating System"@en ;
     offers:offerNumber                 "UDAMT-WKS-anyos-anydataccess-oracle12-personal-2022-01"^^<http://www.w3.org/2001/XMLSchema#string> ;
-    schema:name                        "Software License Offer: Personal License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation-class Operating System."@en ;
+    schema:name                        "Software License Offer: Personal License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation-class Operating System."@en ;
     skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
     license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal%23this&type=buy&mode=u> ;
     schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal%23this> .
@@ -1132,7 +1136,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2024-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 
-    schema:name                        "Personal License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
+    schema:name                        "Personal License Special Price Specification to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-oracle12-personal-retail-price#this> ;
     schema:price                       "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -1147,21 +1151,23 @@
     license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
-    schema:description                 "Personal License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x. Permits installation of Database Agent on one (1) server host running any Workstation-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, with one year duration. Enables a pool of 5 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 5 concurrent client hosts."@en ;
+    schema:description                 "Personal License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c. Permits installation of Database Agent on one (1) server host running any Workstation-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, with one year duration. Enables a pool of 5 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 5 concurrent client hosts."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7Oracle#this> ;
-    schema:name                        "Personal License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
+    schema:name                        "Personal License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal#this> ;
-    skos:prefLabel                     "Personal License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
-    schema:comment                     "Personal License (1 year duration, 5 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
+    skos:prefLabel                     "Personal License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
+    schema:comment                     "Personal License (1 year duration, 5 database sessions, 16 logical processors) to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
     license:hasLicenseCode             "oracle12" ;
     license:hasLicenseFileName         "oracle12.lic" ;
     oplsof:hasDatabaseFamily           oplsof:Oracle ;
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
-    oplsof:hasDatabaseEngine           oplsof:Oracle12 .
+    oplsof:hasDatabaseEngine           oplsof:Oracle12 ,
+                                       oplsof:Oracle19 ,
+                                       oplsof:Oracle21 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-oracle12-personal-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
@@ -1169,14 +1175,14 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2024-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 
-    schema:name                        "Personal Software License Retail Price Specification to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
+    schema:name                        "Personal Software License Retail Price Specification to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "1499.97"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://uda.openlinksw.com/offers/>
     schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal#this> ;
     schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal#this> ;
-    schema:name                        "Software License Offer: Personal License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
+    schema:name                        "Software License Offer: Personal License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense7-personal-2022-01#this>
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
@@ -1729,13 +1735,13 @@
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2022-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense8-department-2022-01#this> ;
     schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
-    skos:prefLabel                     "Department License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
-    schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    skos:prefLabel                     "Department License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "department"@en ;
     gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
-    schema:description                 "Software License Offer: Department License (25 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    schema:description                 "Software License Offer: Department License (25 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2022-01"^^<http://www.w3.org/2001/XMLSchema#string> ;
-    schema:name                        "Software License Offer: Department License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    schema:name                        "Software License Offer: Department License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
     license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2022-01%23this&type=buy&mode=u> ;
     schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2022-01%23this> .
@@ -1762,7 +1768,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2024-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 
-    schema:name                        "Department License Special Price Specification to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:name                        "Department License Special Price Specification to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2022-01-retail-price#this> ;
     schema:price                       "7499.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -1777,23 +1783,25 @@
     license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
-    schema:description                 "Department License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, with one year duration. Enables a pool of 25 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 25 concurrent client hosts."@en ;
+    schema:description                 "Department License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, with one year duration. Enables a pool of 25 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 25 concurrent client hosts."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Oracle#this> ,
                                        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Oracle#this> ,
                                        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Oracle#this> ;
-    schema:name                        "Department License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:name                        "Department License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2022-01#this> ;
-    skos:prefLabel                     "Department License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
-    schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    skos:prefLabel                     "Department License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:comment                     "Department License (25 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     license:hasLicenseCode             "oracle12" ;
     license:hasLicenseFileName         "oracle12.lic" ;
     oplsof:hasDatabaseFamily           oplsof:Oracle ;
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
-    oplsof:hasDatabaseEngine           oplsof:Oracle12 .
+    oplsof:hasDatabaseEngine           oplsof:Oracle12 ,
+                                       oplsof:Oracle19 ,
+                                       oplsof:Oracle21 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2022-01-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
@@ -1801,14 +1809,14 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2024-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 
-    schema:name                        "Department Software License Retail Price Specification to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:name                        "Department Software License Retail Price Specification to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "19687.11"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://uda.openlinksw.com/offers/>
     schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2022-01#this> ;
     schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-department-2022-01#this> ;
-    schema:name                        "Software License Offer: Department License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
+    schema:name                        "Software License Offer: Department License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense8-workgroup-2022-01#this>
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
@@ -1829,13 +1837,13 @@
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2022-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense8-workgroup-2022-01#this> ;
     schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
-    skos:prefLabel                     "Workgroup License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
-    schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    skos:prefLabel                     "Workgroup License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:category                    "workgroup"@en ;
     gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
-    schema:description                 "Software License Offer: Workgroup License (10 database sessions, 16 logical processors) for UDA 8.x Enterprise Edition Data Access (ODBC, JDBC, and ADO.NET Mechanisms) for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    schema:description                 "Software License Offer: Workgroup License (10 database sessions, 16 logical processors) for UDA 8.x Enterprise Edition Data Access (ODBC, JDBC, and ADO.NET Mechanisms) for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2022-01"^^<http://www.w3.org/2001/XMLSchema#string> ;
-    schema:name                        "Software License Offer: Workgroup License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    schema:name                        "Software License Offer: Workgroup License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
     license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2022-01%23this&type=buy&mode=u> ;
     schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2022-01%23this> .
@@ -1862,7 +1870,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2024-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 
-    schema:name                        "Workgroup License Special Price Specification to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:name                        "Workgroup License Special Price Specification to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2022-01-retail-price#this> ;
     schema:price                       "3374.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -1877,23 +1885,25 @@
     license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
-    schema:description                 "Workgroup License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, with one year duration. Enables a pool of 10 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 10 concurrent client hosts."@en ;
+    schema:description                 "Workgroup License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c. Permits installation of Database Agent on one (1) server host running any Workstation- or Server-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, with one year duration. Enables a pool of 10 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 10 concurrent client hosts."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udamt-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Oracle#this> ,
                                        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Oracle#this> ,
                                        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Oracle#this> ;
-    schema:name                        "Workgroup License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:name                        "Workgroup License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2022-01#this> ;
-    skos:prefLabel                     "Workgroup License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
-    schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    skos:prefLabel                     "Workgroup License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:comment                     "Workgroup License (10 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation- or Server-class Operating System"@en ;
     license:hasLicenseCode             "oracle12" ;
     license:hasLicenseFileName         "oracle12.lic" ;
     oplsof:hasDatabaseFamily           oplsof:Oracle ;
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
-    oplsof:hasDatabaseEngine           oplsof:Oracle12 .
+    oplsof:hasDatabaseEngine           oplsof:Oracle12 ,
+                                       oplsof:Oracle19 ,
+                                       oplsof:Oracle21 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2022-01-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
@@ -1901,14 +1911,14 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2024-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 
-    schema:name                        "Workgroup Software License Retail Price Specification to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
+    schema:name                        "Workgroup Software License Retail Price Specification to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation- or Server-class Operating System"@en ;
     schema:price                       "7874.84"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://uda.openlinksw.com/offers/>
     schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2022-01#this> ;
     schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2022-01#this> ;
-    schema:name                        "Software License Offer: Workgroup License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
+    schema:name                        "Software License Offer: Workgroup License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation- or Server-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSSVRRequestBrokerLicense8-workgroup-2022-01#this>
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-workgroup-2022-01#this> .
@@ -2374,13 +2384,13 @@
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2022-01-special-price#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSDBAgentLicense8-personal-2022-01#this> ;
     schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
-    skos:prefLabel                     "Personal License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
-    schema:comment                     "Personal License (1 year duration, 5 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
+    skos:prefLabel                     "Personal License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
+    schema:comment                     "Personal License (1 year duration, 5 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
     schema:category                    "personal"@en ;
     gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
-    schema:description                 "Software License Offer: Personal License (1 year duration, 5 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation-class Operating System"@en ;
+    schema:description                 "Software License Offer: Personal License (1 year duration, 5 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation-class Operating System"@en ;
     offers:offerNumber                 "UDAMT-WKS-anyos-anydataccess-oracle12-personal-2022-01"^^<http://www.w3.org/2001/XMLSchema#string> ;
-    schema:name                        "Software License Offer: Personal License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation-class Operating System."@en ;
+    schema:name                        "Software License Offer: Personal License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation-class Operating System."@en ;
     skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
     license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2022-01%23this&type=buy&mode=u> ;
     schema:potentialAction             <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2022-01%23this> .
@@ -2407,7 +2417,7 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2024-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 
-    schema:name                        "Personal License Special Price Specification to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
+    schema:name                        "Personal License Special Price Specification to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     offers:hasRetailPriceSpecification <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2022-01-retail-price#this> ;
     schema:price                       "1249.99"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
@@ -2422,23 +2432,25 @@
     license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
-    schema:description                 "Personal License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x. Permits installation of Database Agent on one (1) server host running any Workstation-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, with one year duration. Enables a pool of 5 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 5 concurrent client hosts."@en ;
+    schema:description                 "Personal License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c. Permits installation of Database Agent on one (1) server host running any Workstation-class Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, with one year duration. Enables a pool of 5 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 5 concurrent client hosts."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Oracle#this> ,
                                        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Oracle#this> ,
                                        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Oracle#this> ;
-    schema:name                        "Personal License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
+    schema:name                        "Personal License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2022-01#this> ;
-    skos:prefLabel                     "Personal License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
-    schema:comment                     "Personal License (1 year duration, 5 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
+    skos:prefLabel                     "Personal License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
+    schema:comment                     "Personal License (1 year duration, 5 database sessions, 16 logical processors) to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Workstation-class Operating System"@en ;
     license:hasLicenseCode             "oracle12" ;
     license:hasLicenseFileName         "oracle12.lic" ;
     oplsof:hasDatabaseFamily           oplsof:Oracle ;
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
-    oplsof:hasDatabaseEngine           oplsof:Oracle12 .
+    oplsof:hasDatabaseEngine           oplsof:Oracle12 ,
+                                       oplsof:Oracle19 ,
+                                       oplsof:Oracle21 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2022-01-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
@@ -2446,14 +2458,14 @@
     schema:validFrom                   "2019-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:validThrough                "2024-07-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 
-    schema:name                        "Personal Software License Retail Price Specification to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
+    schema:name                        "Personal Software License Retail Price Specification to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Workstation-class Operating System"@en ;
     schema:price                       "1499.97"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
     schema:priceCurrency               "USD"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://uda.openlinksw.com/offers/>
     schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2022-01#this> ;
     schema:about                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-oracle12-personal-2022-01#this> ;
-    schema:name                        "Software License Offer: Personal License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, for deployment on any supported Workstation-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
+    schema:name                        "Software License Offer: Personal License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation-class Operating System."^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense8-personal-2022-01#this>
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
