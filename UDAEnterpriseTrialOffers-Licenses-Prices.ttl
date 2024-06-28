@@ -1,0 +1,678 @@
+@prefix   schema: <http://schema.org/> .
+@prefix     rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix   offers: <http://www.openlinksw.com/ontology/offers#> .
+@prefix   oplpro: <http://www.openlinksw.com/ontology/products#> .
+@prefix       gr: <http://purl.org/goodrelations/v1#> .
+@prefix  license: <http://www.openlinksw.com/ontology/licenses#> .
+@prefix   oplsof: <http://www.openlinksw.com/ontology/software#> .
+@prefix     skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.openlinksw.com/dataspace/organization/openlink#this>
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release7-jdbc-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release7-odbc-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release7-oracle12-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release7-sqlserver-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-jdbc-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-odbc-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-oracle12-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-sqlserver-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-postgres-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-mysql5-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-inf11-trial#this> .
+
+# Trial License Duration
+<http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15>
+   a license:LicenseDuration ;
+   schema:name """15 Day Duration """^^xsd:string ;
+   license:isDurationOf                <http://data.openlinksw.com/oplweb/license/AnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSSVRDBAgentLicense7-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSSVRDBAgentLicense7-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense7-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSSVRDBAgentLicense7-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccessAnyOSWKSSVRRequestBrokerLicense8-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSSVRDBAgentLicense8-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSSVRDBAgentLicense8-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense8-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSSVRDBAgentLicense8-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccesspostgresAnyOSWKSSVRDBAgentLicense8-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccessmysql5AnyOSWKSSVRDBAgentLicense8-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccessinf11AnyOSWKSSVRDBAgentLicense8-trial#this> ;
+   license:durationDays "15"^^xsd:integer .
+
+# Trial Price Specification 
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-evaluation#this>
+    a                                  schema:UnitPriceSpecification ,
+                                       offers:RetailPriceSpecification ;
+   schema:priceCurrency "USD"^^xsd:string;
+   schema:price "00.00"^^xsd:decimal ;
+   schema:name """Price specification for UDA Enterprise drivers -- Free 15 Day Evaluation License -- Unit Price: 0.00"""^^xsd:string ;
+   schema:comment """The price of the 15 Day Evaluation License for the OpenLink UDA Enterprise Data Access Driver is zero."""^^xsd:string ;
+   schema:validFrom "2024-06-07T00:00:00+00:00"^^xsd:dateTime .
+
+# Release 7
+
+## Trial Broker License
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:RequestBrokerLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDAMTLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ,
+                                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ,
+                                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ,
+                                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release7-jdbc-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release7-odbc-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release7-oracle12-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release7-sqlserver-trial#this> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7ODBCBridge#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7JDBCBridge#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7Oracle#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7SQLServer#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7Sybase#this> ;
+    schema:name                        "Trial License to UDA 7.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    skos:prefLabel                     "Trial License to UDA 7.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 7.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    schema:description                 "Trial License to UDA 7.x Enterprise Edition Request Broker. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    license:hasLicenseCode             "oplrqb" ;
+    license:hasLicenseFileName         "oplrqb.lic" ;
+    oplsof:hasProtocolScope            oplsof:DataAccessProtocolAny .
+
+
+# JDBC Agent
+## Trial License
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSSVRDBAgentLicense7-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7JDBCBridge#this> ;
+    schema:name                        "Trial License to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release7-jdbc-trial#this> ;
+    skos:prefLabel                     "Trial License to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    license:hasLicenseCode             "jdbc" ;
+    license:hasLicenseFileName         "jdbc.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:JDBCBridge ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
+    oplsof:hasDatabaseEngine           oplsof:jdbc .
+
+## Trial Offer
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release7-jdbc-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDAEnterpriseOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release7-jdbc-trial> ;
+    schema:validFrom                   "2024-06-24T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSSVRDBAgentLicense7-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    skos:prefLabel                     "Trial License to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: Trial License (15 day duration, no processor or session limits) to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for JDBC Data Sources, for deployment on any supported Operating System"@en ;
+    offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-release7-jdbc-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: Trial License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-jdbc-bridge-mt%23this&clientSelection=odbc&releaseVersion=7.x&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23JDBCBridge&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23jdbc&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fmt%23this&opSystem=default&opsysFamily=default> .
+
+
+# ODBC Agent
+## Trial License
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSSVRDBAgentLicense7-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7ODBCBridge#this> ;
+    schema:name                        "Trial License to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-release7-odbc-trial#this> ;
+    skos:prefLabel                     "Trial License to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    license:hasLicenseCode             "odbc" ;
+    license:hasLicenseFileName         "odbc.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:ODBCBridge ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
+    oplsof:hasDatabaseEngine           oplsof:odbc .
+
+## Trial Offer
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release7-odbc-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDAEnterpriseOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release7-odbc-trial> ;
+    schema:validFrom                   "2024-06-24T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSSVRDBAgentLicense7-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    skos:prefLabel                     "Trial License to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: Trial License (15 day duration, no processor or session limits) to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for ODBC Data Sources, for deployment on any supported Operating System"@en ;
+    offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-release7-odbc-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: Trial License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-odbc-mt%23this&clientSelection=odbc&releaseVersion=7.x&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23ODBCBridge&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23odbc&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fmt%23this&opSystem=default&opsysFamily=default> .
+
+
+# Oracle 12 Agent
+## Trial License
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense7-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7Oracle#this> ;
+    schema:name                        "Trial License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release7-oracle12-trial#this> ;
+    skos:prefLabel                     "Trial License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    license:hasLicenseCode             "oracle12" ;
+    license:hasLicenseFileName         "oracle12.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:Oracle ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
+    oplsof:hasDatabaseEngine           oplsof:Oracle12 ,
+                                       oplsof:Oracle19 ,
+                                       oplsof:Oracle21 .
+
+
+## Trial Offer
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release7-oracle12-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDAEnterpriseOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release7-oracle12-trial> ;
+    schema:validFrom                   "2024-06-24T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense7-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    skos:prefLabel                     "Trial License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: Trial License (15 day duration, no processor or session limits) to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System"@en ;
+    offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-release7-oracle12-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: Trial License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-oracle-mt%23this&clientSelection=odbc&releaseVersion=7.x&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Oracle&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Oracle12&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fmt%23this&opSystem=default&opsysFamily=default> .
+
+
+# SQL Server Agent
+## Trial License
+<http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSSVRDBAgentLicense7-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7Sybase#this> ;
+    schema:name                        "Trial License to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release7-sqlserver-trial#this> ;
+    skos:prefLabel                     "Trial License to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    license:hasLicenseCode             "sqlserver" ;
+    license:hasLicenseFileName         "sqlserver.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:SQLServer ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
+    oplsof:hasDatabaseEngine           oplsof:SQLServer2014 .
+
+
+## Trial Offer
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release7-sqlserver-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDAEnterpriseOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release7-sqlserver-trial> ;
+    schema:validFrom                   "2024-06-24T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSSVRDBAgentLicense7-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccessAnyOSWKSSVRRequestBrokerLicense7-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    skos:prefLabel                     "Trial License to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: Trial License (15 day duration, no processor or session limits) to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Microsoft SQL Server & Sybase, for deployment on any supported Operating System"@en ;
+    offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-release7-sqlserver-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: Trial License to UDA 7.x Enterprise Edition (All Data Access Mechanisms) for Microsoft SQL Server & Sybase, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-sqlserver-mt%23this&clientSelection=odbc&releaseVersion=7.x&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23SQLServer&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23SQLServer2014&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fmt%23this&opSystem=default&opsysFamily=default> .
+
+
+
+# Release 8
+
+## Trial Broker License
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessAnyOSWKSSVRRequestBrokerLicense8-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:RequestBrokerLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDAMTLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ,
+                                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ,
+                                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ,
+                                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ,
+                                       <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this> ,
+                                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this> ,
+                                       <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-jdbc-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-odbc-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-oracle12-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-sqlserver-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-postgres-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-mysql5-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-inf11-trial#this> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8JDBCBridge#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8ODBCBridge#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Oracle#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8SQLServer#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8PostgreSQL#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8MySQL#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Informix#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Sybase#this> ;
+    schema:name                        "Trial License to UDA 8.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    schema:description                 "Trial License to UDA 8.x Enterprise Edition Request Broker. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    license:hasLicenseCode             "oplrqb" ;
+    license:hasLicenseFileName         "oplrqb.lic" ;
+    oplsof:hasProtocolScope            oplsof:DataAccessProtocolAny .
+
+
+# JDBC Agent
+## Trial License
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSSVRDBAgentLicense8-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for UDA 8.x Enterprise Edition Database Agent for JDBC. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8JDBCBridge#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8JDBCBridge#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8JDBCBridge#this> ;
+    schema:name                        "Trial License to UDA 8.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-jdbc-trial#this> ;
+    skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    license:hasLicenseCode             "jdbc" ;
+    license:hasLicenseFileName         "jdbc.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:JDBCBridge ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
+    oplsof:hasDatabaseEngine           oplsof:jdbc .
+
+
+## Trial Offer
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-jdbc-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDAEnterpriseOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-jdbc-trial> ;
+    schema:validFrom                   "2024-06-24T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessjdbcAnyOSWKSSVRDBAgentLicense8-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccessAnyOSWKSSVRRequestBrokerLicense8-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for JDBC Data Sources, for deployment on any supported Operating System"@en ;
+    offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-release8-jdbc-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: Trial License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-jdbc-bridge-mt%23this&clientSelection=odbc&releaseVersion=8.x&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23JDBCBridge&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23jdbc&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fmt%23this&opSystem=default&opsysFamily=default> .
+
+
+# ODBC Agent
+## Trial License
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSSVRDBAgentLicense8-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License to UDA 8.x Enterprise Edition Database Agent for ODBC Data Sources. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8ODBCBridge#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8ODBCBridge#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8ODBCBridge#this> ;
+    schema:name                        "Trial License to UDA 8.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-trial#this> ;
+    skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    license:hasLicenseCode             "odbc" ;
+    license:hasLicenseFileName         "odbc.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:ODBCBridge ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
+    oplsof:hasDatabaseEngine           oplsof:odbc .
+
+## Trial Offer
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-odbc-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDAEnterpriseOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-odbc-trial> ;
+    schema:validFrom                   "2024-06-24T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessodbcAnyOSWKSSVRDBAgentLicense8-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccessAnyOSWKSSVRRequestBrokerLicense8-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for ODBC Data Sources, for deployment on any supported Operating System"@en ;
+    offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-odbc-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: Trial License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-odbc-mt%23this&clientSelection=odbc&releaseVersion=8.x&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23ODBCBridge&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23odbc&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fmt%23this&opSystem=default&opsysFamily=default> .
+
+
+# Oracle 12 Agent
+## Trial License
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense8-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Oracle#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Oracle#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Oracle#this> ;
+    schema:name                        "Trial License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-trial#this> ;
+    skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    license:hasLicenseCode             "oracle12" ;
+    license:hasLicenseFileName         "oracle12.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:Oracle ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
+    oplsof:hasDatabaseEngine           oplsof:Oracle12 ,
+                                       oplsof:Oracle19 ,
+                                       oplsof:Oracle21 .
+
+
+## Trial Offer
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-oracle12-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDAEnterpriseOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-oracle12-trial> ;
+    schema:validFrom                   "2024-06-24T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense8-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccessAnyOSWKSSVRRequestBrokerLicense8-trial#this ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System"@en ;
+    offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-oracle12-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: Trial License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-oracle-mt%23this&clientSelection=odbc&releaseVersion=8.x&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Oracle&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Oracle12&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fmt%23this&opSystem=default&opsysFamily=default> .
+
+
+# SQL Server Agent
+## Trial License
+<http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSSVRDBAgentLicense8-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for UDA 8.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Sybase#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Sybase#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Sybase#this> ;
+    schema:name                        "Trial License to UDA 8.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-trial#this> ;
+    skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    license:hasLicenseCode             "sqlserver" ;
+    license:hasLicenseFileName         "sqlserver.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:SQLServer ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
+    oplsof:hasDatabaseEngine           oplsof:SQLServer2014 .
+
+## Trial Offer
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-sqlserver-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDAEnterpriseOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-sqlserver-trial> ;
+    schema:validFrom                   "2024-06-24T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSSVRDBAgentLicense8-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccessAnyOSWKSSVRRequestBrokerLicense8-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Microsoft SQL Server & Sybase, for deployment on any supported Operating System"@en ;
+    offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-sqlserver-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: Trial License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Microsoft SQL Server & Sybase, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-sqlserver-mt%23this&clientSelection=odbc&releaseVersion=8.x&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23SQLServer&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23SQLServer2014&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fmt%23this&opSystem=default&opsysFamily=default> .
+
+
+# PostgreSQL Agent
+## Trial License
+<http://data.openlinksw.com/oplweb/license/AnyDataAccesspostgresAnyOSWKSSVRDBAgentLicense8-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8PostgreSQL#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8PostgreSQL#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8PostgreSQL#this> ;
+    schema:name                        "Trial License to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-postgres-trial#this> ;
+    skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    license:hasLicenseCode             "postgres" ;
+    license:hasLicenseFileName         "postgres.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:PostgreSQL ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
+    oplsof:hasDatabaseEngine           oplsof:PostgreSQL6 ,
+                                       oplsof:PostgreSQL7 ,
+                                       oplsof:PostgreSQL8 ,
+                                       oplsof:PostgreSQL9 ,
+                                       oplsof:PostgreSQL10 ,
+                                       oplsof:PostgreSQL11 ,
+                                       oplsof:PostgreSQL12 .
+
+
+## Trial Offer
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-postgres-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDAEnterpriseOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-postgres-trial> ;
+    schema:validFrom                   "2024-06-24T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccesspostgresAnyOSWKSSVRDBAgentLicense8-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccessAnyOSWKSSVRRequestBrokerLicense8-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x, for deployment on any supported Operating System"@en ;
+    offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-postgres-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: Trial License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-postgres-mt%23this&clientSelection=odbc&releaseVersion=8.x&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23PostgreSQL&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23PostgreSQL6&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fmt%23this&opSystem=default&opsysFamily=default> .
+
+
+# Mysql 5
+## Trial License
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessmysql5AnyOSWKSSVRDBAgentLicense8-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8MySQL#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8MySQL#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8MySQL#this> ;
+    schema:name                        "Trial License to UDA 8.x Enterprise Edition Database Agent for MySQL 5.x, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-mysql5-trial#this> ;
+    skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Database Agent for MySQL 5.x, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Database Agent for MySQL 5.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    license:hasLicenseCode             "mysql5" ;
+    license:hasLicenseFileName         "mysql5.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:MySQL ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
+    oplsof:hasDatabaseEngine           oplsof:MySQL5 .
+
+
+## Trial Offer
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-mysql5-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDAEnterpriseOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-mysql5-trial> ;
+    schema:validFrom                   "2024-06-24T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessmysql5AnyOSWKSSVRDBAgentLicense8-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccessAnyOSWKSSVRRequestBrokerLicense8-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Database Agent for MySQL 5.x, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Database Agent for MySQL 5.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for MySQL 5.x, for deployment on any supported Operating System"@en ;
+    offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-mysql5-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: Trial License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-mysql-mt%23this&clientSelection=odbc&releaseVersion=8.x&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23MySQL&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23MySQL5&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fmt%23this&opSystem=default&opsysFamily=default> .
+
+
+# Informix Agent
+## Trial License
+<http://data.openlinksw.com/oplweb/license/AnyDataAccessinf11AnyOSWKSSVRDBAgentLicense8-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License to UDA 8.x Enterprise Edition Database Agent for Informix 11. Permits installation of Database Agent on one (1) server host running any Operating System with up to 16 logical processors without additional charges, and is transferable across hosts running supported operating systems, with one year duration. Enables a pool of 5 concurrent generic client (ODBC, JDBC, and/or ADO.NET) sessions to be shared by up to 5 concurrent client hosts."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Informix#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Informix#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Informix#this> ;
+    schema:name                        "Trial License to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-inf11-trial#this> ;
+    skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    license:hasLicenseCode             "informix11" ;
+    license:hasLicenseFileName         "informix11.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:Informix ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessProtocolAny ;
+    oplsof:hasDatabaseEngine           oplsof:Informix11 .
+
+## Trial Offer
+<http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-inf11-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDAEnterpriseOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-inf11-trial> ;
+    schema:validFrom                   "2024-06-24T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessinf11AnyOSWKSSVRDBAgentLicense8-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccessAnyOSWKSSVRRequestBrokerLicense8-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
+    skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Informix 11, for deployment on any supported Operating System"@en ;
+    offers:offerNumber                 "UDAMT-WKSSVR-anyos-anydataccess-inf11-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: Trial License to UDA 8.x Enterprise Edition (All Data Access Mechanisms) for Informix 11, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-informix-mt%23this&clientSelection=odbc&releaseVersion=8.x&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Informix&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Informix11&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fmt%23this&opSystem=default&opsysFamily=default> .
+

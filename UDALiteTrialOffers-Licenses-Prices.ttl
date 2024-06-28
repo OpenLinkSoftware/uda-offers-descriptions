@@ -1,0 +1,1518 @@
+@prefix   schema: <http://schema.org/> .
+@prefix     rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix   offers: <http://www.openlinksw.com/ontology/offers#> .
+@prefix   oplpro: <http://www.openlinksw.com/ontology/products#> .
+@prefix       gr: <http://purl.org/goodrelations/v1#> .
+@prefix  license: <http://www.openlinksw.com/ontology/licenses#> .
+@prefix   oplsof: <http://www.openlinksw.com/ontology/software#> .
+@prefix     skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://www.openlinksw.com/dataspace/organization/openlink#this>
+    schema:offers                      <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-db2-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-inf11-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-inf9-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-ing-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-jdbc-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-mys3-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-mys4-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-mys5-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-release7-odbc-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-odbc-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-ora10-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-ora11-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-ora12-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-postgres-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-pro10-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-pro11-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-pro9-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-sql-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-jdbc-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-mys5-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-ora12-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-postgres-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-sql-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-release8-odbc-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-sql-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-jdbc-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-inf11-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-ora12-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-mys5-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-postgres-trial#this> .
+
+
+# Trial License Duration
+
+<http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15>
+   a license:LicenseDuration ;
+   schema:name """15 Day Duration """^^xsd:string ;
+   license:isDurationOf                <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-db2-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-inf11-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-inf9-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ing-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-jdbc-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-mys3-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-mys4-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-mys5-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-odbc-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ora10-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ora11-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ora12-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-postgres-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-pro10-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-pro11-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-pro9-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-sql-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-jdbc-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-mys5-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-ora12-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-postgres-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-sql-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-sql-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-jdbc-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-inf11-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-ora12-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-mys5-trial#this> ,
+                                       <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-postgres-trial#this> ;
+   license:durationDays "15"^^xsd:integer .
+
+# Trial Price Specification 
+<http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this>
+    a                                  schema:UnitPriceSpecification ,
+                                       offers:RetailPriceSpecification ;
+   schema:priceCurrency "USD"^^xsd:string;
+   schema:price "00.00"^^xsd:decimal ;
+   schema:name """Price specification for UDA drivers -- Free 15 Day Evaluation License -- Unit Price: 0.00"""^^xsd:string ;
+   schema:comment """The price of the 15 Day Evaluation License for the OpenLink UDA Data Access Driver is zero."""^^xsd:string ;
+   schema:validFrom "2024-06-07T00:00:00+00:00"^^xsd:dateTime .
+
+# Release 7
+# DB2 Server Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-db2-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 7.x) ODBC Driver for DB2 6.x, 7.x, 8.x, 9.x, 10.x, and 11.x. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7DB2#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for DB2 6.x, 7.x, 8.x, 9.x, 10.x, and 11.x, for deployment on any supported Operating System"@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-db2-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-db2-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for DB2 6.x, 7.x, 8.x, 9.x, 10.x, and 11.x, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for DB2 6.x, 7.x, 8.x, 9.x, 10.x, and 11.x, for deployment on any supported Operating System"@en ;
+    license:hasLicenseCode             "db2_lt" ;
+    license:hasLicenseFileName         "db2_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:DB2 ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:db2 .
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-db2-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-db2-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-db2-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for DB2 6.x, 7.x, 8.x, 9.x, 10.x, and 11.x, for deployment on any supported Operating System"@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for DB2 6.x, 7.x, 8.x, 9.x, 10.x, and 11.x, for deployment on any supported Operating System"@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for DB2 6.x, 7.x, 8.x, 9.x, 10.x, and 11.x, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release7-db2-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for DB2 6.x, 7.x, 8.x, 9.x, 10.x, and 11.x, for deployment on any supported Operating System"@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-db2-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=7.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-db2-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23DB2&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23db2&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+
+# Informix 11 Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-inf11-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 7.x) ODBC Driver for Informix 11.x. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Informix#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-inf11-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Informix 11.x, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "inf11_lt" ;
+    license:hasLicenseFileName         "inf11_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:Informix ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:Informix11 .
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-inf11-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-inf11-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-inf11-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Informix 11.x, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Informix 11.x, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release7-inf11-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=7.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-informix-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Informix&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Informix11&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+# Informix 9 Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-inf9-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 7.x) ODBC Driver for Informix 9.x. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Informix#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Informix 9.x, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-inf9-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Informix 9.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Informix 9.x, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "inf9_lt" ;
+    license:hasLicenseFileName         "inf9_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:Informix ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:Informix9 .
+
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-inf9-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-release7-odbc-inf9-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-inf9-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Informix 9.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Informix 9.x, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Informix 9.x, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release7-inf9-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Informix 9.x, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=7.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-informix-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Informix&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Informix9&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+
+# Ingres Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ing-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 7.x) ODBC Driver for Ingres. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Ingres#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Ingres, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-ing-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Ingres, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Ingres, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "ing_lt" ;
+    license:hasLicenseFileName         "ing_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:Ingres ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:Ingres2 .
+
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-ing-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-ing-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ing-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Ingres, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Ingres, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Ingres, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release7-ing-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Ingres, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=7.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-ingres-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Ingres&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Ingres2&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+# ODBC-JDBC Bridge Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-jdbc-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 7.x) ODBC Driver for JDBC Data Sources. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7JDBCBridge#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-jdbc-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "jdbc_lt" ;
+    license:hasLicenseFileName         "jdbc_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:JDBCBridge ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:jdbc .
+
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-jdbc-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-jdbc-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-jdbc-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release7-jdbc-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=7.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-jdbc-bridge-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23JDBCBridge&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23jdbc&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+# MySQL 3 Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-mys3-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 7.x) ODBC Driver for MySQL 3.x. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7MySQL#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for MySQL 3.x, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-mys3-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for MySQL 3.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for MySQL 3.x, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "mys3_lt" ;
+    license:hasLicenseFileName         "mys3_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:MySQL ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:MySQL3 .
+
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-mys3-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-mys3-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-mys3-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for MySQL 3.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for MySQL 3.x, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for MySQL 3.x, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release7-mys3-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for MySQL 3.x, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=7.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-mysql-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23MySQL&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23MySQL3&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+# MySQL 4 Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-mys4-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 7.x) ODBC Driver for MySQL 4.x. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7MySQL#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for MySQL 4.x, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-mys4-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for MySQL 4.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for MySQL 4.x, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "mys4_lt" ;
+    license:hasLicenseFileName         "mys4_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:MySQL ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:MySQL4 .
+
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-mys4-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-mys4-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-mys4-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for MySQL 4.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for MySQL 4.x, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for MySQL 4.x, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release7-mys4-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for MySQL 4.x, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=7.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-mysql-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23MySQL&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23MySQL4&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+
+# MySQL 5 Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-mys5-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 7.x) ODBC Driver for MySQL 5.x. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7MySQL#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-mys5-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "mys5_lt" ;
+    license:hasLicenseFileName         "mys5_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:MySQL ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:MySQL5 .
+
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-mys5-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-mys5-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-mys5-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release7-mys5-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=7.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-mysql-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23MySQL&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23MySQL5&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+
+# JDBC-ODBC Bridge Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTJDBCRelease7LicenseWKSSVR-anyos-odbc-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 7.x) JDBC Driver for ODBC Data Sources. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease7ODBCBridge#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 7.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-release7-odbc-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) JDBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "jodbc_lt" ;
+    license:hasLicenseFileName         "jodbc_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:ODBCBridge ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessJDBC ;
+    oplsof:hasDatabaseEngine           oplsof:odbc .
+
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-release7-odbc-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-release7-odbc-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTJDBCRelease7LicenseWKSSVR-anyos-odbc-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) JDBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) JDBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-jdbc-release7-odbc-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 7.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=7.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fjdbc-odbc-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23ODBCBridge&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23odbc&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+# ODBC-ODBC Bridge Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-odbc-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 7.x) ODBC Driver for ODBC Data Sources. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7ODBCBridge#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-odbc-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "odbc_lt" ;
+    license:hasLicenseFileName         "odbc_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:ODBCBridge ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:odbc .
+
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-odbc-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-odbc-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-odbc-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release7-odbc-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-odbc-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=7.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-odbc-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23ODBCBridge&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23odbc&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+
+# Oracle 10 Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ora10-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 7.x) ODBC Driver for Oracle 10.x. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Oracle#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Oracle 10.x, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-ora10-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Oracle 10.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Oracle 10.x, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "ora10_lt" ;
+    license:hasLicenseFileName         "ora10_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:Oracle ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:Oracle10 .
+
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-ora10-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-ora10-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ora10-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Oracle 10.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Oracle 10.x, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Oracle 10.x, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release7-ora10-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Oracle 10.x, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=7.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-oracle-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Oracle&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Oracle10&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+
+# Oracle 11 Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ora11-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 7.x) ODBC Driver for Oracle 11.x. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Oracle#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Oracle 11.x, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-ora11-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Oracle 11.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Oracle 11.x, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "ora11_lt" ;
+    license:hasLicenseFileName         "ora11_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:Oracle ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:Oracle11 .
+
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-ora11-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-ora11-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ora11-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Oracle 11.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Oracle 11.x, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Oracle 11.x, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release7-ora11-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Oracle 11.x, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=7.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-oracle-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Oracle&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Oracle11&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+
+# Oracle 12 Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ora12-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 7.x) ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Oracle#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-ora12-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "ora12_lt" ;
+    license:hasLicenseFileName         "ora12_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:Oracle ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:Oracle12 ,
+                                       oplsof:Oracle19 ,
+                                       oplsof:Oracle21 .
+
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-ora12-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-ora12-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-ora12-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release7-ora12-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=7.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-oracle-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Oracle&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Oracle12&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+
+# Postgres Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-postgres-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 7.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7PostgreSQL#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-postgres-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "pgr7_lt" ;
+    license:hasLicenseFileName         "pgr7_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:PostgreSQL ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:PostgreSQL7 ,
+										oplsof:PostgreSQL8 ,
+										oplsof:PostgreSQL9 ,
+										oplsof:PostgreSQL10 ,
+										oplsof:PostgreSQL11 ,
+										oplsof:PostgreSQL12 .
+
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-postgres-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-postgres-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-postgres-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release7-postgres-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=7.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-postgres-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23ProstgreSQL&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23PostgreSQL7&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+
+# Progress OpenEdge 10.x Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-pro10-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 10.x. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Progress#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-pro10-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "pro10_lt" ;
+    license:hasLicenseFileName         "pro10_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:Progress ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:Progress10 .
+
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-pro10-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-release7-pro10-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-pro10-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKS-anyos-odbc-release7-pro10-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=7.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-progress-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Progress&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Progress10&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+
+# Progress OpenEdge 11 Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-pro11-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 11.x. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Progress#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-pro11-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "pro11_lt" ;
+    license:hasLicenseFileName         "pro11_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:Progress ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:Progress11 .
+
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-pro11-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-pro11-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-pro11-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release7-pro11-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=7.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-progress-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Progress&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Progress11&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+
+# Progress OpenEdge 9.x Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-pro9-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 9.x. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Progress#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-pro9-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "pro9_lt" ;
+    license:hasLicenseFileName         "pro9_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:Progress ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:Progress9 .
+
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-pro9-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-pro9-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-pro9-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release7-pro9-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=7.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-progress-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Progress&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Progress9&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+
+# SQL Server Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-sql-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 7.x) ODBC Driver for Microsoft SQL Server and Sybase. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7SQLServer#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-sql-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "sql_lt" ;
+    license:hasLicenseFileName         "sql_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:SQLServer ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:SQLServer2014 .
+
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-sql-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-sql-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease7LicenseWKSSVR-anyos-sql-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release7-sql-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=7.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-sqlserver-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23SQLServer&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23SQLServer2014&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+
+# Release 8
+# ODBC-JDBC Bridge Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-jdbc-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 8.x) ODBC Driver for JDBC Data Sources. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8JDBCBridge#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-jdbc-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "jdbc_lt" ;
+    license:hasLicenseFileName         "jdbc_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:JDBCBridge ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:jdbc .
+
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-jdbc-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-jdbc-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-jdbc-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release8-jdbc-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=8.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-jdbc-bridge-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23JDBCBridge&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23jdbc&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+
+# MySQL 5 Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-mys5-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 8.x) ODBC Driver for MySQL 5.x. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8MySQL#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-mys5-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "mys5_lt" ;
+    license:hasLicenseFileName         "mys5_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:MySQL ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:MySQL5 .
+
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-mys5-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-mys5-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-mys5-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release8-mys5-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=8.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-mysql-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23MySQL&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23MySQL5&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+
+# SQL Server Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-ora12-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 8.x) ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Oracle#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-ora12-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "ora12_lt" ;
+    license:hasLicenseFileName         "ora12_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:Oracle ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:Oracle12 ,
+                                       oplsof:Oracle19 ,
+                                       oplsof:Oracle21 .
+
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-ora12-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-ora12-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-ora12-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release8-ora12-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=8.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-oracle-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Oracle&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Oracle12&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+
+# PostgreSQL Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-postgres-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 8.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8PostgreSQL#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-postgres-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "pgr7_lt" ;
+    license:hasLicenseFileName         "pgr7_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:PostgreSQL ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:PostgreSQL7 ,
+										oplsof:PostgreSQL8 ,
+										oplsof:PostgreSQL9 ,
+										oplsof:PostgreSQL10 ,
+										oplsof:PostgreSQL11 ,
+										oplsof:PostgreSQL12 .
+
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-postgres-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-postgres-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-postgres-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release8-postgres-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=8.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-postgres-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23PostgreSQL&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23PostgreSQL7&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+# SQL Server Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-sql-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 8.x) ODBC Driver for Microsoft SQL Server and Sybase. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8SQLServer#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-sql-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "sql_lt" ;
+    license:hasLicenseFileName         "sql_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:SQLServer ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:SQLServer2014 .
+
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-sql-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-sql-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease8LicenseWKSSVR-anyos-sql-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release8-sql-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=8.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-sqlserver-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23SQLServer&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23SQLServer2014&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+
+# JDBC-ODBC Bridge Lite
+## Trial License
+<http://data.openlinksw.com/oplweb/license/UDALTJDBCRelease8LicenseWKSSVR-anyos-odbc-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 8.x) JDBC Driver for ODBC Data Sources. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease8ODBCBridge#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-release8-odbc-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) JDBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "jodbc_lt" ;
+    license:hasLicenseFileName         "jodbc_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:ODBCBridge ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessJDBC ;
+    oplsof:hasDatabaseEngine           oplsof:odbc .
+
+
+## Trial Offer 
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-release8-odbc-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-release8-odbc-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTJDBCRelease8LicenseWKSSVR-anyos-odbc-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) JDBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) JDBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-jdbc-release8-odbc-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=8.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fjdbc-odbc-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23ODBCBridge&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23odbc&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+
+# Release 9
+# SQL Server Lite
+## Trial License
+
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-sql-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 9.x) ODBC Driver for Microsoft SQL Server and Sybase.  Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9SQLServer#this> ;
+    schema:name                        "Software License: Trial License for UDA 9.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-sql-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: Trial License (15 day duration) for Lite Edition (Release 9.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "sql_lt" ;
+    license:hasLicenseFileName         "sql_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:SQLServer ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:SQLServer2014 .
+
+## Trial Offer 
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-sql-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-sql-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-sql-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 9.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 9.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release9-sql-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=9.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-sqlserver-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23SQLServer&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23SQLServer2008R2&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+
+# ODBC-JDBC Lite 
+
+## Trial License
+
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-jdbc-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 9.x) ODBC Driver for JDBC Data Sources.  Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9JDBCBridge#this> ;
+    schema:name                        "Software License: Trial License for UDA 9.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-jdbc-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation-class Operating System."@en ;
+    schema:comment                     "Software License: Trial License (15 day duration) for Lite Edition (Release 9.x) ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "jdbc_lt" ;
+    license:hasLicenseFileName         "jdbc_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:JDBCBridge ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:jdbc .
+
+## Trial Offer
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-jdbc-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-jdbc-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-jdbc-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation-class Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 9.x) ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 9.x) ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release9-jdbc-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=9.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-jdbc-bridge-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23JDBCBridge&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23jdbc&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+
+# Informix 11
+## Trial License
+
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-inf11-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 9.x) ODBC Driver for Informix 11.x.  Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9Informix#this> ;
+    schema:name                        "Software License: Trial License for UDA 9.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-inf11-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: Trial License (15 day duration) for Lite Edition (Release 9.x) ODBC Driver for Informix 11.x, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "inf11_lt" ;
+    license:hasLicenseFileName         "inf11_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:Informix ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:Informix11 .
+
+## Trial Offer 
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-inf11-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-inf11-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-inf11-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 9.x) ODBC Driver for Informix 11.x, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 9.x) ODBC Driver for Informix 11.x, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release9-inf11-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=9.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-informix-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Informix&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Informix11&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+# Oracle 12 Lite
+## Trial License
+
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-ora12-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 9.x) ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c.  Trial license has no restriction on sessions or processors and can be used on any supported operating systems for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9Oracle#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-ora12-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: Trial License (15 day duration) for Lite Edition (Release 9.x) ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "ora12_lt" ;
+    license:hasLicenseFileName         "ora12_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:Oracle ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:Oracle12 ,
+                                       oplsof:Oracle19 ,
+                                       oplsof:Oracle21 .
+
+## Trial Offer 
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-ora12-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-ora12-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-ora12-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 9.x) ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 9.x) ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release9-ora12-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 3.x Lite Edition ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=9.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-oracle-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Oracle&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23Oracle12&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+
+# MySQL 5 Lite
+## Trial License
+
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-mys5-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 9.x) ODBC Driver for MySQL 5.x.  Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9MySQL#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-mys5-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: Trial License (15 day duration) for Lite Edition (Release 9.x) ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "mys5_lt" ;
+    license:hasLicenseFileName         "mys5_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:MySQL ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:MySQL5 .
+
+## Trial Offer 
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-mys5-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-mys5-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-mys5-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 9.x) ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 9.x) ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release9-mys5-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=9.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-mysql-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23MySQL&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23MySQL5&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
+
+
+# Postgres Lite
+## Trial License
+
+<http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-postgres-trial#this>
+    a                                  schema:Product ,
+                                       license:ProductLicense ,
+                                       license:ExpiringLicense ,
+                                       license:UDASTLiteLicense ;
+    oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
+    oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
+    schema:description                 "Trial License for Lite Edition (Release 8.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9PostgreSQL#this> ;
+    schema:name                        "Software License: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> ;
+    license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
+    license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-postgres-trial#this> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: Trial License (15 day duration) for Lite Edition (Release 8.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    license:hasLicenseCode             "pgr7_lt" ;
+    license:hasLicenseFileName         "pgr7_lt.lic" ;
+    oplsof:hasDatabaseFamily           oplsof:PostgreSQL ;
+    oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
+    oplsof:hasDatabaseEngine           oplsof:PostgreSQL7 ,
+										oplsof:PostgreSQL8 ,
+										oplsof:PostgreSQL9 ,
+										oplsof:PostgreSQL10 ,
+										oplsof:PostgreSQL11 ,
+										oplsof:PostgreSQL12 .
+
+
+## Trial Offer 
+
+<http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-postgres-trial#this>
+    a                                  schema:Offer ,
+                                       offers:UDALiteOffer ,
+                                       offers:TrialOffer ;
+    schema:url                         <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-postgres-trial> ;
+    schema:validFrom                   "2024-06-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDA-evaluation#this> ;
+    schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/UDALTODBCRelease9LicenseWKSSVR-anyos-postgres-trial#this> ;
+    schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
+    skos:prefLabel                     "Software License: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    schema:category                    "trial"@en ;
+    gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
+    schema:description                 "Software License Offer: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    offers:offerNumber                 "UDALT-WKSSVR-anyos-odbc-release9-postgres-trial"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    schema:name                        "Software License Offer: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> ;
+    schema:potentialAction             <https://shop.openlinksw.com/license_generator/uda-generate.vsp?releaseVersion=9.x&product=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct%2Fodbc-postgres-st%23this&licenseFamily=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23PostgreSQL&licenseEngine=http%3A%2F%2Fwww.openlinksw.com%2Fontology%2Fsoftware%23PostgreSQL7&driverEdition=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Fproduct_format%2Fst%23this&opSystem=default&opsysFamily=default> .
