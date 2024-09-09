@@ -32,6 +32,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-sql-personal-2023-01#this> ;
     skos:prefLabel                     "Software License: Personal License for UDA 9.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation-class Operating System."@en ;
+    skos:altLabel                      "Personal License"@en ;
     schema:comment                     "Software License: Personal License (1 year duration, 16 logical processors, 5 sessions) for Lite Edition (Release 9.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation-class Operating System."@en ;
     license:hasLicenseCode             "sql_lt" ;
     license:hasLicenseFileName         "sql_lt.lic" ;
@@ -59,6 +60,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-sql-workgroup-2023-01#this> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 9.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    skos:altLabel                      "Workgroup License"@en ;
     schema:comment                     "Software License: Workgroup License (1 year duration, 16 logical processors, 10 sessions) for Lite Edition (Release 9.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     license:hasLicenseCode             "sql_lt" ;
     license:hasLicenseFileName         "sql_lt.lic" ;
@@ -86,6 +88,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-sql-department-2023-01#this> ;
     skos:prefLabel                     "Software License: Department License for UDA 9.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    skos:altLabel                      "Department License"@en ;
     schema:comment                     "Software License: Department License (1 year duration, 16 logical processors, 25 sessions) for Lite Edition (Release 9.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     license:hasLicenseCode             "sql_lt" ;
     license:hasLicenseFileName         "sql_lt.lic" ;
@@ -258,6 +261,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-jdbc-personal-2023-01#this> ;
     skos:prefLabel                     "Software License: Personal License for UDA 9.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation-class Operating System."@en ;
+    skos:altLabel                      "Personal License"@en ;
     schema:comment                     "Software License: Personal License (1 year duration, 16 logical processors, 5 sessions) for Lite Edition (Release 9.x) ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation-class Operating System."@en ;
     license:hasLicenseCode             "jdbc_lt" ;
     license:hasLicenseFileName         "jdbc_lt.lic" ;
@@ -286,6 +290,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-jdbc-workgroup-2023-01#this> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 9.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    skos:altLabel                      "Workgroup License"@en ;
     schema:comment                     "Software License: Workgroup License (1 year duration, 16 logical processors, 10 sessions) for Lite Edition (Release 9.x) ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     license:hasLicenseCode             "jdbc_lt" ;
     license:hasLicenseFileName         "jdbc_lt.lic" ;
@@ -314,6 +319,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-jdbc-department-2023-01#this> ;
     skos:prefLabel                     "Software License: Department License for UDA 9.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    skos:altLabel                      "Department License"@en ;
     schema:comment                     "Software License: Department License (1 year duration, 16 logical processors, 25 sessions) for Lite Edition (Release 9.x) ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     license:hasLicenseCode             "jdbc_lt" ;
     license:hasLicenseFileName         "jdbc_lt.lic" ;
@@ -540,6 +546,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-inf11-personal-2023-01#this> ;
     skos:prefLabel                     "Software License: Personal License for UDA 9.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Workstation-class Operating System."@en ;
+    skos:altLabel                      "Personal License"@en ;
     schema:comment                     "Software License: Personal License (1 year duration, 16 logical processors, 5 sessions) for Lite Edition (Release 9.x) ODBC Driver for Informix 11.x, for deployment on any supported Workstation-class Operating System."@en ;
     license:hasLicenseCode             "inf11_lt" ;
     license:hasLicenseFileName         "inf11_lt.lic" ;
@@ -631,6 +638,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-inf11-department-2023-01#this> ;
     skos:prefLabel                     "Software License: Department License for UDA 9.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    skos:altLabel                      "Department License"@en ;
     schema:comment                     "Software License: Department License (1 year duration, 16 logical processors, 25 sessions) for Lite Edition (Release 9.x) ODBC Driver for Informix 11.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     license:hasLicenseCode             "inf11_lt" ;
     license:hasLicenseFileName         "inf11_lt.lic" ;
@@ -722,6 +730,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-inf11-workgroup-2023-01#this> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 9.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    skos:altLabel                      "Workgroup License"@en ;
     schema:comment                     "Software License: Workgroup License (1 year duration, 16 logical processors, 10 sessions) for Lite Edition (Release 9.x) ODBC Driver for Informix 11.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     license:hasLicenseCode             "inf11_lt" ;
     license:hasLicenseFileName         "inf11_lt.lic" ;
@@ -813,6 +822,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-ora12-personal-2023-01#this> ;
     skos:prefLabel                     "Software License: Personal License for UDA 9.x Lite Edition ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c for deployment on any supported Workstation-class Operating System."@en ;
+    skos:altLabel                      "Personal License"@en ;
     schema:comment                     "Software License: Personal License (1 year duration, 16 logical processors, 5 sessions) for Lite Edition (Release 9.x) ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation-class Operating System."@en ;
     license:hasLicenseCode             "ora12_lt" ;
     license:hasLicenseFileName         "ora12_lt.lic" ;
@@ -904,6 +914,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-ora12-department-2023-01#this> ;
     skos:prefLabel                     "Software License: Department License for UDA 9.x Lite Edition ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    skos:altLabel                      "Department License"@en ;
     schema:comment                     "Software License: Department License (1 year duration, 16 logical processors, 25 sessions) for Lite Edition (Release 9.x) ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     license:hasLicenseCode             "ora12_lt" ;
     license:hasLicenseFileName         "ora12_lt.lic" ;
@@ -995,6 +1006,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-ora12-workgroup-2023-01#this> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 9.x Lite Edition ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    skos:altLabel                      "Workgroup License"@en ;
     schema:comment                     "Software License: Workgroup License (1 year duration, 16 logical processors, 10 sessions) for Lite Edition (Release 9.x) ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     license:hasLicenseCode             "ora12_lt" ;
     license:hasLicenseFileName         "ora12_lt.lic" ;
@@ -1088,6 +1100,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-mys5-personal-2023-01#this> ;
     skos:prefLabel                     "Software License: Personal License for UDA 9.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation-class Operating System."@en ;
+    skos:altLabel                      "Personal License"@en ;
     schema:comment                     "Software License: Personal License (1 year duration, 16 logical processors, 5 sessions) for Lite Edition (Release 9.x) ODBC Driver for MySQL 5.x, for deployment on any supported Workstation-class Operating System."@en ;
     license:hasLicenseCode             "mys5_lt" ;
     license:hasLicenseFileName         "mys5_lt.lic" ;
@@ -1177,6 +1190,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-mys5-department-2023-01#this> ;
     skos:prefLabel                     "Software License: Department License for UDA 9.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    skos:altLabel                      "Department License"@en ;
     schema:comment                     "Software License: Department License (1 year duration, 16 logical processors, 25 sessions) for Lite Edition (Release 9.x) ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     license:hasLicenseCode             "mys5_lt" ;
     license:hasLicenseFileName         "mys5_lt.lic" ;
@@ -1266,6 +1280,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-mys5-workgroup-2023-01#this> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 9.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    skos:altLabel                      "Workgroup License"@en ;
     schema:comment                     "Software License: Workgroup License (1 year duration, 16 logical processors, 10 sessions) for Lite Edition (Release 9.x) ODBC Driver for MySQL 5.x, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     license:hasLicenseCode             "mys5_lt" ;
     license:hasLicenseFileName         "mys5_lt.lic" ;
@@ -1357,6 +1372,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-postgres-personal-2023-01#this> ;
     skos:prefLabel                     "Software License: Personal License for UDA 9.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation-class Operating System."@en ;
+    skos:altLabel                      "Personal License"@en ;
     schema:comment                     "Software License: Personal License (1 year duration, 16 logical processors, 5 sessions) for Lite Edition (Release 8.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation-class Operating System."@en ;
     license:hasLicenseCode             "pgr7_lt" ;
     license:hasLicenseFileName         "pgr7_lt.lic" ;
@@ -1451,6 +1467,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-postgres-department-2023-01#this> ;
     skos:prefLabel                     "Software License: Department License for UDA 9.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    skos:altLabel                      "Department License"@en ;
     schema:comment                     "Software License: Department License (1 year duration, 16 logical processors, 25 sessions) for Lite Edition (Release 8.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System."@en ;
     license:hasLicenseCode             "pgr7_lt" ;
     license:hasLicenseFileName         "pgr7_lt.lic" ;
@@ -1545,6 +1562,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#annual> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-postgres-workgroup-2023-01#this> ;
     skos:prefLabel                     "Software License: Workgroup License for UDA 9.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System."@en ;
+    skos:altLabel                      "Workgroup License"@en ;
     schema:comment                     "Software License: Workgroup License (1 year duration, 16 logical processors, 10 sessions) for Lite Edition (Release 8.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Workstation- or Server-class Operating System."@en ;
     license:hasLicenseCode             "pgr7_lt" ;
     license:hasLicenseFileName         "pgr7_lt.lic" ;

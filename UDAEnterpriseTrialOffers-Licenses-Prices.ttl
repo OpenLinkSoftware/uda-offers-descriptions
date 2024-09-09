@@ -77,6 +77,7 @@
                                        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7Sybase#this> ;
     schema:name                        "Trial License to UDA 7.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
     skos:prefLabel                     "Trial License to UDA 7.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 7.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
     schema:description                 "Trial License to UDA 7.x Enterprise Edition Request Broker. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
@@ -103,6 +104,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release7-jdbc-trial#this> ;
     skos:prefLabel                     "Trial License to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 7.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
     license:hasLicenseCode             "jdbc" ;
     license:hasLicenseFileName         "jdbc.lic" ;
@@ -150,6 +152,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-release7-odbc-trial#this> ;
     skos:prefLabel                     "Trial License to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 7.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
     license:hasLicenseCode             "odbc" ;
     license:hasLicenseFileName         "odbc.lic" ;
@@ -197,6 +200,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release7-oracle12-trial#this> ;
     skos:prefLabel                     "Trial License to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 7.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
     license:hasLicenseCode             "oracle12" ;
     license:hasLicenseFileName         "oracle12.lic" ;
@@ -247,6 +251,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release7-sqlserver-trial#this> ;
     skos:prefLabel                     "Trial License to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 7.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
     license:hasLicenseCode             "sqlserver" ;
     license:hasLicenseFileName         "sqlserver.lic" ;
@@ -315,6 +320,7 @@
                                        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Sybase#this> ;
     schema:name                        "Trial License to UDA 8.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
     skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Request Broker, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
     schema:description                 "Trial License to UDA 8.x Enterprise Edition Request Broker. Trial license has no restriction on sessions or processors and can be used on any supported operating system for 15 days."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
@@ -343,6 +349,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-release8-jdbc-trial#this> ;
     skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Database Agent for JDBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
     license:hasLicenseCode             "jdbc" ;
     license:hasLicenseFileName         "jdbc.lic" ;
@@ -393,6 +400,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-odbc-trial#this> ;
     skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Database Agent for ODBC Data Sources, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
     license:hasLicenseCode             "odbc" ;
     license:hasLicenseFileName         "odbc.lic" ;
@@ -442,6 +450,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-oracle12-trial#this> ;
     skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
     license:hasLicenseCode             "oracle12" ;
     license:hasLicenseFileName         "oracle12.lic" ;
@@ -461,7 +470,7 @@
     schema:validFrom                   "2024-06-24T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     schema:priceSpecification          <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-evaluation#this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/license/AnyDataAccessoracle12AnyOSWKSSVRDBAgentLicense8-trial#this> ,
-                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccessAnyOSWKSSVRRequestBrokerLicense8-trial#this ;
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccessAnyOSWKSSVRRequestBrokerLicense8-trial#this> ;
     schema:image                       <https://uda.openlinksw.com/images/udamt-basicworkstation-license.png> ;
     skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
     schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Database Agent for Oracle 12.x, Oracle 19c and Oracle 21c, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
@@ -494,6 +503,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-sqlserver-trial#this> ;
     skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Database Agent for Microsoft SQL Server & Sybase, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
     license:hasLicenseCode             "sqlserver" ;
     license:hasLicenseFileName         "sqlserver.lic" ;
@@ -543,6 +553,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-postgres-trial#this> ;
     skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Database Agent for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
     license:hasLicenseCode             "postgres" ;
     license:hasLicenseFileName         "postgres.lic" ;
@@ -598,6 +609,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-mysql5-trial#this> ;
     skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Database Agent for MySQL 5.x, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Database Agent for MySQL 5.x, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
     license:hasLicenseCode             "mysql5" ;
     license:hasLicenseFileName         "mysql5.lic" ;
@@ -648,6 +660,7 @@
     license:hasDuration                 <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDAMT-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKSSVR-anyos-anydataccess-inf11-trial#this> ;
     skos:prefLabel                     "Trial License to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms, for deployment on any supported Operating System"@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Trial License (15 day duration, no processor or session limits) to UDA 8.x Enterprise Edition Database Agent for Informix 11, enabling All Data Access Mechanisms (ODBC, JDBC, and ADO.NET), for deployment on any supported Operating System"@en ;
     license:hasLicenseCode             "informix11" ;
     license:hasLicenseFileName         "informix11.lic" ;
