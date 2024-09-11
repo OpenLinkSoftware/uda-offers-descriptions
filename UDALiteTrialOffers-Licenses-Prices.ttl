@@ -104,6 +104,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-db2-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for DB2 6.x, 7.x, 8.x, 9.x, 10.x, and 11.x, for deployment on any supported Operating System"@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for DB2 6.x, 7.x, 8.x, 9.x, 10.x, and 11.x, for deployment on any supported Operating System"@en ;
     license:hasLicenseCode             "db2_lt" ;
     license:hasLicenseFileName         "db2_lt.lic" ;
@@ -150,6 +151,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-inf11-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Informix 11.x, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "inf11_lt" ;
     license:hasLicenseFileName         "inf11_lt.lic" ;
@@ -195,6 +197,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-inf9-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Informix 9.x, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Informix 9.x, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "inf9_lt" ;
     license:hasLicenseFileName         "inf9_lt.lic" ;
@@ -242,6 +245,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-ing-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Ingres, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Ingres, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "ing_lt" ;
     license:hasLicenseFileName         "ing_lt.lic" ;
@@ -288,6 +292,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-jdbc-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "jdbc_lt" ;
     license:hasLicenseFileName         "jdbc_lt.lic" ;
@@ -334,6 +339,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-mys3-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for MySQL 3.x, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for MySQL 3.x, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "mys3_lt" ;
     license:hasLicenseFileName         "mys3_lt.lic" ;
@@ -380,6 +386,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-mys4-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for MySQL 4.x, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for MySQL 4.x, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "mys4_lt" ;
     license:hasLicenseFileName         "mys4_lt.lic" ;
@@ -427,6 +434,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-mys5-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "mys5_lt" ;
     license:hasLicenseFileName         "mys5_lt.lic" ;
@@ -474,6 +482,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-release7-odbc-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) JDBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "jodbc_lt" ;
     license:hasLicenseFileName         "jodbc_lt.lic" ;
@@ -520,6 +529,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-odbc-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "odbc_lt" ;
     license:hasLicenseFileName         "odbc_lt.lic" ;
@@ -567,6 +577,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-ora10-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Oracle 10.x, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Oracle 10.x, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "ora10_lt" ;
     license:hasLicenseFileName         "ora10_lt.lic" ;
@@ -614,6 +625,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-ora11-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Oracle 11.x, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Oracle 11.x, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "ora11_lt" ;
     license:hasLicenseFileName         "ora11_lt.lic" ;
@@ -661,6 +673,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-ora12-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "ora12_lt" ;
     license:hasLicenseFileName         "ora12_lt.lic" ;
@@ -710,6 +723,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-postgres-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "pgr7_lt" ;
     license:hasLicenseFileName         "pgr7_lt.lic" ;
@@ -762,6 +776,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-pro10-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 10.x, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "pro10_lt" ;
     license:hasLicenseFileName         "pro10_lt.lic" ;
@@ -809,6 +824,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-pro11-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 11.x, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "pro11_lt" ;
     license:hasLicenseFileName         "pro11_lt.lic" ;
@@ -856,6 +872,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-pro9-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Progress OpenEdge 9.x, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "pro9_lt" ;
     license:hasLicenseFileName         "pro9_lt.lic" ;
@@ -903,6 +920,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release7-sql-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 7.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 7.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "sql_lt" ;
     license:hasLicenseFileName         "sql_lt.lic" ;
@@ -951,6 +969,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-jdbc-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "jdbc_lt" ;
     license:hasLicenseFileName         "jdbc_lt.lic" ;
@@ -998,6 +1017,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-mys5-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "mys5_lt" ;
     license:hasLicenseFileName         "mys5_lt.lic" ;
@@ -1045,6 +1065,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-ora12-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "ora12_lt" ;
     license:hasLicenseFileName         "ora12_lt.lic" ;
@@ -1094,6 +1115,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-postgres-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "pgr7_lt" ;
     license:hasLicenseFileName         "pgr7_lt.lic" ;
@@ -1145,6 +1167,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release8-sql-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 8.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "sql_lt" ;
     license:hasLicenseFileName         "sql_lt.lic" ;
@@ -1192,6 +1215,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-release8-odbc-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: 15 day Trial License (no processor or session limits) for Lite Edition (Release 8.x) JDBC Driver for ODBC Data Sources, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "jodbc_lt" ;
     license:hasLicenseFileName         "jodbc_lt.lic" ;
@@ -1241,6 +1265,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-sql-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: Trial License (15 day duration) for Lite Edition (Release 9.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "sql_lt" ;
     license:hasLicenseFileName         "sql_lt.lic" ;
@@ -1290,6 +1315,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-jdbc-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for JDBC Data Sources, for deployment on any supported Workstation-class Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: Trial License (15 day duration) for Lite Edition (Release 9.x) ODBC Driver for JDBC Data Sources, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "jdbc_lt" ;
     license:hasLicenseFileName         "jdbc_lt.lic" ;
@@ -1338,6 +1364,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-inf11-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for Informix 11.x, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: Trial License (15 day duration) for Lite Edition (Release 9.x) ODBC Driver for Informix 11.x, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "inf11_lt" ;
     license:hasLicenseFileName         "inf11_lt.lic" ;
@@ -1385,6 +1412,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-ora12-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: Trial License (15 day duration) for Lite Edition (Release 9.x) ODBC Driver for Oracle 12.x, Oracle 19c and Oracle 21c, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "ora12_lt" ;
     license:hasLicenseFileName         "ora12_lt.lic" ;
@@ -1435,6 +1463,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-mys5-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: Trial License (15 day duration) for Lite Edition (Release 9.x) ODBC Driver for MySQL 5.x, for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "mys5_lt" ;
     license:hasLicenseFileName         "mys5_lt.lic" ;
@@ -1483,6 +1512,7 @@
     license:hasDuration                <http://data.openlinksw.com/oplweb/license/License-Duration#Duration-UDA-Lite-Evaluation-15> ;
     license:partOf                     <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-release9-postgres-trial#this> ;
     skos:prefLabel                     "Software License: 15 day Trial License for UDA 9.x Lite Edition ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
+    skos:altLabel                      "Trial License"@en ;
     schema:comment                     "Software License: Trial License (15 day duration) for Lite Edition (Release 8.x) ODBC Driver for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x for deployment on any supported Operating System."@en ;
     license:hasLicenseCode             "pgr7_lt" ;
     license:hasLicenseFileName         "pgr7_lt.lic" ;
