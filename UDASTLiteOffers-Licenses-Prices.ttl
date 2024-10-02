@@ -9,7 +9,7 @@
     license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
     oplsof:hasOperatingSystemType      oplsof:workstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
-    schema:description                 "Personal License for Lite Edition (Release 8.x) JDBC Driver for ODBC Data Sources for installation on one (1) host with up to unrestricted CPU cores, running a Workstation-class Operating System. Allows five (5) concurrent JDBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, with 1 year duration."@en ;
+    schema:description                 "Personal License for Lite Edition (Release 8.x) JDBC Driver for ODBC Data Sources for installation on one (1) host with unrestricted CPU cores, running a Workstation-class Operating System. Allows five (5) concurrent JDBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, with 1 year duration."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease8ODBCBridge#this> ;
     schema:name                        "Software License: Personal License for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation-class Operating System."@en ;
@@ -99,7 +99,7 @@
     license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
-    schema:description                 "Department License for Lite Edition (Release 8.x) ODBC Driver for JDBC Driver for ODBC Data Sources, for installation on one (1) host with up to unrestricted CPU cores, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent JDBC sessions from licensed host, and is transferable across hosts running supported operating systems, with 1 year duration."@en ;
+    schema:description                 "Department License for Lite Edition (Release 8.x) ODBC Driver for JDBC Driver for ODBC Data Sources, for installation on one (1) host with unrestricted CPU cores, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent JDBC sessions from licensed host, and is transferable across hosts running supported operating systems, with 1 year duration."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease8ODBCBridge#this> ;
     schema:name                        "Software License: Department License for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System."@en ;
@@ -190,7 +190,7 @@
     license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
     oplsof:hasOperatingSystemType      oplsof:serverWorkstationOS ;
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
-    schema:description                 "Workgroup License for Lite Edition (Release 8.x) JDBC Driver for ODBC Data Sources for installation on one (1) host with up to unrestricted CPU cores, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent JDBC sessions from licensed host, and is transferable across hosts running supported operating systems, with 1 year duration."@en ;
+    schema:description                 "Workgroup License for Lite Edition (Release 8.x) JDBC Driver for ODBC Data Sources for installation on one (1) host with unrestricted CPU cores, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent JDBC sessions from licensed host, and is transferable across hosts running supported operating systems, with 1 year duration."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
     license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease8ODBCBridge#this> ;
     schema:name                        "Software License: Workgroup License for UDA 8.x Lite Edition JDBC Driver for ODBC Data Sources, for deployment on any supported Workstation- or Server-class Operating System."@en ;
