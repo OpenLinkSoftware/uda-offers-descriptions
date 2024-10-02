@@ -1,11 +1,11 @@
-@prefix schema: <http://schema.org/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix offers: <http://www.openlinksw.com/ontology/offers#> .
-@prefix oplpro: <http://www.openlinksw.com/ontology/products#> .
+@prefix      gr: <http://purl.org/goodrelations/v1#> .
 @prefix license: <http://www.openlinksw.com/ontology/licenses#> .
-@prefix gr: <http://purl.org/goodrelations/v1#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix oplsof: <http://www.openlinksw.com/ontology/software#> .
+@prefix  offers: <http://www.openlinksw.com/ontology/offers#> .
+@prefix  oplpro: <http://www.openlinksw.com/ontology/products#> .
+@prefix  oplsof: <http://www.openlinksw.com/ontology/software#> .
+@prefix    rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix  schema: <http://schema.org/> .
+@prefix    skos: <http://www.w3.org/2004/02/skos/core#> .
 
 
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAEE-WKS-anyos-odbc-db2-personal-2019-01#this> a schema:Offer , offers:UDAExpressOffer , offers:UDAExpressSpecialOffer ;
