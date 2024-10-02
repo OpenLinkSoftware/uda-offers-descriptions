@@ -76,7 +76,7 @@ source: a schema:CreativeWork ;
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC Driver (Single-Tier Edition) Version 9.0 Release for JDBC 4.x Data Sources "^^xsd:string ;
+    schema:name "ODBC Driver (Single-Tier Edition) Release 9.0 for JDBC Data Sources "^^xsd:string ;
     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this> ;
@@ -84,7 +84,7 @@ source: a schema:CreativeWork ;
     schema:version "9.0"^^xsd:decimal ;
     oplpro:versionText "9.x"^^xsd:string ;
     skos:altLabel "ODBC to JDBC Bridge"^^xsd:string ;
-    skos:prefLabel "ODBC Driver (Single-Tier Edition) Version 9.0 Release for JDBC 4.x Data Sources "^^xsd:string ;
+    skos:prefLabel "ODBC Driver (Single-Tier Edition) Release 9.0 for JDBC Data Sources "^^xsd:string ;
     wdrs:describedby source: .
 
 ## JDBC to ODBC Bridge 
@@ -93,7 +93,7 @@ source: a schema:CreativeWork ;
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "JDBC Driver (Single-Tier Edition) Version 9.0 Release for ODBC 4.x Data Sources "^^xsd:string ;
+    schema:name "JDBC Driver (Single-Tier Edition) Release 9.0 for ODBC Data Sources "^^xsd:string ;
     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this> ;
@@ -101,7 +101,7 @@ source: a schema:CreativeWork ;
     schema:version "9.0"^^xsd:decimal ;
     oplpro:versionText "9.x"^^xsd:string ;
     skos:altLabel "JDBC to ODBC Bridge"^^xsd:string ;
-    skos:prefLabel "JDBC Driver (Single-Tier Edition) Version 9.0 Release for ODBC Data Sources "^^xsd:string ;
+    skos:prefLabel "JDBC Driver (Single-Tier Edition) Release 9.0 for ODBC Data Sources "^^xsd:string ;
     wdrs:describedby source: .
 
 ## SQL Server
@@ -110,7 +110,7 @@ source: a schema:CreativeWork ;
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC Driver (Single-Tier Edition) Version 9.0 Release for SQLServer "^^xsd:string ;
+    schema:name "ODBC Driver (Single-Tier Edition) Release 9.0 for SQLServer "^^xsd:string ;
     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/azure-protocol-support#this> ;
@@ -118,8 +118,8 @@ source: a schema:CreativeWork ;
     schema:image <http://uda.openlinksw.com/images/odbcsqlserverst.gif> ;
     schema:version "9.0"^^xsd:decimal ;
     oplpro:versionText "9.x"^^xsd:string ;
-    skos:altLabel "ODBC Release for SQLServer "^^xsd:string ;
-    skos:prefLabel "ODBC Driver (Single-Tier Edition) Version 9.0 Release for SQLServer "^^xsd:string ;
+    skos:altLabel "ODBC Driver for SQLServer "^^xsd:string ;
+    skos:prefLabel "ODBC Driver (Single-Tier Edition) Release 9.0 for SQLServer "^^xsd:string ;
     wdrs:describedby source: .
 
 ## Sybase
@@ -128,7 +128,7 @@ source: a schema:CreativeWork ;
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC Driver (Single-Tier Edition) Version 9.0 Release for Sybase "^^xsd:string ;
+    schema:name "ODBC Driver (Single-Tier Edition) Release 9.0 for Sybase "^^xsd:string ;
     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/azure-protocol-support#this> ;
@@ -136,8 +136,8 @@ source: a schema:CreativeWork ;
     schema:image <http://uda.openlinksw.com/images/odbcsybasest.gif> ;
     schema:version "9.0"^^xsd:decimal ;
     oplpro:versionText "9.x"^^xsd:string ;
-    skos:altLabel "ODBC Release for Sybase "^^xsd:string ;
-    skos:prefLabel "ODBC Driver (Single-Tier Edition) Version 9.0 Release for Sybase "^^xsd:string ;
+    skos:altLabel "ODBC Driver for Sybase "^^xsd:string ;
+    skos:prefLabel "ODBC Driver (Single-Tier Edition) Release 9.0 for Sybase "^^xsd:string ;
     wdrs:describedby source: .
 
 ## Informix
@@ -146,15 +146,15 @@ source: a schema:CreativeWork ;
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC Driver (Single-Tier Edition) Version 9.0 Release for Informix "^^xsd:string ;
+    schema:name "ODBC Driver (Single-Tier Edition) Release 9.0 for Informix "^^xsd:string ;
     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> ;
     schema:image <http://uda.openlinksw.com/images/odbcinformixst.gif> ;
     schema:version "9.0"^^xsd:decimal ;
     oplpro:versionText "9.x"^^xsd:string ;
-    skos:altLabel "ODBC Release for Informix "^^xsd:string ;
-    skos:prefLabel "ODBC Driver (Single-Tier Edition) Version 9.0 Release for Informix "^^xsd:string ;
+    skos:altLabel "ODBC Driver for Informix "^^xsd:string ;
+    skos:prefLabel "ODBC Driver (Single-Tier Edition) Release 9.0 for Informix "^^xsd:string ;
     wdrs:describedby source: .
 
 ## Oracle
@@ -163,15 +163,15 @@ source: a schema:CreativeWork ;
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC Driver (Single-Tier Edition) Version 9.0 Release for Oracle "^^xsd:string ;
+    schema:name "ODBC Driver (Single-Tier Edition) Release 9.0 for Oracle "^^xsd:string ;
     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
     schema:image <http://uda.openlinksw.com/images/odbcoraclest.gif> ;
     schema:version "9.0"^^xsd:decimal ;
     oplpro:versionText "9.x"^^xsd:string ;
-    skos:altLabel "ODBC Release for Oracle "^^xsd:string ;
-    skos:prefLabel "ODBC Driver (Single-Tier Edition) Version 9.0 Release for Oracle "^^xsd:string ;
+    skos:altLabel "ODBC Driver for Oracle "^^xsd:string ;
+    skos:prefLabel "ODBC Driver (Single-Tier Edition) Release 9.0 for Oracle "^^xsd:string ;
     wdrs:describedby source: .
 
 ## PostgreSQL
@@ -180,7 +180,7 @@ source: a schema:CreativeWork ;
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC Driver (Single-Tier Edition) Version 9.0 Release for PostgreSQL "^^xsd:string ;
+    schema:name "ODBC Driver (Single-Tier Edition) Release 9.0 for PostgreSQL "^^xsd:string ;
     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/tls-support#this> ,
@@ -189,8 +189,8 @@ source: a schema:CreativeWork ;
     schema:image <http://uda.openlinksw.com/images/odbcpostgresst.gif> ;
     schema:version "9.0"^^xsd:decimal ;
     oplpro:versionText "9.x"^^xsd:string ;
-    skos:altLabel "ODBC Release for PostgreSQL "^^xsd:string ;
-    skos:prefLabel "ODBC Driver (Single-Tier Edition) Version 9.0 Release for PostgreSQL "^^xsd:string ;
+    skos:altLabel "ODBC Driver for PostgreSQL "^^xsd:string ;
+    skos:prefLabel "ODBC Driver (Single-Tier Edition) Release 9.0 for PostgreSQL "^^xsd:string ;
     wdrs:describedby source: .
 
 ## MySQL
@@ -199,15 +199,15 @@ source: a schema:CreativeWork ;
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC Driver (Single-Tier Edition) Version 9.0 Release for MySQL "^^xsd:string ;
+    schema:name "ODBC Driver (Single-Tier Edition) Release 9.0 for MySQL "^^xsd:string ;
     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
     schema:image <http://uda.openlinksw.com/images/odbcmysqlst.gif> ;
     schema:version "9.0"^^xsd:decimal ;
     oplpro:versionText "9.x"^^xsd:string ;
-    skos:altLabel "ODBC Release for MySQL "^^xsd:string ;
-    skos:prefLabel "ODBC Driver (Single-Tier Edition) Version 9.0 Release for MySQL "^^xsd:string ;
+    skos:altLabel "ODBC Driver for MySQL "^^xsd:string ;
+    skos:prefLabel "ODBC Driver (Single-Tier Edition) Release 9.0 for MySQL "^^xsd:string ;
     wdrs:describedby source: .
 
 
@@ -217,14 +217,14 @@ source: a schema:CreativeWork ;
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC, JDBC Connectivity Mechanism (Protocol) (Single-Tier Edition) Version 9.0 Release for ODBC 3.5.x Data Sources "^^xsd:string ;
+    schema:name "ODBC, JDBC Connectivity Mechanism (Protocol) (Single-Tier Edition) Release 9.0 for ODBC Data Sources "^^xsd:string ;
     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-odbc-st#this> ,
                        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this> ;
     schema:image <http://uda.openlinksw.com/images/jdbcodbcst.gif> , <http://uda.openlinksw.com/images/odbcodbcst.gif>  ;
     schema:version "9.0"^^xsd:decimal ;
     oplpro:versionText "9.x"^^xsd:string ;
-    skos:altLabel "ODBC, JDBC Connectivity Mechanism (Protocol) Release for ODBC 3.5.x Data Sources "^^xsd:string ;
-    skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Single-Tier Edition) Version 9.0 Release for ODBC 3.5.x Data Sources "^^xsd:string ;
+    skos:altLabel "ODBC, JDBC Connectivity Mechanism (Protocol) Release 9.0 for ODBC Data Sources "^^xsd:string ;
+    skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Single-Tier Edition) Release 9.0 for ODBC Data Sources "^^xsd:string ;
     wdrs:describedby source: .
 
 ## Features Descriptions ##
@@ -233,7 +233,7 @@ source: a schema:CreativeWork ;
 a oplfeat:Feature ;
 schema:name "UTF-16 Support" ;
 skos:prefLabel "Unicode-16 Support" ;
-schema:description """Usable with Unicode-16 compliant applications and development environments e.g., applications and services built 
+schema:description """Usable with Unicode-16 compliant applications and development environments, including applications and services built 
                    using the unixODBC Runtime and SDK""";
 oplben:hasBenefit <http://data.openlinksw.com/oplweb/product_benefit/IndustryStandardsCompliance#this>,
                   <http://data.openlinksw.com/oplweb/product_benefit/SophisticatedApplicationFunctionality#this> ;
@@ -244,7 +244,7 @@ a oplfeat:Feature ;
 schema:name "UCS-4 Support" ;
 skos:altLabel "Unicode-32" ;
 skos:prefLabel "Unicode-32 Support" ;
-schema:description """Usable with Unicode-32 compliant applications and development environments e.g., applications and services built 
+schema:description """Usable with Unicode-32 compliant applications and development environments, including applications and services built 
                    using the unixODBC Runtime and SDK""";
 oplben:hasBenefit <http://data.openlinksw.com/oplweb/product_benefit/IndustryStandardsCompliance#this>,
                   <http://data.openlinksw.com/oplweb/product_benefit/SophisticatedApplicationFunctionality#this> ;
