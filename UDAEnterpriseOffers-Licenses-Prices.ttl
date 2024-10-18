@@ -3859,7 +3859,7 @@
     schema:category                    "personal"@en ;
     gr:businessFunction                <http://schema.org/businessFunction#Sell> ;
     schema:description                 "Software License Offer: Personal License (1 year duration, 5 database sessions) to UDA 9.x Enterprise Edition (All Data Access Mechanisms) for Microsoft SQL Server & Sybase, for deployment on any supported Workstation-class Operating System"@en ;
-    offers:offerNumber                 "UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2022-01"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    offers:offerNumber                 "UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2024-10"^^<http://www.w3.org/2001/XMLSchema#string> ;
     schema:name                        "Software License Offer: Personal License to UDA 9.x Enterprise Edition (All Data Access Mechanisms) for Microsoft SQL Server & Sybase, for deployment on any supported Workstation-class Operating System."@en ;
     skos:related                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
     license:hasBuyService              <http://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal%23this&type=buy&mode=u> ;
@@ -3879,7 +3879,7 @@
 <http://data.openlinksw.com/oplweb/offer/Offer-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-2024-10#this>
     schema:mainEntityOfPage            <https://shop.openlinksw.com/cart.vsp?command=add&item=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDAMT-WKS-anyos-anydataccess-sqlserver-persona0%23this> ;
     schema:itemOffered                 <http://data.openlinksw.com/oplweb/licenseAnyDataAccessAnyOSWKSRequestBrokerLicense9-personal-2024-01#this>,
-                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSDBAgentLicense9-personal-2022-01#this> .
+                                       <http://data.openlinksw.com/oplweb/license/AnyDataAccesssqlserverAnyOSWKSDBAgentLicense9-personal-2024-10#this> .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDAMT-WKS-anyos-anydataccess-sqlserver-personal-special-price#this>
     a                                  schema:UnitPriceSpecification ,
