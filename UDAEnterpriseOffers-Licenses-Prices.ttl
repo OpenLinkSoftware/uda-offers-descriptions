@@ -114,7 +114,7 @@
                                        license:ProductLicense ,
                                        license:RequestBrokerLicense ,
                                        license:ExpiringLicense ,
-                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+                                       license:UDAMTLicense ;
     license:hasSessions                "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -964,7 +964,7 @@
                                        license:ProductLicense ,
                                        license:RequestBrokerLicense ,
                                        license:ExpiringLicense ,
-                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+                                       license:UDAMTLicense ;
     license:hasSessions                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1091,7 +1091,7 @@
                                        license:ProductLicense ,
                                        license:RequestBrokerLicense ,
                                        license:ExpiringLicense ,
-                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+                                       license:UDAMTLicense ;
     license:hasSessions                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -1423,7 +1423,7 @@
                                        license:ProductLicense ,
                                        license:RequestBrokerLicense ,
                                        license:ExpiringLicense ,
-                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+                                       license:UDAMTLicense ;
     license:hasSessions                "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -2271,7 +2271,7 @@
                                        license:ProductLicense ,
                                        license:RequestBrokerLicense ,
                                        license:ExpiringLicense ,
-                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+                                       license:UDAMTLicense ;
     license:hasSessions                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -2400,7 +2400,7 @@
                                        license:ProductLicense ,
                                        license:RequestBrokerLicense ,
                                        license:ExpiringLicense ,
-                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+                                       license:UDAMTLicense ;
     license:hasSessions                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -3684,7 +3684,7 @@
                                        license:ProductLicense ,
                                        license:RequestBrokerLicense ,
                                        license:ExpiringLicense ,
-                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+                                       license:UDAMTLicense ;
     license:hasSessions                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -3815,7 +3815,7 @@
                                        license:ProductLicense ,
                                        license:RequestBrokerLicense ,
                                        license:ExpiringLicense ,
-                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+                                       license:UDAMTLicense ;
     license:hasSessions                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -3925,7 +3925,7 @@
                                        license:ProductLicense ,
                                        license:RequestBrokerLicense ,
                                        license:ExpiringLicense ,
-                                       license:DatabaseAgentLicense, license:UDAMTLicense ;
+                                       license:UDAMTLicense ;
     license:hasSessions                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:hasMaximumProcessorCores   "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
     license:maxNetworkInstance         "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
