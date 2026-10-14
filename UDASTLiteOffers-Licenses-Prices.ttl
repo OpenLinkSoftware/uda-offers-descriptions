@@ -4750,7 +4750,8 @@
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 7.x) ODBC Driver for Microsoft SQL Server and Sybase for installation on one (1) host with up to unrestricted CPU cores, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, with 1 year duration."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
-    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7SQLServer#this> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7SQLServer#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Sybase#this> ;
     schema:name                        "Software License: Personal License for UDA 7.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation-class Operating System."@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -4761,9 +4762,14 @@
     schema:comment                     "Software License: Personal License (1 year duration, unrestricted CPU cores, 5 sessions) for Lite Edition (Release 7.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation-class Operating System."@en ;
     license:hasLicenseCode             "sql_lt" ;
     license:hasLicenseFileName         "sql_lt.lic" ;
-    oplsof:hasDatabaseFamily           oplsof:SQLServer ;
+    oplsof:hasDatabaseFamily           oplsof:SQLServer, 
+                                       oplsof:Sybase ;
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
-    oplsof:hasDatabaseEngine           oplsof:SQLServer2014 .
+    oplsof:hasDatabaseEngine           oplsof:SQLServer2014, 
+                                       oplsof:Sybase10 ,
+                                       oplsof:Sybase11 ,
+                                       oplsof:Sybase12 ,
+                                       oplsof:Sybase15 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-sql-personal-2019-01-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
@@ -4840,7 +4846,8 @@
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 7.x) ODBC Driver for ODBC Driver for Microsoft SQL Server and Sybase, for installation on one (1) host with up to unrestricted CPU cores, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, with 1 year duration."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
-    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7SQLServer#this> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7SQLServer#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Sybase#this> ;
     schema:name                        "Software License: Department License for UDA 7.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -4851,9 +4858,14 @@
     schema:comment                     "Software License: Department License (1 year duration, unrestricted CPU cores, 25 sessions) for Lite Edition (Release 7.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     license:hasLicenseCode             "sql_lt" ;
     license:hasLicenseFileName         "sql_lt.lic" ;
-    oplsof:hasDatabaseFamily           oplsof:SQLServer ;
+    oplsof:hasDatabaseFamily           oplsof:SQLServer, 
+                                       oplsof:Sybase ;
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
-    oplsof:hasDatabaseEngine           oplsof:SQLServer2014 .
+    oplsof:hasDatabaseEngine           oplsof:SQLServer2014, 
+                                       oplsof:Sybase10 ,
+                                       oplsof:Sybase11 ,
+                                       oplsof:Sybase12 ,
+                                       oplsof:Sybase15 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-sql-department-2019-01-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
@@ -4930,7 +4942,8 @@
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 7.x) ODBC Driver for Microsoft SQL Server and Sybase for installation on one (1) host with up to unrestricted CPU cores, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, with 1 year duration."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
-    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7SQLServer#this> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7SQLServer#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Sybase#this> ;
     schema:name                        "Software License: Workgroup License for UDA 7.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -4941,9 +4954,14 @@
     schema:comment                     "Software License: Workgroup License (1 year duration, unrestricted CPU cores, 10 sessions) for Lite Edition (Release 7.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     license:hasLicenseCode             "sql_lt" ;
     license:hasLicenseFileName         "sql_lt.lic" ;
-    oplsof:hasDatabaseFamily           oplsof:SQLServer ;
+    oplsof:hasDatabaseFamily           oplsof:SQLServer, 
+                                       oplsof:Sybase ;
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
-    oplsof:hasDatabaseEngine           oplsof:SQLServer2014 .
+    oplsof:hasDatabaseEngine           oplsof:SQLServer2014, 
+                                       oplsof:Sybase10 ,
+                                       oplsof:Sybase11 ,
+                                       oplsof:Sybase12 ,
+                                       oplsof:Sybase15 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-sql-workgroup-2019-01-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
@@ -6131,7 +6149,8 @@
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Personal License for Lite Edition (Release 8.x) ODBC Driver for Microsoft SQL Server and Sybase for installation on one (1) host with up to unrestricted CPU cores, running a Workstation-class Operating System. Allows five (5) concurrent ODBC data access sessions from licensed host, and is transferable across hosts running supported operating systems, with 1 year duration."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udast-basicworkstation-license.png> ;
-    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8SQLServer#this> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8SQLServer#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Sybase#this> ;
     schema:name                        "Software License: Personal License for UDA 8.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation-class Operating System."@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -6142,9 +6161,14 @@
     schema:comment                     "Software License: Personal License (1 year duration, unrestricted CPU cores, 5 sessions) for Lite Edition (Release 8.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation-class Operating System."@en ;
     license:hasLicenseCode             "sql_lt" ;
     license:hasLicenseFileName         "sql_lt.lic" ;
-    oplsof:hasDatabaseFamily           oplsof:SQLServer ;
+    oplsof:hasDatabaseFamily           oplsof:SQLServer, 
+                                       oplsof:Sybase ;
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
-    oplsof:hasDatabaseEngine           oplsof:SQLServer2014 .
+    oplsof:hasDatabaseEngine           oplsof:SQLServer2014, 
+                                       oplsof:Sybase10 ,
+                                       oplsof:Sybase11 ,
+                                       oplsof:Sybase12 ,
+                                       oplsof:Sybase15 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKS-anyos-odbc-sql-personal-2024-01-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
@@ -6221,7 +6245,8 @@
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Department License for Lite Edition (Release 8.x) ODBC Driver for ODBC Driver for Microsoft SQL Server and Sybase, for installation on one (1) host with up to unrestricted CPU cores, running a Workstation- or Server-class Operating System. Allows twenty-five (25) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, with 1 year duration."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
-    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8SQLServer#this> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8SQLServer#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Sybase#this> ;
     schema:name                        "Software License: Department License for UDA 8.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -6232,9 +6257,14 @@
     schema:comment                     "Software License: Department License (1 year duration, unrestricted CPU cores, 25 sessions) for Lite Edition (Release 8.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     license:hasLicenseCode             "sql_lt" ;
     license:hasLicenseFileName         "sql_lt.lic" ;
-    oplsof:hasDatabaseFamily           oplsof:SQLServer ;
+    oplsof:hasDatabaseFamily           oplsof:SQLServer, 
+                                       oplsof:Sybase ;
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
-    oplsof:hasDatabaseEngine           oplsof:SQLServer2014 .
+    oplsof:hasDatabaseEngine           oplsof:SQLServer2014, 
+                                       oplsof:Sybase10 ,
+                                       oplsof:Sybase11 ,
+                                       oplsof:Sybase12 ,
+                                       oplsof:Sybase15 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-sql-department-2024-01-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
@@ -6311,7 +6341,8 @@
     oplsof:hasOperatingSystemFamily    oplsof:OSFamilyAny ;
     schema:description                 "Workgroup License for Lite Edition (Release 8.x) ODBC Driver for Microsoft SQL Server and Sybase for installation on one (1) host with up to unrestricted CPU cores, running a Workstation- or Server-class Operating System. Allows ten (10) concurrent ODBC sessions from licensed host, and is transferable across hosts running supported operating systems, with 1 year duration."@en ;
     schema:image                       <https://uda.openlinksw.com/images/udast-dualappdbserver-license.png> ;
-    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8SQLServer#this> ;
+    license:productLicenseOf           <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8SQLServer#this> ,
+                                       <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Sybase#this> ;
     schema:name                        "Software License: Workgroup License for UDA 8.x Lite Edition ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     schema:model                       <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ;
     license:serialNumberBroadcast      "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -6322,9 +6353,14 @@
     schema:comment                     "Software License: Workgroup License (1 year duration, unrestricted CPU cores, 10 sessions) for Lite Edition (Release 8.x) ODBC Driver for Microsoft SQL Server and Sybase, for deployment on any supported Workstation- or Server-class Operating System."@en ;
     license:hasLicenseCode             "sql_lt" ;
     license:hasLicenseFileName         "sql_lt.lic" ;
-    oplsof:hasDatabaseFamily           oplsof:SQLServer ;
+    oplsof:hasDatabaseFamily           oplsof:SQLServer, 
+                                       oplsof:Sybase ;
     oplsof:hasDataAccessProtocolScope  oplsof:DataAccessODBC ;
-    oplsof:hasDatabaseEngine           oplsof:SQLServer2014 .
+    oplsof:hasDatabaseEngine           oplsof:SQLServer2014, 
+                                       oplsof:Sybase10 ,
+                                       oplsof:Sybase11 ,
+                                       oplsof:Sybase12 ,
+                                       oplsof:Sybase15 .
 
 <http://data.openlinksw.com/oplweb/offer-unitprice/UnitPriceSpecification-UDALT-WKSSVR-anyos-odbc-sql-workgroup-2024-01-retail-price#this>
     a                                  schema:UnitPriceSpecification ,
